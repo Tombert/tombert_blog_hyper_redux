@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Overengineering the Swaybar","created":"2025-03-22T09:21:44-04:00","modified":"2025-09-09T19:26:52.931-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Overengineering the Swaybar","created":"2025-03-22T09:21:44-04:00","modified":"2025-09-09T19:35:00.415-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -53,7 +53,7 @@ Doing this with a "real" language would also afford me access to virtually any l
 
 One of my favorite parts of Clojure is the excellent [core.async](https://clojure.org/reference/async) library. It gives an extremely nice and sane implementation of [CSP](https://en.wikipedia.org/wiki/Communicating_sequential_processes), and works especially well with non-blocking IO.  You can generally avoid [Callback Hell](http://callbackhell.com/) by abusing the channels and `go` blocks, and I find it just downright pleasant to use. 
 
-I wanted each module in my application to be indepedent and avoid blocking the other.  I also wanted to be able to have asynchronous stuff mixed and matched with my regular blocking stuff. 
+I wanted each module in my application to be independent and avoid blocking the other.  I also wanted to be able to have asynchronous stuff mixed and matched with my regular blocking stuff. 
 
 This in itself isn't terribly difficult:
 
@@ -257,7 +257,7 @@ If you want to use an async function, you have to forward-declare it async, sinc
 
 And that's it!  Here's the result:
 
-![sway bar](/swaybar/sway-example.png)
+![[Attachments/sway-example.png]]
 
 I bet you feel inspired already. 
 

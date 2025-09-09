@@ -1,10 +1,10 @@
 ---
-{"publish":true,"title":"Microbenchmarks: Java Locks vs Atomic","created":"2025-03-04T03:21:44-04:00","modified":"2025-09-09T17:09:08.350-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: Java Locks vs Atomic","created":"2025-03-04T03:21:44-04:00","modified":"2025-09-09T19:31:36.843-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
 
-> These benchmarks are flawed because the JVM is a bit weird.  Skip this post and read [this](/posts/2025-03-06-microbenchmark-errata/) one instead. 
+> These benchmarks are flawed because the JVM is a bit weird.  Skip this post and read [[Posts/March 2025/Microbenchmarks - JMH and Corrections\|this]] one instead. 
 
 
 I have to confess that I absolutely hate mutexes. I find them hard to reason about, hard to optimize, and easy to create bugs that are hard to debug later. But whether or not I like it, they can be a necessary evil when you're stuck writing Java.
