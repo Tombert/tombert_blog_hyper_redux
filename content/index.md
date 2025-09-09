@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-09T16:34:27.811-04:00","modified":"2025-09-09T17:29:13.831-04:00","cssclasses":""}
+{"publish":true,"created":"2025-09-09T16:34:27.811-04:00","modified":"2025-09-09T19:46:32.683-04:00","cssclasses":""}
 ---
 
 My Blog
@@ -25,30 +25,4 @@ My Blog
 - [[Posts/March 2025/Where have I been?\|Where have I been?]]: 2025-03-02
 - [[Posts/July 2023/Trading Bot\|Trading Bot]]: 2023-07-18
 - [[Posts/July 2023/Guilt and Frustration\|Guilt and Frustration]]: 2023-07-17
-
-
-
-
-- [[Posts/September 2025/Accepting the Cloud\|Accepting the Cloud]]
-- [[Posts/August 2025/I am a Master\|I am a Master]]
-- [[Posts/June 2025/Typst is Pretty Cool\|Typst is Pretty Cool]]
-- [[Posts/March 2025/Overengineering the Swaybar\|Overengineering the Swaybar]]
-- [[Posts/March 2025/Moving Away from Gnome to Sway\|Moving Away from Gnome to Sway]]
-- [[Posts/March 2025/My Comic Font Adventure\|My Comic Font Adventure]]
-- [[Posts/March 2025/Macrobenchmarks - Video Compression\|Macrobenchmarks - Video Compression]]
-- [[Posts/March 2025/Adding a Less Shitty Search Engine to Hugo with Lunr.js\|Adding a Less Shitty Search Engine to Hugo with Lunr.js]]
-- [[Posts/March 2025/Storytime - Deli\|Storytime - Deli]]
-- [[Posts/March 2025/Microbenchmarks - BlockingQueues vs LMAX Disruptor\|Microbenchmarks - BlockingQueues vs LMAX Disruptor]]
-- [[Posts/March 2025/Making a Shitty 'Search Engine' in Hugo\|Making a Shitty 'Search Engine' in Hugo]]
-- [[Posts/March 2025/eGPUs on NixOS\|eGPUs on NixOS]]
-- [[Posts/March 2025/Microbenchmarks - JMH and Corrections\|Microbenchmarks - JMH and Corrections]]
-- [[Posts/March 2025/Microbenchmarks - HashMap, ConcurrentHashMap, and Guava Caches\|Microbenchmarks - HashMap, ConcurrentHashMap, and Guava Caches]]
-- [[Posts/March 2025/Microbenchmarks - BlockingQueues\|Microbenchmarks - BlockingQueues]]
-- [[Posts/March 2025/Microbenchmarks - Java Locks vs. Atomics\|Microbenchmarks - Java Locks vs. Atomics]]
-- [[Posts/March 2025/Recent Projects - State Store, Part 2\|Recent Projects - State Store, Part 2]]
-- [[Posts/March 2025/Recent Projects - State Store\|Recent Projects - State Store]]
-- [[Posts/March 2025/Where have I been?\|Where have I been?]]
-- [[Posts/July 2023/Trading Bot\|Trading Bot]]
-- [[Posts/July 2023/Guilt and Frustration\|Guilt and Frustration]]
-
 
