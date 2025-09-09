@@ -1,11 +1,11 @@
 ---
-{"publish":true,"title":"Recent Projects: State Store, Part 1","created":"2025-03-02T03:21:44-04:00","modified":"2025-09-09T17:08:40.723-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Recent Projects: State Store, Part 1","created":"2025-03-02T03:21:44-04:00","modified":"2025-09-09T19:27:36.878-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
 My therapist has told me that I should challenge myself by writing a bit more. Historically, most of my longer-form writing ends up being comments on [Hacker News](https://news.ycombinator.com/threads?id=tombert), and I think that some of them could be converted into blog posts without a lot of effort, but for whatever reason it never occurs for me to do so. 
 
-Anyway, I see no reason not to treat this blog more or less as a "journal", where I can just write about stuff tht I think is interesting.  Don't expect any amazing insight upon reading this, this is just a dumping ground for stuff that I think is neat, or stuff I've been working on. 
+Anyway, I see no reason not to treat this blog more or less as a "journal", where I can just write about stuff that I think is interesting.  Don't expect any amazing insight upon reading this, this is just a dumping ground for stuff that I think is neat, or stuff I've been working on. 
 
 
 # Context.

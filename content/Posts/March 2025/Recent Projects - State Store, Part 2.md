@@ -1,10 +1,10 @@
 ---
-{"publish":true,"title":"Recent Projects: State Store, Part 2","created":"2025-03-03T03:21:44-04:00","modified":"2025-09-09T17:08:31.948-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Recent Projects: State Store, Part 2","created":"2025-03-03T03:21:44-04:00","modified":"2025-09-09T19:28:22.750-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
 
-So [last time](/posts/2025-03-02-state-store/) I described how handled the `put` logic in the state store replacement in Kafka Streams.  If you haven't read that, then this post is probably going to be confusing, so you should probably read that first. 
+So  [[Posts/March 2025/Recent Projects - State Store\|last time]]  I described how handled the `put` logic in the state store replacement in Kafka Streams.  If you haven't read that, then this post is probably going to be confusing, so you should probably read that first. 
 
 # Get Logic. 
 

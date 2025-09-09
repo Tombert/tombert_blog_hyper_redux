@@ -1,9 +1,9 @@
 ---
-{"publish":true,"title":"Overengineering the Swaybar","created":"2025-03-22T09:21:44-04:00","modified":"2025-09-09T17:08:47.590-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Overengineering the Swaybar","created":"2025-03-22T09:21:44-04:00","modified":"2025-09-09T19:26:52.931-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
-A couple days ago I posted about my [transition to the Sway window manager](/posts/2025-03-17-sway/).  I am still using it, I still like it, but even in that post, I mentioned having to create some custom code to get the Swaybar to do what I want.  
+A couple days ago I posted about my [[Moving Away from Gnome to Sway \| transition to the Sway window manager]].  I am still using it, I still like it, but even in that post, I mentioned having to create some custom code to get the Swaybar to do what I want.  
 
 For reminders, this was the code: 
 
