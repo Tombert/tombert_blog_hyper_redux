@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-10T00:03:59.477-04:00","modified":"2025-09-10T00:06:53.886-04:00","cssclasses":""}
+{"publish":true,"created":"2025-09-10T00:03:59.477-04:00","modified":"2025-09-10T00:07:36.214-04:00","cssclasses":""}
 ---
 
 
@@ -14,6 +14,6 @@ The views and opinions expressed on this blog are for informational and personal
 
 ----
 
-Sorry, I have to have this stuff. I take no joy in it. 
+Sorry, I have to have this disclaimer. I take no joy in it. 
 
 Ultimately, if you want to use anything in this site, I'm pretty generous.  Just contact me and I will likely grant you permission. 
