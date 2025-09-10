@@ -1,13 +1,13 @@
 ---
-{"publish":true,"title":"Microbenchmarks: BlockingQueues","created":"2025-03-04T09:21:44-04:00","modified":"2025-09-09T20:08:37.341-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: BlockingQueues","created":"2025-03-04T09:21:44-04:00","modified":"2025-09-09T20:12:22.495-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
-> These benchmarks are flawed because the JVM is a bit weird.  Skip this post and read [this](/posts/2025-03-06-microbenchmark-errata/) one instead. 
+> These benchmarks are flawed because the JVM is a bit weird.  Skip this post and read [[Posts/Technical/March 2025/Microbenchmarks - JMH and Corrections\|this]] one instead. 
 
 
 
-This will be a relatively short post, but after my [benchmarking post](/posts/2025-03-04-lock-benchmark/) with locks, I became a bit curious about the performance of [BlockingQueues](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html).
+This will be a relatively short post, but after my [[Posts/Technical/March 2025/Microbenchmarks - Java Locks vs. Atomics\|benchmarking post]] with locks, I became a bit curious about the performance of [BlockingQueues](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html).
 
 # `BlockingQueue`
 

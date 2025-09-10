@@ -1,11 +1,11 @@
 ---
-{"publish":true,"title":"Microbenchmarks: HashMap, ConcurrentHashMap, and Guava Caches","created":"2025-03-05T09:21:44-04:00","modified":"2025-09-09T17:09:15.269-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: HashMap, ConcurrentHashMap, and Guava Caches","created":"2025-03-05T09:21:44-04:00","modified":"2025-09-09T20:13:31.260-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
 > UPDATE: According to a comment on [Hacker News](https://news.ycombinator.com/item?id=43274675#43275392) It appears that my testing here was a bit flawed, particularly at the tail end, since I reused the maps between runs. Additionally, there is apparently a bit more variability that you have to consider when doing this outside of just timestamps, and they recommended I look into JMH.  
 > 
-> For more accurate benchmarks, skip this post and read [this](/posts/2025-03-06-microbenchmark-errata/) one instead. 
+> For more accurate benchmarks, skip this post and read [[Posts/Technical/March 2025/Microbenchmarks - JMH and Corrections\|this]] one instead. 
 
 
 I've actually been having a surprising amount of fun playing with these microbenchmarks to challenge my assumptions, and they don't really hurt anything to write and publish, so why not keep up the momentum? 
