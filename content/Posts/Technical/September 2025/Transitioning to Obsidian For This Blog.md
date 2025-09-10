@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Transitioning to Obsidian For This Blog","created":"2025-09-09T00:21:44-04:00","modified":"2025-09-10T01:03:39.858-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Transitioning to Obsidian For This Blog","created":"2025-09-09T00:21:44-04:00","modified":"2025-09-10T02:21:10.393-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -17,6 +17,8 @@ I have thoroughly drunk the Obsidian Kool-Aid, and I have been curious if there 
 For the last few years, I have used the [Hugo](https://gohugo.io/) static site generator, and there's nothing "wrong" with it really.  It's very fast, it generates fairly nice HTML, and it's not too hard to configure. 
 
 The biggest issue I had with Hugo was how..."unconnected" things feel.  If I want to reference other pages, you have to actively find a link for it, and if you ever rename anything, you have to manually find all the references and actively change them, which is error-prone and annoying. 
+
+This also made it hard for me to do anything on my phone.  If I wanted to make a fix to fix something on my blog, I would have to open up my laptop, find the issue in NeoVim, manually rebuild, and redeploy. Obviously this isn’t the end of the world, but it would be annoying because if I wasn’t at home I would have to wait until I had access to my laptop. 
 
 I also didn't find it very straightforward to do anything involving elaborate queries, though that might just be due to me being an idiot.  
 
@@ -43,11 +45,21 @@ Fortunately, there's a solution to all these problems: [Quartz-Syncer](https://s
 
 Quartz-Syncer does everything I want.  It's integrated directly as an application plugin.  It allows me to specify and omit folders, and it can render DataView queries in the background, allowing me to make my lovely dashboards. 
 
+ 
+
 This actually is kind of important for a blog.  If you look at the [[index\|home page]], it uses a DataView query to list out the posts in reverse order by date, which wouldn't be possible with regular Quartz.  
 
+
+It also appears to work perfectly fine on the iPhone Obsidian app, meaning I can do major edits to the blog on my phone. I can make my edits and push, and Cloudflare Pages handles the building. It’s a beautiful thing.
 
 # Conclusion
 
 I think Quartz is pretty cool.  
 
 I opted to do a straight port from the Hugo stuff for now, but I have plans for how I can use the Wiki features in a blog format. Stay tuned. 
+
+# Update
+
+I already have managed to do some interesting stuff. 
+
+Due to the easy file hierarchy integration, it is easy to simple add folders and notes to build out a site menu with features.  I added a few pages for my public speaking and my personal projects and snippets. I was able to link to the pages with the regular linking syntax.  It was about as intuitive as using Obsidian…I think I’m in love. 
