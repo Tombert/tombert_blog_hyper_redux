@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"eGPUs on NixOS","created":"2025-03-09T02:21:44-04:00","modified":"2025-09-09T20:08:59.822-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"eGPUs on NixOS","created":"2025-03-09T02:21:44-04:00","modified":"2025-09-10T00:24:04.034-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -34,7 +34,7 @@ boltctl
 This should list all the Thunderbolt devices that are plugged in.  It should have a long UUID. Copy that, and then run: 
 
 ```
-boltctl autorize <INSERT ID HERE> 
+boltctl authorize <INSERT ID HERE> 
 ```
 
 Now, if you're lucky, then you should be able to simply type: 
