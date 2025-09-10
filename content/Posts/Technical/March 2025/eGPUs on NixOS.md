@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"eGPUs on NixOS","created":"2025-03-09T02:21:44-04:00","modified":"2025-09-10T00:24:04.034-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"eGPUs on NixOS","created":"2025-03-09T02:21:44-04:00","modified":"2025-09-10T00:28:51.528-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -142,4 +142,4 @@ Rebuild one more time, and the Big Picture Interface works!  Well, mostly.  In m
 
 # Conclusion
 
-Anyway, pretty short post.  [Here](https://gist.github.com/Tombert/a6ad8502d2460eade343e95265abea87) is the full NixOS config if you think I missed anything.  
+Anyway, pretty short post.  [[Snippets/NixOS eGPU Full Config\|Here]] is the full NixOS config if you think I missed anything.  
