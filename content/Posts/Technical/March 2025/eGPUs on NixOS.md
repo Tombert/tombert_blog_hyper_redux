@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"eGPUs on NixOS","created":"2025-03-09T02:21:44-04:00","modified":"2025-09-10T00:28:51.528-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"eGPUs on NixOS","created":"2025-03-09T02:21:44-04:00","modified":"2025-09-10T02:08:42.514-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 

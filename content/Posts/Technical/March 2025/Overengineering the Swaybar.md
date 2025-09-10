@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Overengineering the Swaybar","created":"2025-03-22T09:21:44-04:00","modified":"2025-09-09T20:10:10.820-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Overengineering the Swaybar","created":"2025-03-22T09:21:44-04:00","modified":"2025-09-10T01:56:16.302-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -268,4 +268,4 @@ Did I spent too much time on this? Probably, but I don't think this is *less* pr
 
 While having an AI-generated quote showing up every eight minutes isn't necessarily useful in itself, I do think this framework *could* be useful.  You could pretty easily have this poll stock data or a news aggregator or virtually anything else, and since it's in the JVM (well, GraalVM), you have access to a metric ton of libraries to play with. 
 
-Anyway, the code is available [here](https://github.com/Tombert/swanbar) if you want to play with it. There is definitely some cleanup to be done, but I still think it's kind of cool.  
+Anyway, the code is available [[Projects/Fancy Swaybar\|here]] if you want to play with it. There is definitely some cleanup to be done, but I still think it's kind of cool.  

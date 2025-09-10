@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Moving Away from Gnome to Sway","created":"2025-03-17T09:21:44-04:00","modified":"2025-09-09T17:30:44.504-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Moving Away from Gnome to Sway","created":"2025-03-17T09:21:44-04:00","modified":"2025-09-10T01:03:39.829-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 

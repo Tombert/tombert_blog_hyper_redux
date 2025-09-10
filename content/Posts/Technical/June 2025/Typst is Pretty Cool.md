@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Typst is Pretty Cool","created":"2025-06-30T02:21:44-04:00","modified":"2025-09-09T17:09:55.431-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Typst is Pretty Cool","created":"2025-06-30T02:21:44-04:00","modified":"2025-09-10T01:03:39.793-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 

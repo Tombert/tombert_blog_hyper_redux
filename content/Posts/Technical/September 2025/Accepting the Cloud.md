@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Accepting the Cloud","created":"2025-09-01T00:21:44-04:00","modified":"2025-09-09T20:10:22.477-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Accepting the Cloud","created":"2025-09-01T00:21:44-04:00","modified":"2025-09-10T01:03:39.854-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 

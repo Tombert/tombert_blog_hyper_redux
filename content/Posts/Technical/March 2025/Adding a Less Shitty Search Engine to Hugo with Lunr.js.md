@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Adding a Less Shitty Search Engine to Hugo with Lunr.js","created":"2025-03-12T09:21:44-04:00","modified":"2025-09-09T20:09:31.997-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Adding a Less Shitty Search Engine to Hugo with Lunr.js","created":"2025-03-12T09:21:44-04:00","modified":"2025-09-10T01:03:39.797-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
