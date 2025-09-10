@@ -1,11 +1,12 @@
 ---
-{"publish":true,"title":"Overengineering the Swaybar","created":"2025-03-22T09:21:44-04:00","modified":"2025-09-09T19:35:00.415-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Overengineering the Swaybar","created":"2025-03-22T09:21:44-04:00","modified":"2025-09-09T20:10:10.820-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
 A couple days ago I posted about my [[Moving Away from Gnome to Sway \| transition to the Sway window manager]].  I am still using it, I still like it, but even in that post, I mentioned having to create some custom code to get the Swaybar to do what I want.  
 
 For reminders, this was the code: 
+
 
 ```nix
 (writeShellScriptBin "sway-status" ''

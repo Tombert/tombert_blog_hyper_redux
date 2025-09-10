@@ -1,12 +1,12 @@
 ---
-{"publish":true,"title":"Recent Projects: State Store, Part 2","created":"2025-03-03T03:21:44-04:00","modified":"2025-09-09T19:28:22.750-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Recent Projects: State Store, Part 2","created":"2025-03-03T03:21:44-04:00","modified":"2025-09-09T20:10:17.881-04:00","tags":["technical"],"cssclasses":""}
 ---
-
 
 
 So  [[Posts/Technical/March 2025/Recent Projects - State Store\|last time]]  I described how handled the `put` logic in the state store replacement in Kafka Streams.  If you haven't read that, then this post is probably going to be confusing, so you should probably read that first. 
 
 # Get Logic. 
+
 
 As I said in the last post, `put`s are relatively simple to optimize.  Since there isn't any response expected, we can treat the work as completely asynchronous, and that's what we did: the store puts the data into a blocking queue, and writes a value to the cache. 
 

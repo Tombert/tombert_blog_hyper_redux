@@ -1,7 +1,6 @@
 ---
-{"publish":true,"title":"Macrobenchmarks: Video Compression","created":"2025-03-13T09:21:44-04:00","modified":"2025-09-09T17:09:38.317-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Macrobenchmarks: Video Compression","created":"2025-03-13T09:21:44-04:00","modified":"2025-09-09T20:08:55.491-04:00","tags":["technical"],"cssclasses":""}
 ---
-
 
 
 I have a pretty large collection of Blu-ray movies, about four hundred at my last count. I also have around forty complete series on DVD and Blu-ray. 

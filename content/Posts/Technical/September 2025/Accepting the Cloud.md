@@ -1,6 +1,7 @@
 ---
-{"publish":true,"title":"Accepting the Cloud","created":"2025-09-01T00:21:44-04:00","modified":"2025-09-09T17:50:56.353-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Accepting the Cloud","created":"2025-09-01T00:21:44-04:00","modified":"2025-09-09T20:10:22.477-04:00","tags":["technical"],"cssclasses":""}
 ---
+
 
 
 Historically, I have been a pretty avid fan of self-hosting all my stuff. I've always liked running my own servers, be it [Jellyfin](https://jellyfin.org/) or [PfSense](https://www.pfsense.org/) or even this very blog using [Hugo](https://gohugo.io/). Some of it stems from trust issues with cloud providers, some of it comes down to things being potentially cheaper to run on my own hardware, but if I'm being honest with myself, a lot of it comes down to "I just have fun setting it up."

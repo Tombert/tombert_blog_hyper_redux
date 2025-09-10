@@ -1,10 +1,10 @@
 ---
-{"publish":true,"title":"Adding a Less Shitty Search Engine to Hugo with Lunr.js","created":"2025-03-12T09:21:44-04:00","modified":"2025-09-09T17:09:50.169-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Adding a Less Shitty Search Engine to Hugo with Lunr.js","created":"2025-03-12T09:21:44-04:00","modified":"2025-09-09T20:09:31.997-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
 
-Yesterday I [posted](/posts/2025-03-11-search/) an article about how I added a really simple search engine to this blog. It worked well enough, but I even mentioned at the end that it was a pretty limited search tool, and I didn't like that it didn't give me any more advanced searching features, like boolean operators or [stemming](https://en.wikipedia.org/wiki/Stemming). No one reads this blog and I don't post *that* much content, so I don't really "need" any of those features, which is why I was happy enough with my simple linear-search solution.  I didn't want to do a lot of extra work to reinvent searching, especially since this blog doesn't make me any money or do anything outside of give me a place to dump my inane writing. 
+Yesterday I [[Posts/Technical/March 2025/Making a Shitty 'Search Engine' in Hugo\|posted]] an article about how I added a really simple search engine to this blog. It worked well enough, but I even mentioned at the end that it was a pretty limited search tool, and I didn't like that it didn't give me any more advanced searching features, like boolean operators or [stemming](https://en.wikipedia.org/wiki/Stemming). No one reads this blog and I don't post *that* much content, so I don't really "need" any of those features, which is why I was happy enough with my simple linear-search solution.  I didn't want to do a lot of extra work to reinvent searching, especially since this blog doesn't make me any money or do anything outside of give me a place to dump my inane writing. 
 
 But after doing a bit of research immediately after posting my article, I realized that this is a problem that has actually been more or less solved, and it didn't look like it would take very much code, so I figured I'd spend an hour on it and see if I can get anywhere. It turns out that it didn't even take that long. It was extremely easy, and now the search is much better than the shitty thing I wrote. 
 
