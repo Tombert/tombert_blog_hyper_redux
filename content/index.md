@@ -1,8 +1,9 @@
 ---
-{"publish":true,"created":"2025-09-09T16:34:27.811-04:00","modified":"2025-09-09T21:29:00.839-04:00","cssclasses":""}
+{"publish":true,"created":"2025-09-09T16:34:27.811-04:00","modified":"2025-09-09T21:35:28.913-04:00","cssclasses":""}
 ---
 
 My Cool Blog.
+
 
 - [[Posts/Technical/September 2025/Transitioning to Obsidian For This Blog\|Transitioning to Obsidian For This Blog]]: 2025-09-09
 - [[Posts/Technical/September 2025/Accepting the Cloud\|Accepting the Cloud]]: 2025-09-01
