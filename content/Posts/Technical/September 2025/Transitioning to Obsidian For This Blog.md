@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Transitioning to Obsidian For This Blog","created":"2025-09-09T00:21:44-04:00","modified":"2025-09-10T02:21:10.393-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Transitioning to Obsidian For This Blog","created":"2025-09-09T00:21:44-04:00","modified":"2025-09-10T02:22:35.366-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 

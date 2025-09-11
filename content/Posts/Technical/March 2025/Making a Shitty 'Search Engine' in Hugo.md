@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Making a Shitty 'Search Engine' in Hugo","created":"2025-03-11T03:21:44-04:00","modified":"2025-09-10T01:03:39.805-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Making a Shitty 'Search Engine' in Hugo","created":"2025-03-11T03:21:44-04:00","modified":"2025-09-09T17:09:32.361-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 

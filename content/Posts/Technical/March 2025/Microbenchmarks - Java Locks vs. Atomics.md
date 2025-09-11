@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Microbenchmarks: Java Locks vs Atomic","created":"2025-03-04T03:21:44-04:00","modified":"2025-09-10T01:03:39.825-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: Java Locks vs Atomic","created":"2025-03-04T03:21:44-04:00","modified":"2025-09-09T19:31:36.843-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 

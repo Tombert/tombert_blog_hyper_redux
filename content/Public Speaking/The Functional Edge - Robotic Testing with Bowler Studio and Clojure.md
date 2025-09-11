@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-10T01:03:39.879-04:00","modified":"2025-09-10T01:03:39.882-04:00","tags":["lambdadays"],"cssclasses":""}
+{"publish":true,"created":"2025-09-09T23:25:04.298-04:00","modified":"2025-09-11T01:17:47.152-04:00","tags":["lambdadays","lambdadays2024"],"cssclasses":""}
 ---
 
 

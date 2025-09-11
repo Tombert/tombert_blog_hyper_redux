@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Microbenchmarks: BlockingQueues vs LMAX Disruptor","created":"2025-03-11T09:21:44-04:00","modified":"2025-09-10T01:03:39.809-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: BlockingQueues vs LMAX Disruptor","created":"2025-03-11T09:21:44-04:00","modified":"2025-09-09T17:53:02.789-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 

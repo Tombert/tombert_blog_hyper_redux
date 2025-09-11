@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Guilt and Frustration","created":"2023-07-17T22:21:44-04:00","modified":"2025-09-10T01:03:39.777-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Guilt and Frustration","created":"2023-07-17T22:21:44-04:00","modified":"2025-09-09T17:10:04.639-04:00","tags":["personal"],"cssclasses":""}
 ---
 
 

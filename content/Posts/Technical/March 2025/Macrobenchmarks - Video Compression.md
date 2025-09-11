@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Macrobenchmarks: Video Compression","created":"2025-03-13T09:21:44-04:00","modified":"2025-09-10T01:03:39.801-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Macrobenchmarks: Video Compression","created":"2025-03-13T09:21:44-04:00","modified":"2025-09-09T20:08:55.491-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
