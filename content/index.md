@@ -1,12 +1,14 @@
 ---
-{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2025-09-11T23:00:35.344-04:00","cssclasses":""}
+{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2025-09-14T10:56:32.675-04:00","cssclasses":""}
 ---
 
 
-Ramblings from a software person. 
+Ramblings from a software person.
+
 
 # Technical 
 
+- [[Posts/Technical/September 2025/Trying Logseq\|Trying Logseq]]: 2025-09-12
 - [[Posts/Technical/September 2025/Transitioning to Obsidian For This Blog\|Transitioning to Obsidian For This Blog]]: 2025-09-09
 - [[Posts/Technical/September 2025/Accepting the Cloud\|Accepting the Cloud]]: 2025-09-01
 - [[Posts/Technical/June 2025/Typst is Pretty Cool\|Typst is Pretty Cool]]: 2025-06-30
