@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-12T22:01:18.353-04:00","modified":"2025-09-12T22:56:27.418-04:00","cssclasses":""}
+{"publish":true,"created":"2025-09-12T22:01:18.353-04:00","modified":"2025-09-14T14:33:51.844-04:00","cssclasses":""}
 ---
 
 As I've mentioned in [[Posts/Technical/September 2025/Transitioning to Obsidian For This Blog\|in my previous post]], I am a huge fan of the [Obsidian](https://obsidian.md) note software.  I don't need to reiterate all the points here, but suffice to say that Obsidian works well for what I need it for. 
@@ -32,24 +32,67 @@ I will admit that I didn't initially like this "block-centric" way of working. T
 Sure, you *can* just use links, but due to the block being the "atom" of info in Logseq, you can *also* just drag the block into the page once it's created. You can also edit the pages around there aggregations, so it's ultimately not *that* different from Obsidian if you use it that way, but it's different enough to be confusing. 
 
 
-# Plugins
+# Annoyances
 
-Obsidian has a ton of plugins, so I was hoping that Logseq would have something comparable.  Sadly, this isn't the case.  
+The first thing that I found irritating about it is that it's not easy to change the font.  I use the Comic Mono font (described [[Posts/Technical/March 2025/My Comic Font Adventure\|here]]).  With Obsidian, changing the font to it was about ten seconds of effort; I go to the settings and change the font.  It's how pretty much every program does things. 
+
+You *can* change the font, though.  You just have to muck with CSS.  Here's what I had to do: 
+
+`<LOGSEQ ROOT>/logseq/custom.css`
+```css
+@font-face {
+  font-family: "Comic Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/comic-mono@latest/latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Comic Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/comic-mono@latest/latin-700-normal.woff2") format("woff2");
+}
+
+body {
+  font-family: "Comic Mono", monospace !important;
+}
+
+code, pre {
+  font-family: "Comic Mono", monospace !important;
+}
+```
+
+
+Additionally, as far as I can tell, there is no way to split the screen.  The advice I have seen has been to open two instances and put them side by side but that's not a solution,  it's a workaround and not a good one. 
+
+You can at least get a "mini window" by shift-clicking on your link, which might be good enough if all you're planning on doing is dragging and dropping blocks, but since I tend to prefer to have multiple splits open in order to look at multiple files at a time. I am sure that I'm going to be told I'm using it wrong and I should write some elaborate query or something, but I just found it annoying. 
+
+Obsidian has a ton of plugins, so I was hoping that Logseq would have something comparable to fix all this.  Sadly, this isn't the case.  
 
 The first thing I looked for was the ability to enable Vim keystrokes. When I found that there wasn't something built into the platform, I thought that there might be a plugin to enable it.  There is [logseq-plugin-vim-shortcuts](https://github.com/vipzhicheng/logseq-plugin-vim-shortcuts), but it isn't actually usable for editing text, just navigating around the blocks.  
 
 While this isn't a total dealbreaker, it is disappointing; I use Vim keystrokes pretty much everywhere and it's hard for me to go back and forth.  
 
-Even more frustrating is that the iOS port of Logseq doesn't have plugin support at all.  
+Even more frustrating is that the iOS port of Logseq doesn't have plugin support at all, which means that if I have issues with the iOS version, I am just stuck with them. 
 
 In fairness, Logseq has more tooling built in.  There is already very robust TODO support that is comparable to the Tasks plugin for Obsidian, and the desktop version also comes with Git support.  
 
+There is also the issue of static site generation.  There does exist an official [static-site generator plugin](https://github.com/logseq/publish-spa), it doesn't lend itself well to long-form content like you'd have as a blog.  Logseq really only has support for bullets; even if you hide the bullets in the app, they're still in the saved markdown files. 
+
+This isn't really a "problem", it's a notes app after all, but as this blog is rendered using [[Posts/Technical/September 2025/Transitioning to Obsidian For This Blog\|Quartz]], this would mean I would be required to still have Obsidian installed in order to write posts for this blog.  
 
 # Conclusion. 
 
 I don't think I'm going to keep using Logseq.  While I did grow to kind of like its philosophy, I never really got over the "this would be easier in Obsidian" feeling.  
 
-It's certainly worth checking out, if it's something that interests you.  Just not for me. 
+I *want* to like it. Genuinely.  It's open source, it's cross platform, it's written in Clojure.  Every instinct inside me says I should transition to this away from Obsidian, but I just can't.  Every time I would start getting proficient with one of Logseq's idiosyncrasies, I would find some hard limitation that, in my mind, is just objectively worse. 
+
+I almost certainly could code my own plugins to fix some of my issues, and I haven't really ruled that out, but ultimately I think these plugins would just make Logseq closer to Obsidian, and at that point...why not just use Obsidian.  
+
+It's certainly worth checking out, if it's something that interests you.  It's just not for me. 
 
 
 
