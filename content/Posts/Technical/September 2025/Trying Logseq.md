@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-12T22:01:18.353-04:00","modified":"2025-09-14T14:37:07.865-04:00","cssclasses":""}
+{"publish":true,"created":"2025-09-12T22:01:18.353-04:00","modified":"2025-09-14T17:43:39.167-04:00","cssclasses":""}
 ---
 
 As I've mentioned in [[Posts/Technical/September 2025/Transitioning to Obsidian For This Blog\|in my previous post]], I am a huge fan of the [Obsidian](https://obsidian.md) note software.  I don't need to reiterate all the points here, but suffice to say that Obsidian works well for what I need it for. 
@@ -86,14 +86,11 @@ This isn't really a "problem", it's a notes app after all, but as this blog is r
 
 # Conclusion. 
 
-I don't think I'm going to keep using Logseq.  While I did grow to kind of like its philosophy, I never really got over the "this would be easier in Obsidian" feeling.  
-
 I *want* to like it. Genuinely.  It's open source, it's cross platform, it's written in Clojure.  Every instinct inside me says I should transition to this away from Obsidian, but I just can't.  Every time I would start getting proficient with one of Logseq's idiosyncrasies, I would find some hard limitation that, in my mind, is just objectively worse. 
 
 I almost certainly could code my own plugins to fix some of my issues, and I haven't really ruled that out, but ultimately I think these plugins would just make Logseq closer to Obsidian, and at that point...why not just use Obsidian? 
 
-It's certainly not *bad*, and it's worth checking out if it's something that interests you.  There's genuinely a lot to like about it, and since it's FOSS there's really no reason not to at least give it a try. It's just not for me. 
-
+I am going to try it for a few weeks. I have been able to more or less adjust to a lot of it, so I need to see if I'm more productive with it than Obsidian, or if I grow to like it more.  We'll see. 
 
 
 
