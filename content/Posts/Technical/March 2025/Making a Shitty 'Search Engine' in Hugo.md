@@ -1,9 +1,9 @@
 ---
-{"publish":true,"title":"Making a Shitty 'Search Engine' in Hugo","created":"2025-03-11T03:21:44-04:00","modified":"2025-09-09T17:09:32.361-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Making a Shitty 'Search Engine' in Hugo","created":"2025-03-11T03:21:44-04:00","modified":"2025-09-14T22:42:31.706-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
-> UPDATE: In perhaps the fasted "I wrote something and *then* decided to do it entirely differently" in history, I have updated the search to use Lunr.js.  I think this post still has some value just due to how simple it is, but [here]() is the follow up. 
+> UPDATE: In perhaps the fasted "I wrote something and *then* decided to do it entirely differently" in history, I have updated the search to use Lunr.js.  I think this post still has some value just due to how simple it is, but [[Posts/Technical/March 2025/Adding a Less Shitty Search Engine to Hugo with Lunr.js\|here]] is the follow up. 
 
 I hate web programming. 
 
