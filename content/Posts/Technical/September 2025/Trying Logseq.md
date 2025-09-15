@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-12T22:01:18.353-04:00","modified":"2025-09-14T22:41:00.164-04:00","cssclasses":""}
+{"publish":true,"created":"2025-09-12T22:01:18.353-04:00","modified":"2025-09-14T23:11:28.698-04:00","cssclasses":""}
 ---
 
 As I've mentioned in [[Posts/Technical/September 2025/Transitioning to Obsidian For This Blog\|in my previous post]], I am a huge fan of the [Obsidian](https://obsidian.md) note software.  I don't need to reiterate all the points here, but suffice to say that Obsidian works well for what I need it for. 
@@ -83,6 +83,12 @@ In fairness, Logseq has more tooling built in.  There is already very robust TOD
 There is also the issue of static site generation.  There does exist an official [static-site generator plugin](https://github.com/logseq/publish-spa), it doesn't lend itself well to long-form content like you'd have as a blog.  Logseq really only has support for bullets; even if you hide the bullets in the app, they're still in the saved markdown files. 
 
 This isn't really a "problem", it's a notes app after all, but as this blog is rendered using [[Posts/Technical/September 2025/Transitioning to Obsidian For This Blog\|Quartz]], this would mean I would be required to still have Obsidian installed in order to write posts for this blog.  
+
+Performance is also decidedly worse than Obsidian.  I have a couple thousand notes in Obsidian, and I ported them over ([with some AI assistance](https://openai.com/index/introducing-codex/)), trying my very best to follow the idioms for Logseq that I read on their website and various forums.   This load seems perfectly fine on my laptop, even with the graph view and even with fairly elaborate queries.
+
+This same load makes Logseq lag, even outside of the graph.  Queries of similar complexity can take several seconds to load.  The graph view really stutters, and since the graph view is more important in Logseq than Obsidian (due to the aggregating nature of the tags), this is actually something that's irritating. 
+
+And this is with a fairly beefy laptop.  I suspect a crappier laptop would really struggle with this.  
 
 # Conclusion. 
 
