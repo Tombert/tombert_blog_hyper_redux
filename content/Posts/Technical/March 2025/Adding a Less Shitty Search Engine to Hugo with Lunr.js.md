@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Adding a Less Shitty Search Engine to Hugo with Lunr.js","created":"2025-03-12T09:21:44-04:00","modified":"2025-09-09T20:09:31.997-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Adding a Less Shitty Search Engine to Hugo with Lunr.js","created":"2025-03-12T09:21:44-04:00","modified":"2025-09-14T19:00:57.929-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -173,7 +173,7 @@ Next, let's look at the functions.
   }
 ```
 
-This function grabs the search value from the text input, parses the JSON, and calls the update function.  The data is unlikely to change between searches, so we memoize the data by simply adding a global variable and [checking](checking) for null. 
+This function grabs the search value from the text input, parses the JSON, and calls the update function.  The data is unlikely to change between searches, so we memoize the data by simply adding a global variable and checking for null. 
 
 One annoying thing about Lunr.js is that it doesn't return the entire object when we we get a match, only a key to look things up.  As such, we need to create some kind of mapping so that we can hydrate the result later, which is why we have the `sourceMap` variable, which is also global for memoization purposes. 
 
