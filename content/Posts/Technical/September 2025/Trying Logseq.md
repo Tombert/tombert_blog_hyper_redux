@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-12T22:01:18.353-04:00","modified":"2025-09-14T23:11:28.698-04:00","cssclasses":""}
+{"publish":true,"created":"2025-09-12T22:01:18.353-04:00","modified":"2025-09-14T23:23:01.904-04:00","cssclasses":""}
 ---
 
 As I've mentioned in [[Posts/Technical/September 2025/Transitioning to Obsidian For This Blog\|in my previous post]], I am a huge fan of the [Obsidian](https://obsidian.md) note software.  I don't need to reiterate all the points here, but suffice to say that Obsidian works well for what I need it for. 
@@ -102,10 +102,6 @@ I am going to try it for a few weeks. I have been able to more or less adjust to
 
 # Update
 
-I have been trying it for a bit, but I have hit a hard blocker; the [Mermaid](https://mermaid.js.org/) support is somewhere between non-existent and terrible. 
+~~I have been trying it for a bit, but I have hit a hard blocker; the [Mermaid](https://mermaid.js.org/) support is somewhere between non-existent and terrible. This is a total non-starter for me.  I use Mermaid pretty liberally.  I am officially going back to Obsidian permanently.~~
 
-This is a total non-starter for me.  I use Mermaid pretty liberally.  I am officially going back to Obsidian permanently. 
-
-
-
-
+Turns out that the [Fenced Code](https://github.com/xyhp915/logseq-fenced-code-plus) plugin has perfectly competent Mermaid support. The test is back on! 
