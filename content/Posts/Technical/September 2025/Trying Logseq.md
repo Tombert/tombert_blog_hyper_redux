@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-12T22:01:18.353-04:00","modified":"2025-09-14T23:23:01.904-04:00","cssclasses":""}
+{"publish":true,"created":"2025-09-12T22:01:18.353-04:00","modified":"2025-09-16T18:01:41.646-04:00","cssclasses":""}
 ---
 
 As I've mentioned in [[Posts/Technical/September 2025/Transitioning to Obsidian For This Blog\|in my previous post]], I am a huge fan of the [Obsidian](https://obsidian.md) note software.  I don't need to reiterate all the points here, but suffice to say that Obsidian works well for what I need it for. 
@@ -105,3 +105,22 @@ I am going to try it for a few weeks. I have been able to more or less adjust to
 ~~I have been trying it for a bit, but I have hit a hard blocker; the [Mermaid](https://mermaid.js.org/) support is somewhere between non-existent and terrible. This is a total non-starter for me.  I use Mermaid pretty liberally.  I am officially going back to Obsidian permanently.~~
 
 Turns out that the [Fenced Code](https://github.com/xyhp915/logseq-fenced-code-plus) plugin has perfectly competent Mermaid support. The test is back on! 
+
+
+# Final Update
+
+I am going back to Obsidian completely. 
+
+Every time I was doing anything in Logseq, I would end up just wanting Obsidian again.  
+
+For example, a pattern I like to use during meeting notes is tagging `[[some term]]` that I don't currently know, but want to look up later. I can then go into the Obsidian graph view, find the pages that don't exist, and backfill the terms as I need to.  It's a good pattern, I like it a lot. 
+
+This pattern, as far as I can tell, is sort of impossible with Logseq.  Pages are created immediately after the tag is made, meaning there aren't really any "non-existent" pages, meaning you can't simply use the graph or a filter to find them. My workaround has been to tag the end of the line with `#backfill` and make a query to look against that, but that's kind of annoying and I don't enjoy doing it at all. 
+
+I also never really got used to a lack of Vim keystrokes.  I simply type so much better and faster when I have access to Vim keystrokes, and I found myself making so many more typos when trying to quickly write out notes.  
+
+I also found that plugins were simply lower quality, and almost never worked as advertised.  The Fenced Code plugin, for example, seemed extremely hit or miss with regards to rendering Mermaid charts.  
+
+All these complaints made me end up really disliking working in Logseq.  
+
+I've heard that [Org-Mode](https://orgmode.org/) in Emacs is very good, and I know Emacs has [very good Vim bindings](https://github.com/emacs-evil/evil) available, so if I try to repeat this experiment, I might check it out, but as it stands I'm happy to be back to Obsidian. 
