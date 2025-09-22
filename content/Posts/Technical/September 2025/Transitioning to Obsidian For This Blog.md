@@ -1,9 +1,9 @@
 ---
-{"publish":true,"title":"Transitioning to Obsidian For This Blog","created":"2025-09-09T00:21:44-04:00","modified":"2025-09-11T18:11:38.372-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Transitioning to Obsidian For This Blog","created":"2025-09-09T00:21:44-04:00","modified":"2025-09-22T19:51:31.151-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
-So to my zero readers, you probably noticed that this pages looks pretty different. 
+So to my zero readers, you probably noticed that these pages looks pretty different. 
 
 I am a pretty avid user of the [Obsidian](https://obsidian.md/) note software.  I think the interface is clean and responsive, it works on all my devices, it's free, the Vim plugin is pretty intuitive, and I actually think that the [MediaWiki](https://en.wikipedia.org/wiki/MediaWiki) style actually works pretty well for notes. 
 
