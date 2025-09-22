@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Transitioning to Obsidian For This Blog","created":"2025-09-09T00:21:44-04:00","modified":"2025-09-22T19:51:31.151-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Transitioning to Obsidian For This Blog","created":"2025-09-09T00:21:44-04:00","modified":"2025-09-22T19:53:26.439-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -36,7 +36,7 @@ Quartz is cool, but it has a few missing features.
 
 First, it's actually somewhat detached from the actual Obsidian application; you need to keep shit separated.  I understand that part of this is to make it so that it works in other applications, but I don't want to use other applications. 
 
-You can fairly easily just point Quartz to your vault, so it's not the end of the world, but this brings me to my second complaint:  you have to convert the *entire* vault (or at least everything in the `content` folder) to the static site.   By itself, that's a complete non-starter for me; I use Obsidian for my personal and work notes.  There's lots of stuff in there that I don't really want to publish the the outside 
+You can fairly easily just point Quartz to your vault, so it's not the end of the world, but this brings me to my second complaint:  you have to convert the *entire* vault (or at least everything in the `content` folder) to the static site.   By itself, that's a complete non-starter for me; I use Obsidian for my personal and work notes.  There's lots of stuff in there that I don't really want to publish to the outside world. 
 
 Last, Obsidian queries simply don't work, meaning that dashboards won't render and I'll be sad.  
 
