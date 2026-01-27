@@ -18,7 +18,7 @@ export default ((opts: WorkerCommentsOptions) => {
       <>
         <div id="comments" data-thread={thread} data-api={opts.api} data-turnstile-site-key={opts.siteKey}></div>
         <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
-        <script src="/js/comments-widget.js" defer></script>
+        <script src="/static/js/comments-widget.js" defer></script>
       </>
     )
   }
