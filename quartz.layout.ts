@@ -6,21 +6,10 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-	  Component.Comments({
-		  provider: 'giscus',
-		  options: {
-			  // from data-repo
-			  repo: 'Tombert/tombert_blog_hyper_redux',
-			  // from data-repo-id
-			  repoId: 'R_kgDOPs5iDQ',
-			  // from data-category
-			  category: 'Announcements',
-			  // from data-category-id
-			  categoryId: 'DIC_kwDOPs5iDc4CvRv3',
-			  // from data-lang
-			  lang: 'en'
-		  }
-	  }),
+    Component.WorkerComments({
+      api: 'https://commenting-system.thomas-901.workers.dev',
+      siteKey: '0x4AAAAAACUIEhqNAnfUbaHj',
+    }),
   ],
   footer: Component.Footer({
     links: {
