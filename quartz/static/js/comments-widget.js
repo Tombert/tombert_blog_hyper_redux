@@ -50,6 +50,32 @@
       </div>`;
     container.innerHTML = `<div class="comments-list">${list || '<em>No comments yet.</em>'}</div>${form}`;
 
+    // Ensure Turnstile renders for dynamically-inserted widget
+    const ensureCaptcha = () => {
+      const el = container.querySelector('#cf-turnstile');
+      const sitekey = container.dataset.turnstileSiteKey || '';
+      if (!el || !sitekey) return;
+      if (window.turnstile && typeof window.turnstile.render === 'function') {
+        try {
+          window.turnstile.render(el, {
+            sitekey,
+            callback: function (token) {
+              const inp = container.querySelector('input[name="turnstile_token"]');
+              if (inp) inp.value = token;
+            }
+          });
+          return; // rendered
+        } catch {}
+      }
+      // Retry shortly if script not ready yet
+      setTimeout(ensureCaptcha, 300);
+    };
+    if (window.turnstile && typeof window.turnstile.ready === 'function') {
+      window.turnstile.ready(ensureCaptcha);
+    } else {
+      ensureCaptcha();
+    }
+
     // Reply buttons
     container.querySelectorAll('.reply-btn').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -112,8 +138,20 @@
       render(container, data);
       startedAt = Date.now();
       // Reset Turnstile (if available)
-      if (window.turnstile && container.querySelector('#cf-turnstile')) {
-        try { window.turnstile.reset(container.querySelector('#cf-turnstile')); } catch {}
+      const el = container.querySelector('#cf-turnstile');
+      if (window.turnstile && el) {
+        try { window.turnstile.reset(el); } catch {}
+        // re-render to get a fresh token
+        try {
+          const sitekey = container.dataset.turnstileSiteKey || '';
+          window.turnstile.render(el, {
+            sitekey,
+            callback: function (token) {
+              const inp = container.querySelector('input[name="turnstile_token"]');
+              if (inp) inp.value = token;
+            }
+          });
+        } catch {}
       }
     });
 
@@ -125,4 +163,3 @@
     if (container) init(container);
   });
 })();
-
