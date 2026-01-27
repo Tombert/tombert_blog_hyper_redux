@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Recent Projects: State Store, Part 1","created":"2025-03-02T03:21:44-04:00","modified":"2025-09-10T01:03:39.846-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Recent Projects: State Store, Part 1","created":"2025-03-02T03:21:44-04:00","modified":"2025-09-09T20:10:05.840-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 

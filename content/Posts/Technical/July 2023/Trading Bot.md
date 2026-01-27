@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Trading Bot: Part 1","created":"2023-07-18T17:08:30-04:00","modified":"2025-09-10T01:03:39.789-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Trading Bot: Part 1","created":"2023-07-18T17:08:30-04:00","modified":"2025-09-09T17:33:00.114-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 

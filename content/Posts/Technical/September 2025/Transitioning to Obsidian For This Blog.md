@@ -1,9 +1,9 @@
 ---
-{"publish":true,"title":"Transitioning to Obsidian For This Blog","created":"2025-09-09T00:21:44-04:00","modified":"2025-09-10T02:21:10.393-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Transitioning to Obsidian For This Blog","created":"2025-09-09T00:21:44-04:00","modified":"2025-10-07T16:48:23.629-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
-So to my zero readers, you probably noticed that this pages looks pretty different. 
+So to my zero readers, you probably noticed that these pages looks pretty different. 
 
 I am a pretty avid user of the [Obsidian](https://obsidian.md/) note software.  I think the interface is clean and responsive, it works on all my devices, it's free, the Vim plugin is pretty intuitive, and I actually think that the [MediaWiki](https://en.wikipedia.org/wiki/MediaWiki) style actually works pretty well for notes. 
 
@@ -36,7 +36,7 @@ Quartz is cool, but it has a few missing features.
 
 First, it's actually somewhat detached from the actual Obsidian application; you need to keep shit separated.  I understand that part of this is to make it so that it works in other applications, but I don't want to use other applications. 
 
-You can fairly easily just point Quartz to your vault, so it's not the end of the world, but this brings me to my second complaint:  you have to convert the *entire* vault (or at least everything in the `content` folder) to the static site.   By itself, that's a complete non-starter for me; I use Obsidian for my personal and work notes.  There's lots of stuff in there that I don't really want to publish the the outside 
+You can fairly easily just point Quartz to your vault, so it's not the end of the world, but this brings me to my second complaint:  you have to convert the *entire* vault (or at least everything in the `content` folder) to the static site.   By itself, that's a complete non-starter for me; I use Obsidian for my personal and work notes.  There's lots of stuff in there that I don't really want to publish to the outside world. 
 
 Last, Obsidian queries simply don't work, meaning that dashboards won't render and I'll be sad.  
 
@@ -63,3 +63,5 @@ I opted to do a straight port from the Hugo stuff for now, but I have plans for 
 I already have managed to do some interesting stuff. 
 
 Due to the easy file hierarchy integration, it is easy to simple add folders and notes to build out a site menu with features.  I added a few pages for my public speaking and my personal projects and snippets. I was able to link to the pages with the regular linking syntax.  It was about as intuitive as using Obsidian…I think I’m in love. 
+
+I think I got all the links wired up correctly and the images moved over. If you spot a dead link, please do not hesitate to [[Contact\|contact]] me so I can fix it. 

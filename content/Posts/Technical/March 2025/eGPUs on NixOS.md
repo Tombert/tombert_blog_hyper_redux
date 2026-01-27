@@ -1,9 +1,10 @@
 ---
-{"publish":true,"title":"eGPUs on NixOS","created":"2025-03-09T02:21:44-04:00","modified":"2025-09-10T02:08:42.514-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"eGPUs on NixOS","created":"2025-03-09T02:21:44-04:00","modified":"2025-10-20T22:57:11.292-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
 This will be a short one, I just wanted to stay in the habit of writing regularly, and I also wanted to document my work to get an Nvidia GPU working on NixOS with an eGPU case. 
+
 
 # eGPUs
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-10T01:03:39.869-04:00","modified":"2025-09-10T01:03:39.872-04:00","tags":["lambdadays","conj"],"cssclasses":""}
+{"publish":true,"created":"2025-09-09T23:34:28.082-04:00","modified":"2025-09-11T01:17:13.314-04:00","tags":["lambdadays","lambdadays2020","conj","conj2019"],"cssclasses":""}
 ---
 
 

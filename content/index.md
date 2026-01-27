@@ -1,12 +1,16 @@
 ---
-{"publish":true,"title":"Home Page","created":"2025-09-09T18:10:06.014-04:00","modified":"2025-09-10T01:03:39.893-04:00","cssclasses":""}
+{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2025-10-20T23:30:37.086-04:00","cssclasses":""}
 ---
 
 
-Ramblings from a software person. 
+
+Ramblings from a software person.
+
+
 
 # Technical 
 
+- [[Posts/Technical/September 2025/Trying Logseq\|Trying Logseq]]: 2025-09-12
 - [[Posts/Technical/September 2025/Transitioning to Obsidian For This Blog\|Transitioning to Obsidian For This Blog]]: 2025-09-09
 - [[Posts/Technical/September 2025/Accepting the Cloud\|Accepting the Cloud]]: 2025-09-01
 - [[Posts/Technical/June 2025/Typst is Pretty Cool\|Typst is Pretty Cool]]: 2025-06-30
@@ -28,8 +32,11 @@ Ramblings from a software person.
 
 
 
+
 # Personal 
 
+- [[Posts/Personal/October 2025/Starting Another Masters\|Starting Another Masters]]: 2025-10-20
+- [[Posts/Personal/September 2025/Things are Going Better\|Things are Going Better]]: 2025-09-11
 - [[Posts/Personal/August 2025/I am a Master\|I am a Master]]: 2025-08-19
 - [[Posts/Personal/March 2025/Storytime - Deli\|Storytime - Deli]]: 2025-03-12
 - [[Posts/Personal/March 2025/Where have I been?\|Where have I been?]]: 2025-03-02

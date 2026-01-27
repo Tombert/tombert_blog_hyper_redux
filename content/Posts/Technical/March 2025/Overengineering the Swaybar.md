@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Overengineering the Swaybar","created":"2025-03-22T09:21:44-04:00","modified":"2025-09-10T01:56:16.302-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Overengineering the Swaybar","created":"2025-03-22T09:21:44-04:00","modified":"2025-09-10T02:07:31.038-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 

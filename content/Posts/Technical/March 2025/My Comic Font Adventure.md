@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"My Comic Font Adventure","created":"2025-03-15T09:21:44-04:00","modified":"2025-09-10T01:03:39.833-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"My Comic Font Adventure","created":"2025-03-15T09:21:44-04:00","modified":"2025-09-09T17:47:55.669-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
