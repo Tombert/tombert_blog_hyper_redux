@@ -26,9 +26,9 @@ export default ((opts: WorkerCommentsOptions) => {
     )
   }
 
+  // Re-init on SPA nav
+  // @ts-ignore
+  ;(WorkerComments as any).afterDOMLoaded = script
+
   return WorkerComments
 }) satisfies QuartzComponentConstructor<WorkerCommentsOptions>
-
-// Re-init on SPA nav
-// @ts-ignore
-;(WorkerComments as any).afterDOMLoaded = script
