@@ -12,6 +12,12 @@
   margin: 0;
 }
 
+#comments .comments-loading {
+  color: var(--darkgray);
+  font-style: italic;
+  padding: 0.25rem 0.25rem 0.5rem 0.25rem;
+}
+
 #comments .cmt {
   background: color-mix(in srgb, var(--light) 96%, var(--highlight) 4%);
   border-left: 3px solid var(--lightgray);

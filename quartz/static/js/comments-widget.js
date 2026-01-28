@@ -172,6 +172,7 @@
     const api = (container.dataset.api || 'http://localhost:8787').replace(/\/$/, '');
     const thread = container.dataset.thread || location.pathname;
     let startedAt = Date.now();
+    try { container.innerHTML = '<div class="comments-loading">Loading comments…</div>'; } catch {}
 
     // Expose Turnstile callback to window
     window.__cmtTurnstileCb = function(token) {
