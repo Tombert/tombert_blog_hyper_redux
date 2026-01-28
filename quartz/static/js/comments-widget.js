@@ -70,6 +70,8 @@
         </form>
       </div>`;
     container.innerHTML = `<div class="comments-list">${list || '<em>No comments yet.</em>'}</div>${form}`;
+    const mainSubmitBtn = container.querySelector('#comment-form button[type="submit"]');
+    if (mainSubmitBtn) mainSubmitBtn.disabled = true;
 
     // Ensure Turnstile renders for dynamically-inserted widget
     const ensureCaptcha = () => {
@@ -79,6 +81,7 @@
       renderCaptcha(el, sitekey, function (token) {
         const inp = container.querySelector('input[name="turnstile_token"]');
         if (inp) inp.value = token;
+        if (mainSubmitBtn) mainSubmitBtn.disabled = false;
       });
     };
     ensureCaptcha();
@@ -113,10 +116,13 @@
           </form>`;
         commentEl.appendChild(wrap);
 
+        const replySubmitBtn = wrap.querySelector('button[type="submit"]');
+        if (replySubmitBtn) replySubmitBtn.disabled = true;
         const cEl = wrap.querySelector('.cmt-turnstile');
         renderCaptcha(cEl, sitekey, function (token) {
           const inp = wrap.querySelector('input[name="turnstile_token"]');
           if (inp) inp.value = token;
+          if (replySubmitBtn) replySubmitBtn.disabled = false;
         });
 
         wrap.querySelector('.cancel-reply').addEventListener('click', () => {
