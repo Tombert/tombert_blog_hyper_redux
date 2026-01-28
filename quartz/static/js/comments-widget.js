@@ -125,7 +125,7 @@
 
         wrap.querySelector('form').addEventListener('submit', async (e) => {
           e.preventDefault();
-        const payload = Object.fromEntries(new FormData(e.target as HTMLFormElement).entries());
+        const payload = Object.fromEntries(new FormData(e.currentTarget).entries());
         const body = {
           thread: cfg.thread,
           parent_id: payload.parent_id || null,
@@ -135,7 +135,7 @@
           turnstile_token: payload.turnstile_token ? payload.turnstile_token.toString() : '',
           started_at: startedAt,
         };
-          const submitBtn = (e.target).querySelector('button[type="submit"]');
+          const submitBtn = e.currentTarget.querySelector('button[type="submit"]');
           if (submitBtn) submitBtn.disabled = true;
           const res = await fetch(`${cfg.api}/comments`, {
             method: 'POST',
