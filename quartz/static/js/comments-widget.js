@@ -60,7 +60,7 @@
         <h4>Leave a comment</h4>
         <form id="comment-form">
           <input type="text" name="author_name" placeholder="Your name" maxlength="80" required />
-          <input type="email" name="email" placeholder="Email (optional)" />
+          
           <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
           <textarea name="content" rows="4" maxlength="2000" placeholder="Be nice." required></textarea>
           <input type="hidden" name="parent_id" />
@@ -102,7 +102,7 @@
             <input type="hidden" name="parent_id" value="${btn.dataset.id}" />
             <input type="hidden" name="turnstile_token" />
             <input type="text" name="author_name" placeholder="Your name" maxlength="80" required style="display:block;margin:4px 0;" />
-            <input type="email" name="email" placeholder="Email (optional)" style="display:block;margin:4px 0;" />
+            
             <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
             <textarea name="content" rows="3" maxlength="2000" placeholder="Reply..." required style="display:block;margin:4px 0;"></textarea>
             <div class="cmt-turnstile" data-sitekey="${sitekey}" style="margin:4px 0;"></div>
@@ -125,17 +125,16 @@
 
         wrap.querySelector('form').addEventListener('submit', async (e) => {
           e.preventDefault();
-          const payload = Object.fromEntries(new FormData(e.target).entries());
-          const body = {
-            thread: cfg.thread,
-            parent_id: payload.parent_id || null,
-            author_name: (payload.author_name || '').toString(),
-            email: payload.email ? payload.email.toString() : null,
-            content: (payload.content || '').toString(),
-            website: payload.website ? payload.website.toString() : '',
-            turnstile_token: payload.turnstile_token ? payload.turnstile_token.toString() : '',
-            started_at: startedAt,
-          };
+        const payload = Object.fromEntries(new FormData(e.target as HTMLFormElement).entries());
+        const body = {
+          thread: cfg.thread,
+          parent_id: payload.parent_id || null,
+          author_name: (payload.author_name || '').toString(),
+          content: (payload.content || '').toString(),
+          website: payload.website ? payload.website.toString() : '',
+          turnstile_token: payload.turnstile_token ? payload.turnstile_token.toString() : '',
+          started_at: startedAt,
+        };
           const submitBtn = (e.target).querySelector('button[type="submit"]');
           if (submitBtn) submitBtn.disabled = true;
           const res = await fetch(`${cfg.api}/comments`, {
@@ -196,7 +195,6 @@
         thread,
         parent_id: payload.parent_id || null,
         author_name: (payload.author_name || '').toString(),
-        email: payload.email ? payload.email.toString() : null,
         content: (payload.content || '').toString(),
         website: payload.website ? payload.website.toString() : '',
         turnstile_token: payload.turnstile_token ? payload.turnstile_token.toString() : '',
