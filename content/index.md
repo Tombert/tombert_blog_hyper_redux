@@ -1,15 +1,14 @@
 ---
-{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2025-10-20T23:30:37.086-04:00","cssclasses":""}
+{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-01-27T20:16:50.107-05:00","cssclasses":""}
 ---
 
 
 
 Ramblings from a software person.
 
-
-
 # Technical 
 
+- [[Posts/Technical/January 2026/I Added Proper Comments\|I Added Proper Comments]]: 2026-01-27
 - [[Posts/Technical/September 2025/Trying Logseq\|Trying Logseq]]: 2025-09-12
 - [[Posts/Technical/September 2025/Transitioning to Obsidian For This Blog\|Transitioning to Obsidian For This Blog]]: 2025-09-09
 - [[Posts/Technical/September 2025/Accepting the Cloud\|Accepting the Cloud]]: 2025-09-01
