@@ -31,7 +31,26 @@
       </div>`;
   }
 
-  function render(container, data) {
+  function renderCaptcha(el, sitekey, onToken) {
+    const tryRender = () => {
+      if (!el || !sitekey) return;
+      if (window.turnstile && typeof window.turnstile.render === 'function') {
+        try {
+          window.turnstile.render(el, {
+            sitekey,
+            callback: (token) => {
+              try { onToken && onToken(token); } catch {}
+            }
+          });
+          return;
+        } catch {}
+      }
+      setTimeout(tryRender, 300);
+    };
+    tryRender();
+  }
+
+  function render(container, data, cfg) {
     const roots = buildTree(data.comments);
     const list = roots.map(renderComment).join("");
     const form = `
@@ -55,29 +74,78 @@
       const el = container.querySelector('#cf-turnstile');
       const sitekey = container.dataset.turnstileSiteKey || '';
       if (!el || !sitekey) return;
-      if (window.turnstile && typeof window.turnstile.render === 'function') {
-        try {
-          window.turnstile.render(el, {
-            sitekey,
-            callback: function (token) {
-              const inp = container.querySelector('input[name="turnstile_token"]');
-              if (inp) inp.value = token;
-            }
-          });
-          return; // rendered
-        } catch {}
-      }
-      // Retry shortly if script not ready yet
-      setTimeout(ensureCaptcha, 300);
+      renderCaptcha(el, sitekey, function (token) {
+        const inp = container.querySelector('input[name="turnstile_token"]');
+        if (inp) inp.value = token;
+      });
     };
-    // Avoid using turnstile.ready() to prevent error when api.js is loaded with defer
     ensureCaptcha();
 
     // Reply buttons
     container.querySelectorAll('.reply-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        container.querySelector('input[name="parent_id"]').value = btn.dataset.id;
-        container.querySelector('textarea[name="content"]').focus();
+        const commentEl = btn.closest('.cmt');
+        if (!commentEl) return;
+        // Remove any existing inline reply
+        const existing = container.querySelector('.inline-reply');
+        if (existing && existing.parentElement) existing.parentElement.removeChild(existing);
+        const wrap = document.createElement('div');
+        wrap.className = 'inline-reply';
+        const sitekey = container.dataset.turnstileSiteKey || '';
+        const startedAt = Date.now();
+        wrap.innerHTML = `
+          <form class="reply-form" style="margin:8px 0 16px 0">
+            <input type="hidden" name="parent_id" value="${btn.dataset.id}" />
+            <input type="hidden" name="turnstile_token" />
+            <input type="text" name="author_name" placeholder="Your name" maxlength="80" required style="display:block;margin:4px 0;" />
+            <input type="email" name="email" placeholder="Email (optional)" style="display:block;margin:4px 0;" />
+            <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
+            <textarea name="content" rows="3" maxlength="2000" placeholder="Reply..." required style="display:block;margin:4px 0;"></textarea>
+            <div class="cf-turnstile" data-sitekey="${sitekey}" style="margin:4px 0;"></div>
+            <div>
+              <button type="submit">Reply</button>
+              <button type="button" class="cancel-reply" style="margin-left:8px;">Cancel</button>
+            </div>
+          </form>`;
+        commentEl.appendChild(wrap);
+
+        const cEl = wrap.querySelector('.cf-turnstile');
+        renderCaptcha(cEl, sitekey, function (token) {
+          const inp = wrap.querySelector('input[name="turnstile_token"]');
+          if (inp) inp.value = token;
+        });
+
+        wrap.querySelector('.cancel-reply').addEventListener('click', () => {
+          if (wrap.parentElement) wrap.parentElement.removeChild(wrap);
+        });
+
+        wrap.querySelector('form').addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const payload = Object.fromEntries(new FormData(e.target).entries());
+          const body = {
+            thread: cfg.thread,
+            parent_id: payload.parent_id || null,
+            author_name: (payload.author_name || '').toString(),
+            email: payload.email ? payload.email.toString() : null,
+            content: (payload.content || '').toString(),
+            website: payload.website ? payload.website.toString() : '',
+            turnstile_token: payload.turnstile_token ? payload.turnstile_token.toString() : '',
+            started_at: startedAt,
+          };
+          const res = await fetch(`${cfg.api}/comments`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(body),
+            credentials: 'omit'
+          });
+          if (!res.ok) {
+            const t = await res.text();
+            alert(`Failed to post: ${res.status} ${t}`);
+            return;
+          }
+          const data2 = await res.json();
+          render(container, data2, cfg);
+        });
       });
     });
   }
@@ -101,7 +169,7 @@
 
     function refresh() {
       fetchJSON(`${api}/comments?thread=${encodeURIComponent(thread)}`)
-        .then(data => render(container, data))
+        .then(data => render(container, data, { api, thread }))
         .catch(err => { container.innerHTML = `<div class="error">Error: ${err.message}</div>`; });
     }
 
@@ -132,7 +200,7 @@
         return;
       }
       const data = await res.json();
-      render(container, data);
+      render(container, data, { api, thread });
       startedAt = Date.now();
       // Reset Turnstile (if available)
       const el = container.querySelector('#cf-turnstile');
