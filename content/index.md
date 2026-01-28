@@ -1,7 +1,6 @@
 ---
-{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-01-28T01:52:55.776-05:00","cssclasses":""}
+{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-01-28T01:59:06.697-05:00","cssclasses":""}
 ---
-
 
 
 
@@ -35,10 +34,10 @@ Ramblings from a software person.
 
 # Personal 
 
+- [[Posts/Personal/January 2026/What is a Disorder?\|What is a Disorder?]]: 2026-01-28
 - [[Posts/Personal/October 2025/Starting Another Masters\|Starting Another Masters]]: 2025-10-20
 - [[Posts/Personal/September 2025/Things are Going Better\|Things are Going Better]]: 2025-09-11
 - [[Posts/Personal/August 2025/I am a Master\|I am a Master]]: 2025-08-19
 - [[Posts/Personal/March 2025/Storytime - Deli\|Storytime - Deli]]: 2025-03-12
 - [[Posts/Personal/March 2025/Where have I been?\|Where have I been?]]: 2025-03-02
-- [[Posts/Personal/January 2026/What is a Disorder?\|What is a Disorder?]]: 2025-01-28
 - [[Posts/Personal/July 2023/Guilt and Frustration\|Guilt and Frustration]]: 2023-07-17
