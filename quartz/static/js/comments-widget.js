@@ -216,4 +216,7 @@
     const container = document.querySelector('#comments');
     if (container) init(container);
   });
+
+  // Expose init for SPA navigation re-runs
+  try { window.__cmtInit = init; } catch {}
 })();

@@ -1,4 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+// @ts-ignore
+import script from "./scripts/worker-comments.inline"
 
 interface WorkerCommentsOptions {
   api: string
@@ -26,3 +28,7 @@ export default ((opts: WorkerCommentsOptions) => {
 
   return WorkerComments
 }) satisfies QuartzComponentConstructor<WorkerCommentsOptions>
+
+// Re-init on SPA nav
+// @ts-ignore
+;(WorkerComments as any).afterDOMLoaded = script
