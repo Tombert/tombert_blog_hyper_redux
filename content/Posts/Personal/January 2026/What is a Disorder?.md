@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"What is a Disorder?","created":"2025-01-28T09:21:44-04:00","modified":"2026-01-28T01:51:22.256-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"What is a Disorder?","created":"2025-01-28T09:21:44-04:00","modified":"2026-01-28T01:56:07.586-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 
@@ -39,7 +39,7 @@ Anyway, we define this as a disorder because the current people in charge have *
 
 But let's envision a world where the sociopaths didn't take over the world and label it "civilization".  When we had small groups, with hunters and gatherers, would having someone a a little knowledge around a lot of different topics actually be a disadvantage? 
 
-In our mythical caveman-universe: if we have someone who knows how to do basic hunting, basic fruit gathering, basic childcare, and basic tool-building, would this person be considered "disordered"? This person would be *extremely* valuable to the group.  Resources were so scarce and the world was so harsh that people didn't have the luxury of being able to *not* be ADHD.  
+In our mythical caveman-universe: if we have someone who knows how to do basic hunting, basic fruit gathering, basic childcare, and basic tool-building, would this person be considered "disordered"? This person would be *extremely* valuable to the group.  Resources were so scarce and the world was so harsh that people didn't have the luxury of being able to *not* have ADHD.  
 
 
 
