@@ -136,6 +136,8 @@
             turnstile_token: payload.turnstile_token ? payload.turnstile_token.toString() : '',
             started_at: startedAt,
           };
+          const submitBtn = (e.target).querySelector('button[type="submit"]');
+          if (submitBtn) submitBtn.disabled = true;
           const res = await fetch(`${cfg.api}/comments`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -145,10 +147,16 @@
           if (!res.ok) {
             const t = await res.text();
             alert(`Failed to post: ${res.status} ${t}`);
+            try {
+              const data = await fetchJSON(`${cfg.api}/comments?thread=${encodeURIComponent(cfg.thread)}`);
+              render(container, data, cfg);
+            } catch {}
+            if (submitBtn) submitBtn.disabled = false;
             return;
           }
           const data2 = await res.json();
           render(container, data2, cfg);
+          if (submitBtn) submitBtn.disabled = false;
         });
       });
     });
@@ -177,6 +185,7 @@
         .catch(err => { container.innerHTML = `<div class="error">Error: ${err.message}</div>`; });
     }
 
+    if (container.dataset.cmtBound !== '1') {
     container.addEventListener('submit', async (e) => {
       const form = e.target.closest('#comment-form');
       if (!form) return;
@@ -192,6 +201,8 @@
         turnstile_token: payload.turnstile_token ? payload.turnstile_token.toString() : '',
         started_at: startedAt,
       };
+      const submitBtn = form.querySelector('button[type="submit"]');
+      if (submitBtn) submitBtn.disabled = true;
       const res = await fetch(`${api}/comments`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -201,13 +212,17 @@
       if (!res.ok) {
         const t = await res.text();
         alert(`Failed to post: ${res.status} ${t}`);
+        try { refresh(); } catch {}
+        if (submitBtn) submitBtn.disabled = false;
         return;
       }
       const data = await res.json();
       render(container, data, { api, thread });
       startedAt = Date.now();
-      // After re-render, main form gets a fresh Turnstile via ensureCaptcha
+      if (submitBtn) submitBtn.disabled = false;
     });
+    container.dataset.cmtBound = '1';
+    }
 
     refresh();
   }
