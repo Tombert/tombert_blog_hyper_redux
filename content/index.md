@@ -1,6 +1,7 @@
 ---
-{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-01-27T20:16:50.107-05:00","cssclasses":""}
+{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-01-28T01:52:55.776-05:00","cssclasses":""}
 ---
+
 
 
 
@@ -39,4 +40,5 @@ Ramblings from a software person.
 - [[Posts/Personal/August 2025/I am a Master\|I am a Master]]: 2025-08-19
 - [[Posts/Personal/March 2025/Storytime - Deli\|Storytime - Deli]]: 2025-03-12
 - [[Posts/Personal/March 2025/Where have I been?\|Where have I been?]]: 2025-03-02
+- [[Posts/Personal/January 2026/What is a Disorder?\|What is a Disorder?]]: 2025-01-28
 - [[Posts/Personal/July 2023/Guilt and Frustration\|Guilt and Frustration]]: 2023-07-17
