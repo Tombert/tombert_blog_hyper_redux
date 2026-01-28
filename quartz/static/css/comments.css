@@ -18,6 +18,7 @@
   border-radius: 8px;
   padding: 0.5rem 0.75rem;
   margin: 0.35rem 0;
+  position: relative;
 }
 
 #comments .cmt .meta {
@@ -59,6 +60,7 @@
   padding: 0.5rem 0.6rem;
 }
 
+#comments .cmt-turnstile,
 #comments .cf-turnstile,
 #comments #cf-turnstile {
   margin: 0.4rem 0;
@@ -81,4 +83,20 @@
 #comments button:active {
   transform: translateY(1px);
 }
+#comments .cmt.reply::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0.9rem;
+  width: 10px;
+  height: calc(100% - 0.9rem);
+  border-left: 1px solid var(--lightgray);
+  border-top: 1px solid var(--lightgray);
+  border-top-left-radius: 6px;
+}
 
+#comments .inline-reply .replying-to {
+  color: var(--darkgray);
+  font-size: 0.85rem;
+  margin-bottom: 0.35rem;
+}

@@ -22,8 +22,10 @@
 
   function renderComment(c) {
     const childHtml = c.children.map(renderComment).join("");
+    const authorAttr = escapeHTML(c.author_name);
+    const cls = c.depth === 0 ? 'cmt root' : 'cmt reply';
     return `
-      <div class="cmt" data-id="${c.id}" style="margin-left:${c.depth * 16}px">
+      <div class="${cls}" data-id="${c.id}" data-depth="${c.depth}" data-author="${authorAttr}" style="margin-left:${c.depth * 16}px">
         <div class="meta"><strong>${escapeHTML(c.author_name)}</strong> • ${new Date(c.created_at).toLocaleString()}</div>
         <div class="body">${escapeHTML(c.content)}</div>
         <button class="reply-btn" data-id="${c.id}">Reply</button>
@@ -63,7 +65,7 @@
           <textarea name="content" rows="4" maxlength="2000" placeholder="Be nice." required></textarea>
           <input type="hidden" name="parent_id" />
           <input type="hidden" name="turnstile_token" />
-          <div id="cf-turnstile" class="cf-turnstile" data-sitekey="${container.dataset.turnstileSiteKey || ''}" data-callback="__cmtTurnstileCb"></div>
+          <div class="cmt-turnstile" data-sitekey="${container.dataset.turnstileSiteKey || ''}"></div>
           <button type="submit">Post</button>
         </form>
       </div>`;
@@ -71,7 +73,7 @@
 
     // Ensure Turnstile renders for dynamically-inserted widget
     const ensureCaptcha = () => {
-      const el = container.querySelector('#cf-turnstile');
+      const el = container.querySelector('.cmt-turnstile');
       const sitekey = container.dataset.turnstileSiteKey || '';
       if (!el || !sitekey) return;
       renderCaptcha(el, sitekey, function (token) {
@@ -93,15 +95,17 @@
         wrap.className = 'inline-reply';
         const sitekey = container.dataset.turnstileSiteKey || '';
         const startedAt = Date.now();
+        const replyingTo = commentEl.getAttribute('data-author') || '';
         wrap.innerHTML = `
           <form class="reply-form" style="margin:8px 0 16px 0">
+            <div class="replying-to">Replying to <strong>${escapeHTML(replyingTo)}</strong></div>
             <input type="hidden" name="parent_id" value="${btn.dataset.id}" />
             <input type="hidden" name="turnstile_token" />
             <input type="text" name="author_name" placeholder="Your name" maxlength="80" required style="display:block;margin:4px 0;" />
             <input type="email" name="email" placeholder="Email (optional)" style="display:block;margin:4px 0;" />
             <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
             <textarea name="content" rows="3" maxlength="2000" placeholder="Reply..." required style="display:block;margin:4px 0;"></textarea>
-            <div class="cf-turnstile" data-sitekey="${sitekey}" style="margin:4px 0;"></div>
+            <div class="cmt-turnstile" data-sitekey="${sitekey}" style="margin:4px 0;"></div>
             <div>
               <button type="submit">Reply</button>
               <button type="button" class="cancel-reply" style="margin-left:8px;">Cancel</button>
@@ -109,7 +113,7 @@
           </form>`;
         commentEl.appendChild(wrap);
 
-        const cEl = wrap.querySelector('.cf-turnstile');
+        const cEl = wrap.querySelector('.cmt-turnstile');
         renderCaptcha(cEl, sitekey, function (token) {
           const inp = wrap.querySelector('input[name="turnstile_token"]');
           if (inp) inp.value = token;
@@ -202,22 +206,7 @@
       const data = await res.json();
       render(container, data, { api, thread });
       startedAt = Date.now();
-      // Reset Turnstile (if available)
-      const el = container.querySelector('#cf-turnstile');
-      if (window.turnstile && el) {
-        try { window.turnstile.reset(el); } catch {}
-        // re-render to get a fresh token
-        try {
-          const sitekey = container.dataset.turnstileSiteKey || '';
-          window.turnstile.render(el, {
-            sitekey,
-            callback: function (token) {
-              const inp = container.querySelector('input[name="turnstile_token"]');
-              if (inp) inp.value = token;
-            }
-          });
-        } catch {}
-      }
+      // After re-render, main form gets a fresh Turnstile via ensureCaptcha
     });
 
     refresh();
