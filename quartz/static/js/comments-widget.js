@@ -70,11 +70,8 @@
       // Retry shortly if script not ready yet
       setTimeout(ensureCaptcha, 300);
     };
-    if (window.turnstile && typeof window.turnstile.ready === 'function') {
-      window.turnstile.ready(ensureCaptcha);
-    } else {
-      ensureCaptcha();
-    }
+    // Avoid using turnstile.ready() to prevent error when api.js is loaded with defer
+    ensureCaptcha();
 
     // Reply buttons
     container.querySelectorAll('.reply-btn').forEach(btn => {
