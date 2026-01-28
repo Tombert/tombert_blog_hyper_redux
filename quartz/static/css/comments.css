@@ -1,0 +1,84 @@
+# Comments widget styling
+
+#comments {
+  background: color-mix(in srgb, var(--lightgray) 30%, var(--light));
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1.25rem;
+}
+
+#comments .comments-list {
+  margin: 0;
+}
+
+#comments .cmt {
+  background: color-mix(in srgb, var(--light) 96%, var(--highlight) 4%);
+  border-left: 3px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  margin: 0.35rem 0;
+}
+
+#comments .cmt .meta {
+  color: var(--darkgray);
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+#comments .cmt .body {
+  line-height: 1.45;
+}
+
+#comments .reply-btn {
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+}
+
+#comments .new-comment,
+#comments .inline-reply {
+  background: color-mix(in srgb, var(--light) 92%, var(--highlight) 8%);
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+  padding: 0.75rem;
+}
+
+#comments .inline-reply {
+  margin-left: 1rem;
+}
+
+#comments input[type="text"],
+#comments input[type="email"],
+#comments textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--light);
+  color: var(--dark);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 0.5rem 0.6rem;
+}
+
+#comments .cf-turnstile,
+#comments #cf-turnstile {
+  margin: 0.4rem 0;
+}
+
+#comments button {
+  background-color: color-mix(in srgb, var(--lightgray) 60%, var(--light));
+  color: var(--dark);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.02s ease;
+}
+
+#comments button:hover {
+  border-color: var(--secondary);
+}
+
+#comments button:active {
+  transform: translateY(1px);
+}
+
