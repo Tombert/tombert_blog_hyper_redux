@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Adding a Less Shitty Search Engine to Hugo with Lunr.js","created":"2025-03-12T09:21:44-04:00","modified":"2025-09-14T19:00:57.929-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Adding a Less Shitty Search Engine to Hugo with Lunr.js","description":"Upgrading Hugo search to Lunr.js: generate JSON, build a client‑side index, hydrate results, and add a Search page to the site menu.","created":"2025-03-12T09:21:44-04:00","modified":"2026-01-29T01:17:36.948-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -271,4 +271,3 @@ That said, I don't know that it's any faster than the shitty one I wrote before.
 Anyway, sorry for the kind of rushed nature of this post.  I didn't really want to rewrite it after I wrote a more detailed one yesterday, but I felt it was still worth an update. 
 
 Please don't hesitate to contact me if you know of any better ways of doing what I'm doing. 
-

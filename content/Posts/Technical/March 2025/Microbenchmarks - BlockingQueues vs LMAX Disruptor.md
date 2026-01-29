@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Microbenchmarks: BlockingQueues vs LMAX Disruptor","created":"2025-03-11T09:21:44-04:00","modified":"2025-09-09T17:53:02.789-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: BlockingQueues vs LMAX Disruptor","description":"JMH tests comparing BlockingQueues to LMAX Disruptor; initial parity at small loads, but Disruptor wins 3–4× and with less memory at large batches.","created":"2025-03-11T09:21:44-04:00","modified":"2026-01-29T01:17:17.048-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -415,4 +415,3 @@ CPU: AMD Ryzen 9 6900HX with Radeon Graphics
 RAM: 64 GB DDR5 4800 MT/s
 JVM: jdk21 package in Nixpkgs
 ```
-

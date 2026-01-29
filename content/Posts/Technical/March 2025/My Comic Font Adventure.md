@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"My Comic Font Adventure","created":"2025-03-15T09:21:44-04:00","modified":"2025-09-09T17:47:55.669-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"My Comic Font Adventure","description":"Trying comic‑style coding fonts (Comic Mono, Serious Shanns, Comic Code, Recursive), with notes on readability, ligatures, and dyslexia‑friendly tweaks.","created":"2025-03-15T09:21:44-04:00","modified":"2026-01-29T01:16:58.958-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 

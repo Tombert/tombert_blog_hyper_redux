@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Microbenchmarks: BlockingQueues","created":"2025-03-04T09:21:44-04:00","modified":"2025-09-09T20:12:22.495-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: BlockingQueues","description":"A quick, flawed comparison of ArrayBlockingQueue vs LinkedBlockingQueue under virtual vs platform threads, with a pointer to the corrected JMH post.","created":"2025-03-04T09:21:44-04:00","modified":"2026-01-29T01:17:23.020-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -180,4 +180,3 @@ RAM: 64GB LPDDR5 6400 MT/s
 Processor: AMD Ryzen 7 PRO 7840U w/ Radeon 780M Graphics
 JVM: jdk21 package in Nixpkgs
 ```
-

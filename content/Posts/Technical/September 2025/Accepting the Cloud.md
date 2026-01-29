@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Accepting the Cloud","created":"2025-09-01T00:21:44-04:00","modified":"2025-09-09T20:10:22.477-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Accepting the Cloud","description":"Offloading self‑hosted services: Cloudflare Tunnels + Access, Oracle Cloud for a Minecraft server, R2 for Obsidian sync, and Pages for static hosting.","created":"2025-09-01T00:21:44-04:00","modified":"2026-01-29T01:17:11.963-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 

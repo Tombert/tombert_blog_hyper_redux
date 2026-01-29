@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Making a Shitty 'Search Engine' in Hugo","created":"2025-03-11T03:21:44-04:00","modified":"2025-09-14T22:42:31.706-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Making a Shitty 'Search Engine' in Hugo","description":"Building a simple client‑side search for Hugo by generating index.json and doing linear substring matches in JavaScript (later replaced by Lunr.js).","created":"2025-03-11T03:21:44-04:00","modified":"2026-01-29T01:17:33.775-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -189,4 +189,3 @@ Still, eventually I would like to use a "real" search tool for this.  I've heard
 I might do a sequel to this post, where I use a more "real" search engine, just for fun. Is it "necessary"? Of course not, but when has that ever stopped me? Still, I think even a stupid one like this has some value. 
 
 Hopefully you enjoyed this article, and please don't hesitate to let me know if you get anything out of it. 
-

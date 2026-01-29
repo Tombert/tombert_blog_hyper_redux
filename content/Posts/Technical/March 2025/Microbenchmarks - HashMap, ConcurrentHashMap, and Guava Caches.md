@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Microbenchmarks: HashMap, ConcurrentHashMap, and Guava Caches","created":"2025-03-05T09:21:44-04:00","modified":"2025-09-09T20:13:31.260-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: HashMap, ConcurrentHashMap, and Guava Caches","description":"Initial timer‑based tests of HashMap, ConcurrentHashMap, and Guava Cache (single‑ and multi‑threaded), with a note pointing to the JMH follow‑up.","created":"2025-03-05T09:21:44-04:00","modified":"2026-01-29T01:17:21.384-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 

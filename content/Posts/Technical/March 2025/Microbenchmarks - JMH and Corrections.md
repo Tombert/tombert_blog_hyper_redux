@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Microbenchmarks: JMH and Corrections","created":"2025-03-06T09:21:44-04:00","modified":"2025-09-09T17:09:02.790-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: JMH and Corrections","description":"Correcting earlier Java microbenchmarks using JMH; results across HashMap/ConcurrentHashMap/Guava/Caffeine and locks vs synchronized, plus caveats.","created":"2025-03-06T09:21:44-04:00","modified":"2026-01-29T01:17:19.320-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -275,5 +275,4 @@ CPU: AMD Ryzen 9 6900HX with Radeon Graphics
 RAM: 64 GB DDR5 4800 MT/s
 JVM: jdk21 package in Nixpkgs
 ```
-
 

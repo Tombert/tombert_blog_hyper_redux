@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Trading Bot: Part 1","created":"2023-07-18T17:08:30-04:00","modified":"2025-09-09T17:33:00.114-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Trading Bot: Part 1","description":"A first step toward a trading bot: stream crypto market data via Gemini WebSockets, normalize it, and publish ticks to Kafka in Clojure.","created":"2023-07-18T17:08:30-04:00","modified":"2026-01-29T01:16:50.047-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 
