@@ -112,3 +112,16 @@
   font-size: 0.85rem;
   margin-bottom: 0.35rem;
 }
+
+/* Small consent note under the comments widget */
+.comment-consent {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--darkgray);
+}
+.comment-consent a {
+  color: var(--secondary);
+}
+.comment-consent a:hover {
+  color: var(--tertiary);
+}

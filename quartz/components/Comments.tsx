@@ -1,5 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
+import { transformLink } from "../util/path"
 // @ts-ignore
 import script from "./scripts/comments.inline"
 
@@ -35,6 +36,11 @@ export default ((opts: Options) => {
       return <></>
     }
 
+    const tosHref = transformLink(fileData.slug!, "Terms of Service", {
+      strategy: "absolute",
+      allSlugs: [],
+    })
+
     return (
       <div
         class={classNames(displayClass, "giscus")}
@@ -53,6 +59,9 @@ export default ((opts: Options) => {
         }
         data-lang={opts.options.lang ?? "en"}
       ></div>
+      <p class="comment-consent">
+        By submitting a comment you agree to the <a href={tosHref} class="internal">Terms of Service</a>.
+      </p>
     )
   }
 
