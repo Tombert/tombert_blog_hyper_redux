@@ -62,7 +62,7 @@
           <input type="text" name="author_name" placeholder="Your name" maxlength="80" required />
           
           <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
-          <textarea name="content" rows="4" maxlength="2000" placeholder="Be nice." required></textarea>
+          <textarea name="content" rows="4" maxlength="2000" placeholder="Be nice. This is a public comment.  Do not share any information that you do not want to be publicly available." required></textarea>
           <input type="hidden" name="parent_id" />
           <input type="hidden" name="turnstile_token" />
           <div class="cmt-turnstile" data-sitekey="${container.dataset.turnstileSiteKey || ''}"></div>
