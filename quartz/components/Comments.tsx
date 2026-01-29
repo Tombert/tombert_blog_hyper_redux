@@ -42,6 +42,7 @@ export default ((opts: Options) => {
     })
 
     return (
+      <>
       <div
         class={classNames(displayClass, "giscus")}
         data-repo={opts.options.repo}
@@ -62,6 +63,7 @@ export default ((opts: Options) => {
       <p class="comment-consent">
         By submitting a comment you agree to the <a href={tosHref} class="internal">Terms of Service</a>.
       </p>
+      </>
     )
   }
 
