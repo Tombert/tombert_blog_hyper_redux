@@ -24,7 +24,7 @@ export default ((opts: WorkerCommentsOptions) => {
     return (
       <>
         <link rel="stylesheet" href="/static/css/comments.css" />
-        <div id="comments" data-thread={thread} data-api={opts.api} data-turnstile-site-key={opts.siteKey}></div>
+        <div id="comments-widget" data-thread={thread} data-api={opts.api} data-turnstile-site-key={opts.siteKey}></div>
         <p class="comment-consent">
           By submitting a comment you agree to the
           {" "}

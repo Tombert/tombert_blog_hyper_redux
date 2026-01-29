@@ -1,6 +1,6 @@
 /* Minimal comments widget for the Cloudflare Worker API
    Usage in your page template:
-   <div id="comments" data-thread="/path-or-slug" data-api="https://comments.example.com"></div>
+   <div id="comments-widget" data-thread="/path-or-slug" data-api="https://comments.example.com"></div>
    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
    <script src="/path/to/widget.js" defer></script>
 */
@@ -233,7 +233,7 @@
   }
 
   window.addEventListener('DOMContentLoaded', () => {
-    const container = document.querySelector('#comments');
+    const container = document.querySelector('#comments-widget');
     if (container) init(container);
   });
 

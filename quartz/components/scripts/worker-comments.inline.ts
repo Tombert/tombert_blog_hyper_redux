@@ -1,6 +1,6 @@
 // Re-initialize custom comments widget after Quartz SPA navigation
 document.addEventListener("nav", () => {
-  const existing = document.querySelector('#comments') as HTMLElement | null
+  const existing = document.querySelector('#comments-widget') as HTMLElement | null
   if (!existing) return
 
   // Replace the container with a fresh node to clear old state/listeners
