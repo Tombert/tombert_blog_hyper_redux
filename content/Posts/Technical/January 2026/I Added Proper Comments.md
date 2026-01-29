@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"I Added Proper Comments","created":"2026-01-27T00:21:44-04:00","modified":"2026-01-27T20:16:20.154-05:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"I Added Proper Comments","description":"How I added anonymous, nested comments to this Quartz/Obsidian blog using Cloudflare Workers (Rust+WASM) and Turnstile, with source code.","created":"2026-01-27T00:21:44-04:00","modified":"2026-01-29T01:16:55.882-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 

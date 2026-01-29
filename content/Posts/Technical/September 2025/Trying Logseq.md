@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-12T22:01:18.353-04:00","modified":"2025-09-16T18:01:41.646-04:00","cssclasses":""}
+{"publish":true,"description":"A trial of Logseq as an open‑source Obsidian alternative—block‑based model, CSS tweaks, plugin gaps, performance issues—and why I returned to Obsidian.","created":"2025-09-12T22:01:18.353-04:00","modified":"2026-01-29T01:17:08.685-05:00","cssclasses":""}
 ---
 
 As I've mentioned in [[Posts/Technical/September 2025/Transitioning to Obsidian For This Blog\|in my previous post]], I am a huge fan of the [Obsidian](https://obsidian.md) note software.  I don't need to reiterate all the points here, but suffice to say that Obsidian works well for what I need it for. 

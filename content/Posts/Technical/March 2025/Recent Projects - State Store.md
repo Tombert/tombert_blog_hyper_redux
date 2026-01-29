@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Recent Projects: State Store, Part 1","created":"2025-03-02T03:21:44-04:00","modified":"2025-09-09T20:10:05.840-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Recent Projects: State Store, Part 1","description":"Designing a Kafka Streams state store on PostgreSQL: queue‑based async puts, batching, and a cache to amortize network latency versus RocksDB.","created":"2025-03-02T03:21:44-04:00","modified":"2026-01-29T01:17:27.833-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -212,7 +212,6 @@ This nice thing about this is that we can amortize the latency; going to and fro
 Of course, this is just half of the problem.  `put`s are simple to make asynchronous; they don't have a return value, so the calling thread doesn't strictly *have* to wait most of the time. 
 
 That's honestly the more interesting problem, but it would require another post about this same length, and so next time, we will discuss how we implement `get`s.
-
 
 
 

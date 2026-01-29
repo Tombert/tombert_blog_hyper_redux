@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"eGPUs on NixOS","created":"2025-03-09T02:21:44-04:00","modified":"2025-10-20T22:57:11.292-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"eGPUs on NixOS","description":"Getting an Nvidia eGPU working on NixOS: Thunderbolt authorization, kernel/module setup, and fixing Gamescope glitches with the latest beta driver.","created":"2025-03-09T02:21:44-04:00","modified":"2026-01-29T01:17:15.342-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 

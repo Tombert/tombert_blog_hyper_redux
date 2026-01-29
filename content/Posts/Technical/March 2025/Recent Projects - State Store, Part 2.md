@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Recent Projects: State Store, Part 2","created":"2025-03-03T03:21:44-04:00","modified":"2025-09-09T20:10:17.881-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Recent Projects: State Store, Part 2","description":"Implementing get logic for the PostgreSQL state store using CompletableFutures, batched WHERE IN queries, and a cache to reduce per‑item latency.","created":"2025-03-03T03:21:44-04:00","modified":"2026-01-29T01:17:29.988-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -121,6 +121,5 @@ This, again, lets us amortize our results considerably.  Indexed queries in Post
 This seems like a good enough stopping point for now. There's plenty more to talk about, and I will soon enough. 
 
 Next time we'll look into some extra trickery to even further reduce our strain on SQL. 
-
 
 

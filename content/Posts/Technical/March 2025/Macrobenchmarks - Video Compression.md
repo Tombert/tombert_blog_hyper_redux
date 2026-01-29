@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Macrobenchmarks: Video Compression","created":"2025-03-13T09:21:44-04:00","modified":"2025-09-09T20:08:55.491-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Macrobenchmarks: Video Compression","description":"Comparing H.264, H.265, and AV1 in ffmpeg on a 20‑minute clip—encode times and sizes—AV1 (SVT‑AV1) was fastest and smallest with similar quality.","created":"2025-03-13T09:21:44-04:00","modified":"2026-01-29T01:17:00.689-05:00","tags":["technical"],"cssclasses":""}
 ---
 
 
