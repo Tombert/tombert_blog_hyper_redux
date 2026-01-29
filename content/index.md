@@ -1,7 +1,6 @@
 ---
-{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-01-28T01:59:06.697-05:00","cssclasses":""}
+{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-01-28T20:49:00.573-05:00","cssclasses":""}
 ---
-
 
 
 Ramblings from a software person.
@@ -34,6 +33,7 @@ Ramblings from a software person.
 
 # Personal 
 
+- [[Posts/Personal/January 2026/Vibe Coding, the Future, and Virtual Interns\|Vibe Coding, the Future, and Virtual Interns]]: 2026-01-28
 - [[Posts/Personal/January 2026/What is a Disorder?\|What is a Disorder?]]: 2026-01-28
 - [[Posts/Personal/October 2025/Starting Another Masters\|Starting Another Masters]]: 2025-10-20
 - [[Posts/Personal/September 2025/Things are Going Better\|Things are Going Better]]: 2025-09-11
