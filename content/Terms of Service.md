@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2026-01-29T17:03:05.898-05:00","modified":"2026-01-29T18:06:23.118-05:00","cssclasses":""}
+{"publish":true,"created":"2026-01-29T17:03:05.898-05:00","modified":"2026-01-29T18:07:39.480-05:00","cssclasses":""}
 ---
 
 
@@ -86,7 +86,7 @@ Comment data is used to:
 
 Where GDPR/UK GDPR applies, comment data is processed on the basis of **legitimate interests**: running a comment feature and keeping the Site safe and usable.
 
-5) Where data is stored and processed
+## 5) Where data is stored and processed
 
 The Site is hosted using Cloudflare Pages and Cloudflare Workers, and comment data is stored in Cloudflare D1 (SQLite).
 
