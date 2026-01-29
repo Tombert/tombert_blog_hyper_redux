@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2026-01-29T17:03:05.898-05:00","modified":"2026-01-29T18:07:39.480-05:00","cssclasses":""}
+{"publish":true,"created":"2026-01-29T17:03:05.898-05:00","modified":"2026-01-29T18:11:00.548-05:00","cssclasses":""}
 ---
-
 
 
 # Comments
@@ -10,18 +9,15 @@
 
 ## 1) What this covers
 
-These terms apply to comments posted on  Tombert's Blog. By submitting a comment, you agree to these terms.
+These terms apply to comments posted on Tombert's Blog. By submitting a comment, you agree to these terms.
 
 ## 2) What you submit (and what you should _not_ submit)
 
 When you post a comment, you may provide:
 
 - A display name (which can be a pseudonym),
-    
 - The date/time of posting,
-    
 - The comment text.
-    
 
 **Please do not post personal information you don’t want made public** (e.g., phone numbers, addresses, private emails) and don’t post anyone else’s personal data without their permission.
 
@@ -61,11 +57,8 @@ This Privacy Notice explains how **Tombert’s Blog** (“the Site”) handles p
 When you submit a comment, the Site stores **only**:
 
 - **Display name** (may be a pseudonym)
-    
 - **Comment text**
-    
 - **Timestamp** (date/time the comment was published)
-    
 
 No email address is required for commenting, and the comment system does not store email addresses.
 
@@ -74,76 +67,57 @@ No email address is required for commenting, and the comment system does not sto
 Comment data is used to:
 
 - **Publish and display** comments on the Site
-    
 - **Maintain discussions** (thread context, archives)
-    
 - **Moderate** comments and prevent spam/abuse
-    
 - **Operate and troubleshoot** the comment feature (e.g., backups, migrations, bug fixes)
-    
 
 ## 4) Legal basis (GDPR/UK GDPR, where applicable)
 
 Where GDPR/UK GDPR applies, comment data is processed on the basis of **legitimate interests**: running a comment feature and keeping the Site safe and usable.
 
+**Legitimate interests pursued:** operating a public comment feature, preserving discussion context, and protecting the Site from spam and abuse.
+
 ## 5) Where data is stored and processed
 
-The Site is hosted using Cloudflare Pages and Cloudflare Workers, and comment data is stored in Cloudflare D1 (SQLite).
+The Site is hosted using **Cloudflare Pages** and **Cloudflare Workers**, and comment data is stored in **Cloudflare D1** (SQLite).
 
 Cloudflare is a US-based provider, and Cloudflare may process data in the United States and other countries as part of providing these services.
 
-International transfers: Where GDPR/UK GDPR applies, Cloudflare provides a Customer Data Processing Addendum (DPA) and Standard Contractual Clauses (SCCs) intended to provide appropriate safeguards for international transfers where required. See:
+**International transfers:** Where GDPR/UK GDPR applies, Cloudflare provides a Customer Data Processing Addendum (DPA) and Standard Contractual Clauses (SCCs) intended to provide appropriate safeguards for international transfers where required. See:
 
 - [Cloudflare Customer DPA](https://www.cloudflare.com/cloudflare-customer-dpa/)
-
 - [Cloudflare Customer SCCs](https://www.cloudflare.com/cloudflare-customer-scc/)
-
 - [Cloudflare GDPR resources](https://www.cloudflare.com/trust-hub/gdpr/)
-
 
 ## 6) Retention
 
 Comments are retained **indefinitely (potentially forever)** to preserve the continuity and integrity of public discussions, unless:
 
 - a comment is removed through moderation, or
-    
 - a valid removal request is processed as described below.
-    
 
 ## 7) Sharing and disclosure
 
 - Comments are **public** by design: anything you post may be visible to visitors.
-    
-- Comment data is shared with service providers only as needed to run the Site (for example, hosting/infrastructure vendors).
-    
+- Comment data is shared with service providers only as needed to run the Site (for example, **Cloudflare** for hosting/infrastructure and anti-abuse services).
 - The Site does **not** sell comment data.
-    
 
 ## 8) Your choices
 
 - Use a **pseudonym** if you prefer not to post under your real name.
-    
 - Do **not** include sensitive or identifying personal information in a comment unless you want it to be public.
-    
 - Do not post someone else’s personal data without their permission.
-    
 
 ## 9) Your rights (GDPR/UK GDPR, where applicable)
 
 Depending on your location and the circumstances, you may have rights to:
 
 - **Access** the personal data the Site holds about you
-    
 - **Correction**
-    
 - **Deletion** (erasure) in certain cases
-    
 - **Restriction** of processing in certain cases
-    
 - **Objection** to processing based on legitimate interests
-    
 - **Complaint** to your local data protection authority
-    
 
 Some rights are not absolute, and requests may be limited by legal exceptions and competing rights/interests (including preserving discussion context).
 
@@ -154,13 +128,9 @@ Because the comment system does **not** require accounts or email addresses and 
 If you want a comment removed or want to exercise data rights, contact [[Contact]] and include:
 
 1. the **URL** of the post,
-    
 2. the **display name** used,
-    
 3. the **approximate date/time** shown on the comment, and
-    
 4. the **exact comment text** (or a short excerpt) so the comment can be located reliably.
-    
 
 **Verification approach:** Tombert will take **reasonable steps** to confirm the request is legitimate and to avoid deleting or disclosing someone else’s information. If there are **reasonable doubts** about identity or which comment is being referenced, Tombert may request additional details necessary to locate the correct comment, or may be unable to act on the request.
 
@@ -176,14 +146,14 @@ Cloudflare explains that Turnstile’s signals are processed **to detect and blo
 
 For Cloudflare’s own disclosures about Turnstile (including any cookie-related details) and how Cloudflare handles this processing, review:
 
-- **[Cloudflare Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/)**
-    
-- **[Cloudflare Self-Serve Subscription Agreement / Terms](https://www.cloudflare.com/terms/?utm_source=chatgpt.com)**
-    
+- [Cloudflare Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/)
+- [Cloudflare Self-Serve Subscription Agreement / Terms](https://www.cloudflare.com/terms/)
+
+Tombert’s Blog does not store Turnstile signal data (such as IP address) as part of the comment record; Turnstile processing is performed by Cloudflare as part of providing the anti-abuse service.
 
 ## 12) Children
 
-The Site’s comment feature is not intended for anyone under 18. If you believe a person under 18 has posted personal data, please [[Contact]] the administrators of the website.
+The Site’s comment feature is not intended for anyone under 18. If you believe someone under 18 has posted personal data, please contact [[Contact]].
 
 ## 13) Changes to this notice
 
