@@ -30,10 +30,10 @@ export default ((opts: WorkerCommentsOptions) => {
         <link rel="stylesheet" href="/static/css/comments.css" />
         <div id="comments-widget" data-thread={thread} data-api={opts.api} data-turnstile-site-key={opts.siteKey}></div>
         <p class="comment-consent">
-          By submitting a comment you agree to the
+          By submitting a comment you confirm you are 18+ and agree to the
           {" "}
           <a href={tosHref} class="internal">Terms of Service</a> 
-	  and 
+            and 
 	  <a href={ppHref} class="internal">Privacy Policy</a>.
         </p>
         <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
