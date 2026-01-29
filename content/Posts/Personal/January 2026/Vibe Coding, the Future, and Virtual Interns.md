@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Vibe Coding, the Future, and Virtual Interns","created":"2026-01-28T09:22:44-04:00","modified":"2026-01-28T20:48:53.055-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Vibe Coding, the Future, and Virtual Interns","created":"2026-01-28T09:22:44-04:00","modified":"2026-01-28T20:52:13.155-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 
@@ -13,7 +13,7 @@ Codex wrote the code, it modified the Quartz template, it even ran the deploymen
 
 ![[Attachments/Pasted image 20260128194255.png]]
 
-On the one hand, this is cool as fuck.  Like, objectively so.  To get something close to parity to what I have now, it would have likely taken me around five or six hours (in total) was in a working state in about forty-five minutes is insanely cool. 
+On the one hand, this is cool as fuck.  Like, objectively so.  To get something close to parity to what I have now, it would have likely taken me around five or six hours (in total). The Codex-generated one was in a working state in about forty-five minutes. It is insanely cool. 
 
 I did have to rewrite a good chunk of the code since it started doing a lot of extra calls to SQL that weren't necessary, and I ended up having to rewrite some of the notifications, but even after that the total effort was less than two hours.  
 
