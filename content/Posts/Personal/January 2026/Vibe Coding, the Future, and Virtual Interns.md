@@ -1,11 +1,11 @@
 ---
-{"publish":true,"title":"Vibe Coding, the Future, and Virtual Interns","created":"2026-01-28T09:22:44-04:00","modified":"2026-01-28T20:52:13.155-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Vibe Coding, the Future, and Virtual Interns","created":"2026-01-28T09:22:44-04:00","modified":"2026-01-28T21:44:26.706-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 
 
 
-So yesterday I [[Personal/Projects/Finished/Add Comments to Blog\|wrote a post about adding comments to this blog]]. The TL;DR of the post comes down to "I hacked together a basic comment section using CloudFlare Workers"
+So yesterday  [[Posts/Technical/January 2026/I Added Proper Comments\|I wrote a post about adding comments to this blog]] . The TL;DR of the post comes down to "I hacked together a basic comment section using CloudFlare Workers"
 
 Though of course, it might be a bit of a lie to say "I" hacked it together though, at least at the time of writing it.  It's my blog, and I have the code, but unsurprisingly in 2026, I used a ["vibe coding"](https://openai.com/codex/) tool to write it.  
 
