@@ -3,7 +3,7 @@
 ---
 
 
-Referenced in: [[Posts/Technical/March 2025/Overengineering the Swaybar]]
+Referenced in: [[Posts/Technical/2025/03 March/Overengineering the Swaybar]]
 
 - I wanted to have a customizable information bar for my Sway config. 
 - It needed to be modular and allow for asynchronous events so that events wouldn't block each other. 
