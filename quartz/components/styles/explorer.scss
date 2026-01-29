@@ -120,10 +120,22 @@ button.desktop-explorer {
     padding: 0;
     overscroll-behavior: contain;
 
+    // Add vertical breathing room between entries so wrapped lines
+    // don’t visually merge with the next item
+    & > li {
+      margin: 0.25rem 0;
+    }
+
+    // Ensure sentinel element used for gradient/overflow doesn’t add extra space
+    & > li.overflow-end {
+      margin: 0;
+    }
+
     & li > a {
       color: var(--dark);
       opacity: 0.75;
       pointer-events: all;
+      display: block; // make full-row clickable and improve separation
 
       &.active {
         opacity: 1;
@@ -147,6 +159,7 @@ button.desktop-explorer {
     margin-left: 6px;
     padding-left: 0.8rem;
     border-left: 1px solid var(--lightgray);
+    margin-top: 0.2rem; // add a touch of space after folder title
   }
 }
 
