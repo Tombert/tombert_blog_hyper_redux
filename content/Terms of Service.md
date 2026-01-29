@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2026-01-29T17:03:05.898-05:00","modified":"2026-01-29T17:37:05.718-05:00","cssclasses":""}
+{"publish":true,"created":"2026-01-29T17:03:05.898-05:00","modified":"2026-01-29T17:51:38.042-05:00","cssclasses":""}
 ---
 
 
@@ -40,7 +40,7 @@ Tombert does not guarantee that comments will be published, retained, or remain 
 
 ## 6) Age requirement (18+)
 
-You must be **at least 18 years old** to submit a comment on Tombert’s Blog. By posting a comment, you represent and warrant that you are 18 or older. If Tombert reasonably believes a comment was submitted by someone under 18, Tombert may remove the comment and may restrict or block further commenting at any time, with or without notice
+You must be **at least 18 years old** to submit a comment on Tombert’s Blog. By posting a comment, you represent and warrant that you are 18 or older. If Tombert reasonably believes a comment was submitted by someone under 18, Tombert may remove the comment and may restrict or block further commenting at any time, with or without notice.
 
 ## 7) Contact
 
@@ -166,14 +166,14 @@ Cloudflare explains that Turnstile’s signals are processed **to detect and blo
 
 For Cloudflare’s own disclosures about Turnstile (including any cookie-related details) and how Cloudflare handles this processing, review:
 
-- **Cloudflare Turnstile Privacy Addendum**
+- **[Cloudflare Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/)**
     
-- **Cloudflare Self-Serve Subscription Agreement / Terms**
+- **[Cloudflare Self-Serve Subscription Agreement / Terms](https://www.cloudflare.com/terms/?utm_source=chatgpt.com)**
     
 
 ## 12) Children
 
-The Site’s comment feature is not intended for children. If you believe a child has posted personal data, please contact [[Contact]].
+The Site’s comment feature is not intended for children, with "child" being defined as an individual under the age of 18. If you believe a child has posted personal data, please contact [[Contact]].
 
 ## 13) Changes to this notice
 
