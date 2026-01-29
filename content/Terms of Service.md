@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2026-01-29T17:03:05.898-05:00","modified":"2026-01-29T18:01:19.694-05:00","cssclasses":""}
+{"publish":true,"created":"2026-01-29T17:03:05.898-05:00","modified":"2026-01-29T18:05:01.574-05:00","cssclasses":""}
 ---
 
 
@@ -87,9 +87,20 @@ Comment data is used to:
 
 Where GDPR/UK GDPR applies, comment data is processed on the basis of **legitimate interests**: running a comment feature and keeping the Site safe and usable.
 
-## 5) Where data is stored and processed
+5) Where data is stored and processed
 
-The Site is hosted in the **United States** using **Cloudflare Pages**.
+The Site is hosted using Cloudflare Pages and Cloudflare Workers, and comment data is stored in Cloudflare D1 (SQLite).
+
+Cloudflare is a US-based provider, and Cloudflare may process data in the United States and other countries as part of providing these services.
+
+International transfers: Where GDPR/UK GDPR applies, Cloudflare provides a Customer Data Processing Addendum (DPA) and Standard Contractual Clauses (SCCs) intended to provide appropriate safeguards for international transfers where required. See:
+
+- [Cloudflare Customer DPA](https://www.cloudflare.com/cloudflare-customer-dpa/)
+
+- [Cloudflare Customer SCCs](https://www.cloudflare.com/cloudflare-customer-scc/)
+
+- [Cloudflare GDPR resources](https://www.cloudflare.com/trust-hub/gdpr/)
+
 
 ## 6) Retention
 
