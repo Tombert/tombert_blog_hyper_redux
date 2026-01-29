@@ -21,6 +21,10 @@ export default ((opts: WorkerCommentsOptions) => {
       strategy: "absolute",
       allSlugs: [],
     })
+    const ppHref = transformLink(fileData.slug!, "Privacy Policy", {
+      strategy: "absolute",
+      allSlugs: [],
+    })
     return (
       <>
         <link rel="stylesheet" href="/static/css/comments.css" />
@@ -28,7 +32,9 @@ export default ((opts: WorkerCommentsOptions) => {
         <p class="comment-consent">
           By submitting a comment you agree to the
           {" "}
-          <a href={tosHref} class="internal">Terms of Service and Privacy Policy</a>.
+          <a href={tosHref} class="internal">Terms of Service</a> 
+	  and 
+	  <a href={ppHref} class="internal">Privacy Policy</a>.
         </p>
         <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
         <script src="/static/js/comments-widget.js" defer></script>
