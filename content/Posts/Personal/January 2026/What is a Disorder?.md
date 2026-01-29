@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"What is a Disorder?","created":"2026-01-28T09:21:44-04:00","modified":"2026-01-28T01:58:57.682-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"What is a Disorder?","description":"A personal reflection on how definitions of disorder are shaped by society, using ADHD and evolution to question what counts as abnormal.","created":"2026-01-28T09:21:44-04:00","modified":"2026-01-29T01:10:43.385-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 
@@ -66,7 +66,6 @@ If climate change dries up the ocean, do we act like the dead fish is a moral fa
 The world is unfair, and some asshole writing a blog post can't change it.  
 
 It's just important to remember that you're not "broken" just because you don't conform to some sociopathic dipshit's clusterfuck of the world. 
-
 
 
 

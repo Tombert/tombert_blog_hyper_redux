@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"I am a Master!","created":"2025-08-19T09:21:44-04:00","modified":"2025-09-09T17:10:10.456-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"I am a Master!","description":"A milestone note on completing a Computer Science master's after returning to school via WGU.","created":"2025-08-19T09:21:44-04:00","modified":"2026-01-29T01:10:50.541-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 

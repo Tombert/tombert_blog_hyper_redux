@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Storytime: Deli","created":"2025-03-12T02:21:44-04:00","modified":"2025-09-09T17:08:24.473-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Storytime: Deli","description":"A short anecdote about visiting a deli that turned out to be a drug front and receiving a very wrong corned-beef sandwich.","created":"2025-03-12T02:21:44-04:00","modified":"2026-01-29T01:10:47.138-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 

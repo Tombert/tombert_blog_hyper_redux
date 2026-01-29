@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Vibe Coding, the Future, and Virtual Interns","created":"2026-01-28T09:22:44-04:00","modified":"2026-01-28T21:44:26.706-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Vibe Coding, the Future, and Virtual Interns","description":"Reflecting on building a comments system with AI assistance, the speed and tradeoffs, and how coding may shift toward managing virtual interns.","created":"2026-01-28T09:22:44-04:00","modified":"2026-01-29T01:10:40.178-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 
@@ -52,7 +52,6 @@ Still, I'd be lying if I said that I didn't feel like something is lost.  Progra
 I dunno.  I can't *not* vibe code now.  I know too much, I can't pretend that these tools aren't useful. I guess it just feels like the end of an era. 
 
 Endings are often "sad", but they're not always "bad".  At least that's what I tell myself. 
-
 
 
 
