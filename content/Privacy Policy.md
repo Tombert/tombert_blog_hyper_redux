@@ -1,9 +1,7 @@
 ---
-{"publish":true,"created":"2026-01-29T18:15:52.420-05:00","modified":"2026-01-29T18:16:27.800-05:00","cssclasses":""}
+{"publish":true,"created":"2026-01-29T18:15:52.420-05:00","modified":"2026-01-29T18:19:20.669-05:00","cssclasses":""}
 ---
 
-
-# Privacy Policy (Tombert’s Blog)
 
 **Effective date:** 2026-01-29
 
