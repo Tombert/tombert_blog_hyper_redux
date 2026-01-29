@@ -120,15 +120,23 @@ button.desktop-explorer {
     padding: 0;
     overscroll-behavior: contain;
 
-    // Add vertical breathing room between entries so wrapped lines
-    // don’t visually merge with the next item
+    // Add vertical breathing room and a subtle separator between entries
     & > li {
-      margin: 0.25rem 0;
+      margin: 0.4rem 0; // a bit more space
+      padding-top: 0.1rem;
+      border-top: 1px solid color-mix(in srgb, var(--lightgray) 70%, transparent);
     }
 
-    // Ensure sentinel element used for gradient/overflow doesn’t add extra space
+    // No top border on the first entry in a list
+    & > li:first-child {
+      border-top: none;
+    }
+
+    // Ensure sentinel element used for gradient/overflow doesn’t add extra space or a divider
     & > li.overflow-end {
       margin: 0;
+      padding-top: 0;
+      border-top: none;
     }
 
     & li > a {
