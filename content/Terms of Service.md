@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2026-01-29T17:03:05.898-05:00","modified":"2026-01-29T17:51:38.042-05:00","cssclasses":""}
+{"publish":true,"created":"2026-01-29T17:03:05.898-05:00","modified":"2026-01-29T18:01:19.694-05:00","cssclasses":""}
 ---
 
 
@@ -173,7 +173,7 @@ For Cloudflare’s own disclosures about Turnstile (including any cookie-related
 
 ## 12) Children
 
-The Site’s comment feature is not intended for children, with "child" being defined as an individual under the age of 18. If you believe a child has posted personal data, please contact [[Contact]].
+The Site’s comment feature is not intended for anyone under 18. If you believe a person under 18 has posted personal data, please [[Contact]] the administrators of the website.
 
 ## 13) Changes to this notice
 
