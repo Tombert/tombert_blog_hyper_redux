@@ -37,6 +37,13 @@
   line-height: 1.45;
 }
 
+/* Tripcode styling: subtle gray, slightly bold, small spacing */
+#comments-widget .trip {
+  color: var(--gray);
+  font-weight: 600;
+  margin-left: 4px;
+}
+
 #comments-widget .reply-btn {
   margin-top: 0.35rem;
   font-size: 0.85rem;
