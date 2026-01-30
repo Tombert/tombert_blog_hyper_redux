@@ -1,6 +1,8 @@
 ---
-{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-01-29T19:58:34.765-05:00","cssclasses":""}
+{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-01-29T20:07:56.848-05:00","cssclasses":""}
 ---
+
+
 
 
 Ramblings from a software person.
