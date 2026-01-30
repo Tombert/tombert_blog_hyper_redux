@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Curse of Guilt and the Inability to Do Anything","description":"A personal reflection on guilt, responsibility, and control, feeling accountable for what I can't change and how a 'do the right thing' mantra blurs duty into helplessness.","created":"2026-01-29T09:22:44-04:00","modified":"2026-01-29T20:00:34.874-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"The Curse of Guilt and the Inability to Do Anything","description":"A personal reflection on guilt, responsibility, and control, feeling accountable for what I can't change and how a 'do the right thing' mantra blurs duty into helplessness.","created":"2026-01-29T09:22:44-04:00","modified":"2026-01-29T20:05:10.028-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 
@@ -28,7 +28,7 @@ So when I say I feel guilty over things that I have no control over, it's the sa
 
 # Cowardice 
 
-I try and have a very strong sense of "right" and "wrong".  Everyone says that they have that, and I don't know that I'm better than anyone else, but I do pout a lot of thought into trying to figure out the "right" thing, whatever that is, and more importantly I have a policy now of "don't let being a coward stop you from doing the right thing. 
+I try and have a very strong sense of "right" and "wrong".  Everyone says that they have that, and I don't know that I'm better than anyone else, but I do put a lot of thought into trying to figure out the "right" thing, whatever that is, and more importantly I have a policy now of "don't let being a coward stop you from doing the right thing. 
 
 I'm not perfect at following it, but it's the closest thing I have to a religious axiom at this point.  History is filled with cowards who are almost as culpable as the monsters we all hear about.  I am sure there were plenty of Nazis who didn't like the idea of murdering millions of Jews, but they were too afraid to do anything or say anything about it. The police officers at [Uvalde](https://en.wikipedia.org/wiki/Uvalde_school_shooting) probably didn't love the idea of children being shot, but they were too big of cowards to try and stop it. There were almost certainly American soldiers who didn't want to execute Native Americans but were "just following orders".  
 
