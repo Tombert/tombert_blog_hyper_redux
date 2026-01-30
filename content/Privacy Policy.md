@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2026-01-29T18:15:52.420-05:00","modified":"2026-01-29T18:19:20.669-05:00","cssclasses":""}
+{"publish":true,"created":"2026-01-29T18:15:52.420-05:00","modified":"2026-01-29T19:18:12.900-05:00","cssclasses":""}
 ---
 
 
@@ -19,6 +19,14 @@ When you submit a comment, the Site stores **only**:
 - **Display name** (may be a pseudonym)
 - **Comment text**
 - **Timestamp** (date/time the comment was published)
+- **Tripcode** (a derived pseudonymous identifier, if you choose to use it)
+
+If you provide a trip secret, the Site generates a tripcode from it. The trip secret itself is **not stored**. 
+
+**Do not use a real password as a trip secret.**
+
+**Tripcodes are pseudonymous identifiers and are not verified identity.**
+
 
 No email address is required for commenting, and the comment system does not store email addresses.
 
@@ -30,7 +38,8 @@ Comment data is used to:
 - **Maintain discussions** (thread context, archives)
 - **Moderate** comments and prevent spam/abuse
 - **Operate and troubleshoot** the comment feature (e.g., backups, migrations, bug fixes)
-
+- **Provide a consistent pseudonymous identifier** for commenters who choose to use tripcodes
+ 
 ## 4) Legal basis (GDPR/UK GDPR, where applicable)
 
 Where GDPR/UK GDPR applies, comment data is processed on the basis of **legitimate interests**: running a comment feature and keeping the Site safe and usable.
@@ -87,10 +96,10 @@ Because the comment system does **not** require accounts or email addresses and 
 
 If you want a comment removed or want to exercise data rights, contact [[Contact]] and include:
 
-1. the **URL** of the post,
-2. the **display name** used,
-3. the **approximate date/time** shown on the comment, and
-4. the **exact comment text** (or a short excerpt) so the comment can be located reliably.
+1. the **URL** of the post.
+2. the **display name** used.
+3. the **exact comment text** (or a short excerpt) so the comment can be located reliably.
+4. the tripcode (if applicable). 
 
 **Verification approach:** Tombert will take **reasonable steps** to confirm the request is legitimate and to avoid deleting or disclosing someone else’s information. If there are **reasonable doubts** about identity or which comment is being referenced, Tombert may request additional details necessary to locate the correct comment, or may be unable to act on the request.
 
