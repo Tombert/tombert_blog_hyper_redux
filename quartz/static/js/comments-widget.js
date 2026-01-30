@@ -24,9 +24,10 @@
     const childHtml = c.children.map(renderComment).join("");
     const authorAttr = escapeHTML(c.author_name);
     const cls = c.depth === 0 ? 'cmt root' : 'cmt reply';
+    const trip = c.tripcode ? `<span class=\"trip\">!!${escapeHTML(c.tripcode)}</span>` : '';
     return `
       <div class="${cls}" data-id="${c.id}" data-depth="${c.depth}" data-author="${authorAttr}" style="margin-left:${c.depth * 16}px">
-        <div class="meta"><strong>${escapeHTML(c.author_name)}</strong> • ${new Date(c.created_at).toLocaleString()}</div>
+        <div class="meta"><strong>${escapeHTML(c.author_name)}</strong> ${trip} • ${new Date(c.created_at).toLocaleString()}</div>
         <div class="body">${escapeHTML(c.content)}</div>
         <button class="reply-btn" data-id="${c.id}">Reply</button>
         ${childHtml}
@@ -60,6 +61,7 @@
         <h4>Leave a comment</h4>
         <form id="comment-form">
           <input type="text" name="author_name" placeholder="Your name" maxlength="80" required />
+          <input type="password" name="trip" placeholder="Trip password (optional)" />
           
           <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
           <textarea name="content" rows="4" maxlength="2000" placeholder="Be nice. This is a public comment.  Do not share any information that you do not want to be publicly available." required></textarea>
@@ -105,6 +107,7 @@
             <input type="hidden" name="parent_id" value="${btn.dataset.id}" />
             <input type="hidden" name="turnstile_token" />
             <input type="text" name="author_name" placeholder="Your name" maxlength="80" required style="display:block;margin:4px 0;" />
+            <input type="password" name="trip" placeholder="Trip password (optional)" style="display:block;margin:4px 0;" />
             
             <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
             <textarea name="content" rows="3" maxlength="2000" placeholder="Reply..." required style="display:block;margin:4px 0;"></textarea>
@@ -136,6 +139,7 @@
           thread: cfg.thread,
           parent_id: payload.parent_id || null,
           author_name: (payload.author_name || '').toString(),
+          trip: payload.trip ? payload.trip.toString() : null,
           content: (payload.content || '').toString(),
           website: payload.website ? payload.website.toString() : '',
           turnstile_token: payload.turnstile_token ? payload.turnstile_token.toString() : '',
@@ -201,6 +205,7 @@
         thread,
         parent_id: payload.parent_id || null,
         author_name: (payload.author_name || '').toString(),
+        trip: payload.trip ? payload.trip.toString() : null,
         content: (payload.content || '').toString(),
         website: payload.website ? payload.website.toString() : '',
         turnstile_token: payload.turnstile_token ? payload.turnstile_token.toString() : '',
