@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-01-28T20:49:00.573-05:00","cssclasses":""}
+{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-01-29T19:58:34.765-05:00","cssclasses":""}
 ---
 
 
@@ -31,8 +31,10 @@ Ramblings from a software person.
 
 
 
+
 # Personal 
 
+- [[Posts/Personal/2026/01 January/The Curse of Guilt and the Inability to Do Anything\|The Curse of Guilt and the Inability to Do Anything]]: 2026-01-29
 - [[Posts/Personal/2026/01 January/Vibe Coding, the Future, and Virtual Interns\|Vibe Coding, the Future, and Virtual Interns]]: 2026-01-28
 - [[Posts/Personal/2026/01 January/What is a Disorder?\|What is a Disorder?]]: 2026-01-28
 - [[Posts/Personal/2025/10 October/Starting Another Masters\|Starting Another Masters]]: 2025-10-20
