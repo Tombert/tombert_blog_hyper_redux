@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Curse of Guilt and the Inability to Do Anything","description":"A personal reflection on guilt, responsibility, and control, feeling accountable for what I can't change and how a 'do the right thing' mantra blurs duty into helplessness.","created":"2026-01-29T06:22:44-04:00","modified":"2026-01-29T20:18:09.498-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"The Curse of Guilt and the Inability to Do Anything","description":"A personal reflection on guilt, responsibility, and control, feeling accountable for what I can't change and how a 'do the right thing' mantra blurs duty into helplessness.","created":"2026-01-29T06:22:44-04:00","modified":"2026-01-29T20:40:35.769-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 
@@ -28,9 +28,9 @@ So when I say I feel guilty over things that I have no control over, it's the sa
 
 # Cowardice 
 
-I try and have a very strong sense of "right" and "wrong".  Everyone says that they have that, and I don't know that I'm better than anyone else, but I do put a lot of thought into trying to figure out the "right" thing, whatever that is, and more importantly I have a policy now of "don't let being a coward stop you from doing the right thing. 
+I try to have a very strong sense of "right" and "wrong".  Everyone says that they have that, and I don't know that I'm better than anyone else, but I do put a lot of thought into trying to figure out the "right" thing, whatever that is, and more importantly I have a policy now of "don't let being a coward stop you from doing the right thing". 
 
-I'm not perfect at following it, but it's the closest thing I have to a religious axiom at this point.  History is filled with cowards who are almost as culpable as the monsters we all hear about.  I am sure there were plenty of Nazis who didn't like the idea of murdering millions of Jews, but they were too afraid to do anything or say anything about it. The police officers at [Uvalde](https://en.wikipedia.org/wiki/Uvalde_school_shooting) probably didn't love the idea of children being shot, but they were too big of cowards to try and stop it. There were almost certainly American soldiers who didn't want to execute Native Americans but were "just following orders".  
+I'm not perfect at following it, but it's the closest thing I have to a religious axiom at this point.  History is filled with cowards who are almost as culpable as the monsters we all hear about.  I am sure there were plenty of Nazis who didn't like the idea of murdering millions of Jews, but they were too afraid to do anything or say anything about it. The police officers at [Uvalde](https://en.wikipedia.org/wiki/Uvalde_school_shooting) probably didn't love the idea of children being shot, but they were too big of cowards to try to stop it. There were almost certainly American soldiers who didn't want to execute Native Americans but were "just following orders".  
 
 In 2021, [[Posts/Personal/2023/07 July/Guilt and Frustration\| after Lowtax killed himself]], I made a promise to myself that I would never let myself fall into that camp, and even at an expense to myself I will not be a coward and I will do the right thing. It's been tested a few times, most of the time I pass, sometimes I don't, but it's how I've decided to live my life. 
 
@@ -42,13 +42,15 @@ Sometimes I wish I could help everyone.  I wish I had billionaire money that I c
 
 I'm a reasonably intelligent person, or at least that's what I tell myself.  I guess a part of me feels, however irrational and stupid, that a smart and generous person should be able to save the world. I should be able to donate money or volunteer or teach some kid algebra or *something* to improve everyone's life. 
 
-Increasingly, though, I have started to fear that I can't help *anyone*.  Sometimes it feels like every time I try and help someone, it backfires and enables something worse to happen. 
+Increasingly, though, I have started to fear that I can't help *anyone*.  Sometimes it feels like every time I try to help someone, it backfires and enables something worse to happen. 
 
 I know that's probably not actually true, but it can certainly make you feel like a plague on society.  
 
 
 --------
 
-These thoughts have come to me after a bit of family drama.  This family lives far away from me, and I have no means in which to do anything to help them, but I feel like I should.  
+These thoughts have come to me after a bit of family drama.  This family lives far away from me, and I have no means by which to do anything to help them, but I feel like I should. 
+
+My family is in a situation where they don't want to be and can't be helped by anything I can do. I reach out, I make my offers, I try to negotiate, and nothing helps.  I tell myself that you can't help people who won't help themselves, but that feels like a cop-out. 
 
 Maybe I just have a savior complex. 
