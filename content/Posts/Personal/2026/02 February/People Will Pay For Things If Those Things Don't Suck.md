@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"People Will Pay For Things If The Things Don't Suck","created":"2026-02-01T06:22:44-04:00","modified":"2026-02-01T22:31:25.881-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"People Will Pay For Things If Those Things Don't Suck","created":"2026-02-01T06:22:44-04:00","modified":"2026-02-02T11:28:04.228-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 
@@ -27,9 +27,9 @@ However, and anyone who has talked to me any significant amount of time will hea
 
 ------ 
 
-[Something Awful](https://forums.somethingawful.com/) is a website formed by [Richard "Lowtax" Kyanka](https://en.wikipedia.org/wiki/Richard_Kyanka) in 1999. It was initially just a website for Rich to showcase his comedic writing, but eventually a forum was built.  The forum in itself was not terribly special; it was a garden variety forum based on [VBulletin](https://en.wikipedia.org/wiki/VBulletin).   The two bits of genius, and I do mean that, is that Something Awful requires a one-time $10 fee to buy an account, and they were willing to low-quality posters.  You were allowed to buy a new account if you were banned, but that would cost another $10. 
+[Something Awful](https://forums.somethingawful.com/) is a website formed by [Richard "Lowtax" Kyanka](https://en.wikipedia.org/wiki/Richard_Kyanka) in 1999. It was initially just a website for Rich to showcase his comedic writing, but eventually a forum was built.  The forum in itself was not terribly special; it was a garden variety forum based on [VBulletin](https://en.wikipedia.org/wiki/VBulletin).   The two bits of genius, and I do mean that, is that Something Awful requires a one-time ten dollar fee to buy an account, and they were willing to low-quality posters.  You were allowed to buy a new account if you were banned, but that would cost another ten dollars. 
 
-This might seem insignificant, but I conjecture that there is a hidden brilliance to the fee. $10 is cheap enough to not be exclusionary towards anyone, but it *is* expensive enough to make frequent shitposting or botting prohibitively expensive. Posts were generally higher quality than other forums on the internet, primarily because it was literally too expensive to *not* be high quality. Also, importantly, it became a way to support the site. People paid $10 for an account, and that $10 could be applied to hosting and staff or any other expense required to run a website. 
+This might seem insignificant, but I conjecture that there is a hidden brilliance to the fee. Ten dollars is cheap enough to not be exclusionary towards anyone, but it *is* expensive enough to make frequent shitposting or botting prohibitively expensive. Posts were generally higher quality than other forums on the internet, primarily because it was literally too expensive to *not* be high quality. Also, importantly, it became a way to support the site. People paid ten dollars for an account, and that ten dollars could be applied to hosting and staff or any other expense required to run a website. 
 
 Something Awful was where a lot of early internet culture was born.  The famous [All Your Base Are Belong To Us](https://youtu.be/qItugh-fFgg) is probably one of the more notable examples, but there were tons, like [Web War One](https://youtu.be/oL4oK6ylNns), [Impact Font Memes](https://en.wikipedia.org/wiki/Image_macro), and [Over 9000](https://youtu.be/SiMHTK15Pik) were started on the forum. It's fair to say that, along with [Newgrounds](https://www.newgrounds.com/), without Something Awful, the internet would be a very different place. 
 
