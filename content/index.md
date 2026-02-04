@@ -1,7 +1,6 @@
 ---
-{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-02-01T22:32:46.392-05:00","cssclasses":""}
+{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-02-04T18:27:18.444-05:00","cssclasses":""}
 ---
-
 
 
 
@@ -37,6 +36,7 @@ Ramblings from a software person.
 
 # Personal 
 
+- [[Posts/Personal/2026/02 February/Either Prolific or Long-Winded\|Either Prolific or Long-Winded]]: 2026-02-04
 - [[Posts/Personal/2026/02 February/People Will Pay For Things If Those Things Don't Suck\|People Will Pay For Things If Those Things Don't Suck]]: 2026-02-01
 - [[Posts/Personal/2026/01 January/The Curse of Guilt and the Inability to Do Anything\|The Curse of Guilt and the Inability to Do Anything]]: 2026-01-29
 - [[Posts/Personal/2026/01 January/Vibe Coding, the Future, and Virtual Interns\|Vibe Coding, the Future, and Virtual Interns]]: 2026-01-28
