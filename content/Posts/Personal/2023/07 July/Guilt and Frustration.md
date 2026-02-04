@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Guilt and Frustration","description":"An essay about Something Awful, Rich Lowtax Kyanka, contacting Jonathan Wier, and processing guilt over not intervening, ending with a step toward self-forgiveness.","created":"2023-07-17T22:21:44-04:00","modified":"2026-01-29T01:10:48.880-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Guilt and Frustration","description":"An essay about Something Awful, Rich Lowtax Kyanka, contacting Jonathan Wier, and processing guilt over not intervening, ending with a step toward self-forgiveness.","created":"2023-07-17T22:21:44-04:00","modified":"2026-02-04T18:58:33.185-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 
