@@ -1,6 +1,7 @@
 ---
-{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-02-04T18:27:18.444-05:00","cssclasses":""}
+{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-02-28T00:02:22.610-05:00","cssclasses":""}
 ---
+
 
 
 
@@ -36,6 +37,7 @@ Ramblings from a software person.
 
 # Personal 
 
+- [[Posts/Personal/2026/02 February/MY NEW THEORY OF AI\|MY NEW THEORY OF AI]]: 2026-02-26
 - [[Posts/Personal/2026/02 February/Either Prolific or Long-Winded\|Either Prolific or Long-Winded]]: 2026-02-04
 - [[Posts/Personal/2026/02 February/People Will Pay For Things If Those Things Don't Suck\|People Will Pay For Things If Those Things Don't Suck]]: 2026-02-01
 - [[Posts/Personal/2026/01 January/The Curse of Guilt and the Inability to Do Anything\|The Curse of Guilt and the Inability to Do Anything]]: 2026-01-29

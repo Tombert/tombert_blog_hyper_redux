@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"MY NEW THEORY OF AI","created":"2026-02-27T06:22:44-04:00","modified":"2026-02-27T23:53:32.911-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"MY NEW THEORY OF AI","created":"2026-02-26T06:22:44-04:00","modified":"2026-02-28T00:01:56.006-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 
