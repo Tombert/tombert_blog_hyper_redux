@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"MY NEW THEORY OF AI","created":"2026-02-26T06:22:44-04:00","modified":"2026-02-28T00:01:56.006-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"MY NEW THEORY OF AI","created":"2026-02-26T06:22:44-04:00","modified":"2026-02-28T00:06:08.658-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 
@@ -10,7 +10,7 @@ I'm no better, I've [[Posts/Personal/2026/01 January/Vibe Coding, the Future, an
 
 -------------------
 
-Showing an example of what I'm talking about: I have very little self respect, and despite LinkedIn being the closet analog that a human can have to being in Hell, I was scrolling through LinkedIn today: 
+Showing an example of what I'm talking about: I have very little self respect, and despite LinkedIn being the closet analog that a human can have to being in Hell, I was scrolling through LinkedIn today. 
 
 ![[Attachments/Pasted image 20260227231355.png]]
 
@@ -30,7 +30,7 @@ Some may call this "whac-a-mole", but in the process of doing this, I actually *
 
 Ugh, see what I mean? In the process of responding to this idiotic meme on LinkedIn, here I am pretending I have an opinion worth listening to with AI, even though I'm basically a nobody with no expertise or unique perspectives on it. 
 
-I'm not entirely sure what criteria should be used to determine whose opinions are worth listening to, but I am extremely confident that I do not meet that criteria.  In fact, I'm confident that nearly everyone trying to inject their own idiotic opinions into the "AI discussion" also doesn't meet that criteria. 
+I'm not entirely sure what criteria should be used to determine whose opinions are worth listening to, but I am extremely confident that I do not meet it.  In fact, I'm confident that nearly everyone trying to inject their own idiotic opinions into the "AI discussion" also doesn't meet that criteria. 
 
 -------
 
