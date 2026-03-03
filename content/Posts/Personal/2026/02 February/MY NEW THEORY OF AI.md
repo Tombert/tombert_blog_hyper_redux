@@ -1,12 +1,12 @@
 ---
-{"publish":true,"title":"MY NEW THEORY OF AI","created":"2026-02-26T06:22:44-04:00","modified":"2026-02-28T00:06:08.658-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"MY NEW THEORY OF AI","created":"2026-02-26T06:22:44-04:00","modified":"2026-03-03T18:59:53.236-05:00","tags":["personal"],"cssclasses":""}
 ---
 
 
 
 Everyone is talking about AI right now.  Everyone has an opinion and it seems like everyone is trying to LARP as a philosopher about "what AI means" for us as a species or what it means for the economy.  People see a new shiny toy, develop an opinion on it, and then they pretend that their opinions are unique an interesting. 
 
-I'm no better, I've [[Posts/Personal/2026/01 January/Vibe Coding, the Future, and Virtual Interns\|written about my opinions of AI]], but I do wish people would at least acknowledge that their opinions probably that unique or interesting. At least when I have my perspective on AI it's mostly contained on a blog with near-zero viewership. 
+I'm no better, I've [[Posts/Personal/2026/01 January/Vibe Coding, the Future, and Virtual Interns\|written about my opinions of AI]], but I do wish people would at least acknowledge that their opinions probably aren't very unique or interesting. At least when I have my perspective on AI it's mostly contained on a blog with near-zero viewership. 
 
 -------------------
 
