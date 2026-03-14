@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"What is a Disorder?","description":"A personal reflection on how definitions of disorder are shaped by society, using ADHD and evolution to question what counts as abnormal.","created":"2026-01-28T09:21:44-04:00","modified":"2026-01-29T01:10:43.385-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"What is a Disorder?","description":"A personal reflection on how definitions of disorder are shaped by society, using ADHD and evolution to question what counts as abnormal.","created":"2026-01-28T09:21:44-04:00","modified":"2026-03-13T20:55:58.661-04:00","tags":["personal"],"cssclasses":""}
 ---
 
 
@@ -26,7 +26,7 @@ Is this actually accurate?
 
 [Humanoid creatures have been around for about seven million years](https://humanorigins.si.edu/evidence/human-fossils/species/sahelanthropus-tchadensis), and something akin to a "civilization" for [around twelve thousand years](https://www.britannica.com/question/When-did-the-Neolithic-Period-begin). 
 
-These numbers are a bit arbitrary, because there's no firm line on how you define "humanoid" or "civilization", but I think these work as rough numbers.  If we can accept these numbers, then this suggests that for the vast majority of human/humanoid history, we did *not* live in something we would call "civilization".  The amount of time we've had "civilization", relatively speaking, is *nothing* from a long-term biological perspective.  Throughout most of history, humans have been nomadic, living in small groups, with food being scares, abundance being rare, and the world being frustratingly inconsistent. The situation in which we evolved is a world that was decidedly *not* civilized.  
+These numbers are a bit arbitrary, because there's no firm line on how you define "humanoid" or "civilization", but I think these work as rough numbers.  If we can accept these numbers, then this suggests that for the vast majority of human/humanoid history, we did *not* live in something we would call "civilization".  The amount of time we've had "civilization", relatively speaking, is *nothing* from a long-term biological perspective.  Throughout most of history, humans have been nomadic, living in small groups, with food being scarce, abundance being rare, and the world being frustratingly inconsistent. The situation in which we evolved is a world that was decidedly *not* civilized.  
 
 
 So if we accept that the circumstances in which our biology evolved are different than what we have today, it may be prudent to evaluate these "disorders".  
