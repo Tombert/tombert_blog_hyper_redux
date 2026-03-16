@@ -1,11 +1,11 @@
 ---
-{"publish":true,"title":"Parasocial Relationships and the Strangeness of Caring What Strangers Think","created":"2026-03-08T06:22:44-04:00","modified":"2026-03-08T22:34:43.814-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Parasocial Relationships and the Strangeness of Caring What Strangers Think","created":"2026-03-08T06:22:44-04:00","modified":"2026-03-15T22:05:59.097-04:00","tags":["personal"],"cssclasses":""}
 ---
 
 
 I like to tell myself that I don't care about what people think about me.  
 
-This is broadly true; I generally try and speak my mind, and worry about the consequences later, or never.  In my mind, there's very little point in sharing popular opinions.  Almost by definition, if your opinion is popular it's shared by many people.  The only reason to share an opinion is if you have something to add, and generally speaking I only have something to add if I have an unpopular opinion, and you generally cannot do that if I give a shit about peoples' opinion o me. 
+This is broadly true; I generally try and speak my mind, and worry about the consequences later, or never.  In my mind, there's very little point in sharing popular opinions.  Almost by definition, if your opinion is popular it's shared by many people.  The only reason to share an opinion is if you have something to add, and generally speaking I only have something to add if I have an unpopular opinion, and you generally cannot do that if I give a shit about peoples' opinion of me. 
 
 All that being said, I am certainly not immune to it, like anyone.  It's one thing to roll your eyes at some random asshole on the internet who doesn't like you, it's another when it's someone you know in person or respect who thinks you're a moron.  
 
