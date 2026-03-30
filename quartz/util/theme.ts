@@ -21,6 +21,7 @@ export type FontSpecification =
       name: string
       weights?: number[]
       includeItalic?: boolean
+      axes?: Record<string, number>
     }
 
 export interface Theme {
@@ -61,28 +62,44 @@ function formatFontSpecification(
   const defaultIncludeItalic = type === "body"
   const weights = spec.weights ?? defaultIncludeWeights
   const italic = spec.includeItalic ?? defaultIncludeItalic
+  const customAxes = spec.axes ?? {}
 
-  const features: string[] = []
+  // Build all axes and their possible values
+  // Google Fonts API v2 requires axes in alphabetical order
+  const allAxes: { name: string; values: number[] }[] = []
+
+  for (const [name, value] of Object.entries(customAxes)) {
+    allAxes.push({ name, values: [value] })
+  }
+
   if (italic) {
-    features.push("ital")
+    allAxes.push({ name: "ital", values: [0, 1] })
   }
 
-  if (weights.length > 1) {
-    const weightSpec = italic
-      ? weights
-          .flatMap((w) => [`0,${w}`, `1,${w}`])
-          .sort()
-          .join(";")
-      : weights.join(";")
-
-    features.push(`wght@${weightSpec}`)
+  if (weights.length > 0) {
+    allAxes.push({ name: "wght", values: weights })
   }
 
-  if (features.length > 0) {
-    return `${spec.name}:${features.join(",")}`
+  allAxes.sort((a, b) => a.name.localeCompare(b.name))
+
+  if (allAxes.length === 0) {
+    return spec.name
   }
 
-  return spec.name
+  const axisNames = allAxes.map((a) => a.name).join(",")
+  const tuples = allAxes
+    .map((a) => a.values)
+    .reduce<number[][]>(
+      (acc, values) => acc.flatMap((tuple) => values.map((v) => [...tuple, v])),
+      [[]],
+    )
+
+  const valueStr = tuples
+    .map((tuple) => tuple.join(","))
+    .sort()
+    .join(";")
+
+  return `${spec.name}:${axisNames}@${valueStr}`
 }
 
 export function googleFontHref(theme: Theme) {

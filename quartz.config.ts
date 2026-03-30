@@ -24,8 +24,18 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: {
+          name: "Recursive",
+          weights: [400, 700],
+          includeItalic: false,
+          axes: { CASL: 1 },
+        },
+        body: {
+          name: "Recursive",
+          weights: [400, 600],
+          includeItalic: false,
+          axes: { CASL: 1 },
+        },
         code: "IBM Plex Mono",
       },
       colors: {
