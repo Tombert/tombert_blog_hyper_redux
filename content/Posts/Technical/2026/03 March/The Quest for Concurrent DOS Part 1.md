@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-03-31T19:32:19.701-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-03-31T19:39:35.886-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -35,15 +35,15 @@ However, unlike most other DOS implementations, Concurrent DOS was exactly what 
 
 # Multitasking 101
 
-There are two main forms of multitasking that modern computers have: Preemptive and [Cooperative](https://en.wikipedia.org/wiki/Cooperative_multitasking). 
+There are two main forms of multitasking that modern computers utilize: Preemptive and [Cooperative](https://en.wikipedia.org/wiki/Cooperative_multitasking). 
 
-Cooperative multitasking is what older versions of Windows (like Windows 3.1)and macOS used.  Cooperative multitasking is generally regarded as simpler. A process will exclusively use the CPU until the program explicitly yields control.  This can provide good performance, since you can avoid tasks being interrupted midway through, but has a potential to cause freezes if the program never yields control.   
+Cooperative multitasking is what older versions of Windows (like Windows 3.1) and macOS used and is generally regarded as simpler. A process will exclusively use the CPU until that process  explicitly yields control.  This can provide good performance, since you can avoid tasks being interrupted midway through, but has a potential to cause freezes if the program never yields control.   
 
-Preemptive multitasking is what most modern operating systems use.  With this framework, each task is given a designated amount of time to execute (called "time-slicing"). After that time has passed, the process is paused, and the operating system will then move onto the next process and repeat.  This is generally more stable and leads to fewer freezes because we are not depending on any individual program to voluntarily give up control, but it comes at a cost of potentially having interruptions. 
+Preemptive multitasking is what most modern operating systems use.  With this framework, each task is given a designated amount of time to execute (called "time-slicing"). After that time has passed, the process is paused, and the operating system will then move onto the next process and repeat.  This is generally more stable and leads to fewer freezes because we are not depending on any individual program to voluntarily give up control, but it comes at a cost of potentially having expensive interruptions (called "context switches"). 
 
 This is a simplification, and there are advantages to both, but preemptive multitasking is generally considered more advanced and more desirable, hence why every major operating system today uses it. 
 
-Concurrent DOS had full preemptive multitasking, even in the mid-80's, running vanilla MS-DOS programs. This is actually more impressive than it might sound;  DOS programs *assume* a single-tasking operating system, so they don't make any attempt to play nicely with other programs. The use of preemptive multitasking ensures that no one process hogs the entire CPU or starves the other processes.  
+Concurrent DOS had full preemptive multitasking, even in the mid-80's, running vanilla MS-DOS programs. This is actually more impressive than it might sound;  DOS programs *assume* a single-tasking operating system, so they don't make any attempt to play nicely with other programs.  Programs will purposefully utilize all the RAM and CPU that is available to them since they don't think that they're sharing with anyone. The use of preemptive multitasking ensures that no one process hogs the entire CPU or starves the other processes.  
 
 Using Concurrent DOS (and its successors) feels almost anachronistic.  The commands are typical DOS commands, but the outer interface feels almost like `tmux` or `screen`.  In fact, in general it feels like it lives old-school Unix and DOS.  It's interesting to speculate the "What if?" universe where Concurrent DOS became the standard...how much longer would the DOS-style have lived on if there were multitasking available? 
 
