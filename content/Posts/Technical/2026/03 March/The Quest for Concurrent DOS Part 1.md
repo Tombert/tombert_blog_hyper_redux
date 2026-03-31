@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-03-31T19:43:55.579-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-03-31T19:46:59.266-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -10,7 +10,7 @@ About ten years ago, I watched this video by Lazy Game Reviews:
 ![](https://www.youtube.com/watch?v=hJNaAG2BXow)
 
 
-This was the first time I had ever heard of Digital Research as a company, and upon hearing about them, I became fascinated the history of the company. There is an alternate universe where Bill Gates languished in obscurity, and Gary Kildall became a household name and one of the richest humans to ever live. Hell, maybe he'd even [hang around better people](https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html). 
+This was the first time I had ever heard of Digital Research as a company, and upon hearing about them, I became fascinated with their history. There is an alternate universe where Bill Gates languished in obscurity, and Gary Kildall became a household name and one of the richest humans to ever live. Hell, maybe he'd even [hang around better people](https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html). 
 
 
 
