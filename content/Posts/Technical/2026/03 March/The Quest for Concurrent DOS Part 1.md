@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-03-31T19:39:35.886-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-03-31T19:43:55.579-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -124,20 +124,18 @@ The next logical step to me was to reach out the three companies that Novell lic
 
 Concurrent Controls appears to be completely defunct, and I had trouble finding much information about anyone involved with the company, so that was a dead end.  
 
-Intelligent Micro Software also appeared to be equally dead.  As far as I could tell, it was purchased by some holdings thing that that worked in a entirely different fields from software.  Probably a dead end. 
+Intelligent Micro Software also appeared to be equally dead.  As far as I could tell, it was purchased by some holdings thing that that worked in an entirely different field from software.  Probably a dead end. 
 
 
 That left DataPac Australasia, which had been [acquired by Citrix in 1997](https://mergr.com/company/datapac-australasia-pty).  Citrix is still around, so I thought I might be able to find a similar email to what I had found for OpenText. 
 
-They do not.  Instead, I found a sales number, which had me navigate through several menus *and wait on fucking hold for ten minutes*, only to be told that they have stopped phone support and to please use their website. 
+They do not.  Instead, I found a sales number, which had me navigate through several menus *and wait on hold for ten fucking minutes*, only to be told that they have stopped phone support and to please use their website.  After that Kafkaesque nightmare, I eventually found their live support/sales chat.  
 
-After this Kafkaesque nightmare, I eventually found their live chat to get support.  
-
-Like every big corporation has started doing in the last year, Citrix has moved their support to start using some shitty sycophantic LLM system that is very eager to please, but doesn't know what the hell it's doing.   Here's a bit of a trick to start talking to a human: just type curse words.  A lot of the time for chatbots, there's a simple profanity filter that triggers the "irate customer" flow, and that upgrades to a human.  I just typed "fuck" to the bot until it gave me the "we are connecting you to a representative" text.  Give a small salute for small victories. 
+Like every big corporation has been doing in the last year, Citrix has moved their support to start using some shitty sycophantic LLM system that is very eager to please, but doesn't know what the hell it's doing.   Here's a bit of a trick to start talking to a human: just type curse words.  A lot of the time for chatbots, there's a simple profanity filter that triggers the "irate customer" flow, and that upgrades to a human.  I just typed "fuck" to the bot until it gave me the "we are connecting you to a representative" text.  Give a small salute for small victories. 
 
 Eventually I got a human on the chat.  I asked him if there's any way I could be put in touch with Citrix's legal department, because I want to ask about the rights and potential acquisition of Concurrent DOS or Multiuser DOS, since it looks like Datapac was acquired by Citrix.  
 
-I'm sure the representative is normally a competent and nice person, but the customer support representatives are not really trained for some weirdo looking to purchase the rights to abandoned forty year old software.  Clearly this is a deficit of the customer support training and should be remedied immediately. 
+I'm sure the guy is normally a competent and nice person, but the customer support representatives are not really trained for some weirdo looking to purchase the rights to abandoned forty year old software.  Clearly this is a deficit of the customer support training and should be remedied immediately. 
 
 The guy puts me on hold for about five minutes, thanks me for my patience, and then puts me on hold for another five minutes.  
 
