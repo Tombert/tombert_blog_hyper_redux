@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-03-31T20:11:10.751-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-03-31T20:13:34.006-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -251,7 +251,7 @@ I asked about REAL/NG, and Bill got back to me with this:
 So it looks like it might have been, at least in part, vaporware. Too bad.  
 
 
-Eventually Bill offered to sell me a hard drive with a fully maxed out REAL/32 with a bunch of goodies in there for $450 (for his time).  It's admittedly more than I wanted to pay, especially since he only said that he would "look" for the source code and as such the only guarantee would be binaries. It also felt like it might be a scam, $450 seemed like a lot of cash to send an old hard drive.  Still, I also felt that if I didn't agree to this he'd simply stop responding to me, so I against my better judgement I agreed. 
+Eventually Bill offered to sell me a hard drive with a fully maxed out REAL/32 with a bunch of goodies in there for \$450 (for his time).  It's admittedly more than I wanted to pay, especially since he only said that he would "look" for the source code and as such the only guarantee would be binaries. It also felt like it might be a scam, \$450 seemed like a lot of cash to send an old hard drive.  Still, I also felt that if I didn't agree to this he'd simply stop responding to me, so I against my better judgement I agreed. 
 
 He said he wouldn't be at his "PC Office" for three more weeks, so I am stuck waiting. 
 
