@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-03-31T20:15:25.964-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-03-31T20:16:44.947-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -72,6 +72,7 @@ With a combination of obligation and delusions of grandeur, I decided I was goin
 My first thought was to simply follow the acquisitions. I assumed corporation acquisitions work more or less like those fish-eating-fish charts I would see in my school. 
 
 ![[Attachments/Pasted image 20260329220017.png]] 
+
 (Courtesy [Creative Commons](https://openverse.org/image/0e342c05-d687-4bbc-8168-25c5964db518?q=Fish+eating+fish+eating+fish&p=1))
 
 
