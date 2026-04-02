@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Quest for Concurrent DOS: Part 2","created":"2026-04-01T06:22:44-04:00","modified":"2026-04-01T19:26:26.725-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"The Quest for Concurrent DOS: Part 2","created":"2026-04-01T06:22:44-04:00","modified":"2026-04-01T22:19:54.964-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -14,7 +14,7 @@ I'm stuck waiting for "Bill" to send me a drive still, and it will likely be sev
 
 # Datapac Australasia
 
-You might remember from the last post that one of the companies that did their own versions of Concurrent DOS was Datapac Australasia.  Since they were acquired by Citrix, I went down a rabbit hole trying to get ahold of their legal department only to hit dead ends. 
+You might remember from the last post that one of the companies that made a version of Concurrent DOS was Datapac Australasia.  Since they were acquired by Citrix, I went down a rabbit hole trying to get ahold of their legal department only to hit dead ends. 
 
 On a lark, and just to cover loose ends, I found the LinkedIn profile for the founder of Datapac Australasia, and decided to annoy him with a message asking him about what he knew about this. 
 
@@ -57,7 +57,7 @@ Thus far I have not gotten any response, and I suspect that I won't, but the lea
 
 # Conclusion
 
-Much shorter one today.  I've just been told that I should document my progress with this stuff, so I figure having smaller, incremental updates could be valuable.  
+Much shorter one today.  I've been told that I should document my progress with this journey. I figure having smaller, incremental updates could be valuable.  
 
 
 I have a few more ideas on where to look next.  It looks like the 286 version of Concurrent DOS had a life of its own in the form of "FlexOS", and that is going to be the next thing I pursue while waiting for the drive with REAL/32. 
