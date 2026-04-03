@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Comradery on Discord and the Strange Attachment to Text","created":"2026-04-02T06:22:44-04:00","modified":"2026-04-02T20:38:41.959-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Comradery on Discord and the Strange Attachment to Text","created":"2026-04-02T06:22:44-04:00","modified":"2026-04-02T20:39:13.418-04:00","tags":["personal"],"cssclasses":""}
 ---
 
 
@@ -11,7 +11,7 @@ Of course, I *was* part of forums like Something Awful, and Newgrounds, and a fe
 
 There's nothing wrong with that, but the impression that I have always gotten from reading about BBS's and the like has always been one of closeness.  These rooms were often pretty niche, with only a few dozen users, most of which you end up being pretty familiar with.  You would have in-jokes private to people only in your group, you might confide personal frustrations with these people, you might consider these people your actual friends. 
 
-Which is weird, right? Because these people were ultimately strangers.  While there were certainly real driving the computers, from each individual user's perspective, the only thing that existed was text on a screen.  Most of the time people wouldn't meet, they wouldn't even talk on the phone, they would literally just talk via text. 
+Which is weird, right? Because these people were ultimately strangers.  While there were certainly real humans driving the computers, from each individual user's perspective, the only thing that existed was text on a screen.  Most of the time people wouldn't meet, they wouldn't even talk on the phone, they would literally just talk via text. 
 
 
 I bring this up, because I realized recently that I think I found something that *is* analogous to the old BBS's: Discord.  Specifically, private-ish Discord servers.   I am a member of a number of Discord servers; most of them are niche computer or video game things.  While all of them, theoretically, have hundreds or even thousands of users, there ends up being a few "regulars" who hang out and chat with one another.  
