@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Comradery on Discord and the Strange Attachment to Text","created":"2026-04-02T06:22:44-04:00","modified":"2026-04-02T20:36:03.529-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Comradery on Discord and the Strange Attachment to Text","created":"2026-04-02T06:22:44-04:00","modified":"2026-04-02T20:38:41.959-04:00","tags":["personal"],"cssclasses":""}
 ---
 
 
@@ -16,7 +16,7 @@ Which is weird, right? Because these people were ultimately strangers.  While th
 
 I bring this up, because I realized recently that I think I found something that *is* analogous to the old BBS's: Discord.  Specifically, private-ish Discord servers.   I am a member of a number of Discord servers; most of them are niche computer or video game things.  While all of them, theoretically, have hundreds or even thousands of users, there ends up being a few "regulars" who hang out and chat with one another.  
 
-In these Discord channels, I will happily go on about the good and bad parts in my life, and the people on the other end will cheer me on, like regular friends would, and I think that they're being honest in the process, as am I when I do the same, but it's odd, because I don't know any of these people.  I don't know their ages, I don't know their race, I don't know what most of them do for a living.  Hell, I don't even know the gender to most of these people. They literally are only words on a screen and yet my brain does categorize them as "friends". 
+In these Discord channels, I will happily go on about the good and bad parts in my life, and the people on the other end will cheer me on, like regular friends would, and I think that they're being honest in the process, as am I when I do the same, but it's odd, because I don't know any of these people.  I don't know their ages, I don't know their real names, I don't know their race, I don't know what most of them do for a living.  Hell, I don't even know the gender to most of these people. They literally are only words on a screen and yet my brain does categorize them as "friends". 
 
 I suspect that this phenomenon of [AI psychosis](https://www.psychologytoday.com/us/blog/urban-survival/202507/the-emerging-problem-of-ai-psychosis) is effectively the same brain weirdness. It is ridiculously easy to personify text; I think we evolved to recognize "communication" as a means of identifying fellow humans, and until very recently that was a reasonably good way to determine if something was a person .
 
