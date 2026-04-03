@@ -38,6 +38,7 @@ Ramblings from a software person.
 
 # Personal 
 
+- [[Posts/Personal/2026/04 April/Comradery on Discord and the Strange Attachment to Text\|Comradery on Discord and the Strange Attachment to Text]]: 2026-04-02
 - [[Posts/Personal/2026/03 March/The Bizarre Ritual of Job Hunting\|The Bizarre Ritual of Job Hunting]]: 2026-03-11
 - [[Posts/Personal/2026/03 March/Parasocial Relationships and the Strangeness of Caring What Strangers Think\|Parasocial Relationships and the Strangeness of Caring What Strangers Think]]: 2026-03-08
 - [[Posts/Personal/2026/02 February/MY NEW THEORY OF AI\|MY NEW THEORY OF AI]]: 2026-02-26
