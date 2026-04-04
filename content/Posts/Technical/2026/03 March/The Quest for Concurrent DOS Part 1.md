@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-03-31T20:25:33.193-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-04-04T00:44:53.609-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -265,7 +265,7 @@ And that's where we are right now.  I feel I am very, *very* close, but right no
 I am hoping that everything with Bill pans out, but I have to be prepared for the potentiality that it doesn't.  He could ghost me, or he could decide he doesn't want to send the source code after all. 
 
 
-With the help of of some email correspondence with [Liam Prover](https://www.theregister.com/Author/Liam-Proven/) (who has been very helpful in this), I have been reaching out to a few more leads.  
+With the help of of some email correspondence with [Liam Proven](https://www.theregister.com/Author/Liam-Proven/) (who has been very helpful in this), I have been reaching out to a few more leads.  
 
 I'm not giving up on this: the source for Concurrent DOS will be found.  
 
