@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-04-04T00:44:53.609-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"The Quest for Concurrent DOS: Part 1","created":"2026-03-31T06:22:44-04:00","modified":"2026-04-04T01:16:15.643-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
@@ -45,7 +45,7 @@ This is a simplification, and there are advantages to both, but preemptive multi
 
 Concurrent DOS had full preemptive multitasking, even in the mid-80's, running vanilla MS-DOS programs. This is actually more impressive than it might sound;  DOS programs *assume* a single-tasking operating system, so they don't make any attempt to play nicely with other programs.  Programs will purposefully utilize all the RAM and CPU that is available to them since they don't think that they're sharing with anyone. The use of preemptive multitasking ensures that no one process hogs the entire CPU or starves the other processes.  
 
-Using Concurrent DOS (and its successors) feels almost anachronistic.  The commands are typical DOS commands, but the outer interface feels almost like `tmux` or `screen`.  In fact, in general it feels like it lives old-school Unix and DOS.  It's interesting to speculate the "What if?" universe where Concurrent DOS became the standard...how much longer would the DOS-style have lived on if there were multitasking available? 
+Using Concurrent DOS (and its successors) feels almost anachronistic.  The commands are typical DOS commands, but the outer interface feels almost like `tmux` or `screen`.  In fact, in general it feels like it lives somewhere between old-school Unix and DOS.  It's interesting to speculate the "What if?" universe where Concurrent DOS became the standard...how much longer would the DOS-style have lived on if there were multitasking available? 
 
 
 # My Interest
