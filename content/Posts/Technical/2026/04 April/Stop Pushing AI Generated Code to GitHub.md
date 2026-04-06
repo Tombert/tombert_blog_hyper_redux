@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Stop Pushing AI Generated Code to GitHub","created":"2026-04-05T06:22:44-04:00","modified":"2026-04-06T00:10:58.661-04:00","tags":["technical","rant","PSA"],"cssclasses":""}
+{"publish":true,"title":"Stop Pushing AI Generated Code to GitHub","created":"2026-04-05T06:22:44-04:00","modified":"2026-04-06T00:12:38.293-04:00","tags":["technical","rant","PSA"],"cssclasses":""}
 ---
 
 
@@ -8,18 +8,18 @@ I am not a luddite.  I use Claude Code like everyone does.  It's a good tool, yo
 
 But you should stop posting the emitted code to GitHub
 
-# You Wouldn't Commit a Binary
+# You wouldn't commit a binary.
 
 Rewind the clock back to 2020, a more innocent time. 
 
-If you wrote a program in C and compiled it with `gcc`, you would not commit `a.out`.  If you did this, people would rightfully make fun of you; the point of things like Git is to preserve *human effort*, with the implicit understanding that the human effort is the most expensive part of the process. 
+If you wrote a program in C and compiled it with `gcc`, you would not commit `a.out` and push it to the regular Git history.  If you did this, people would rightfully make fun of you; the point of things like Git is to preserve *human effort*, with the implicit understanding that the human effort is the most expensive part of the process. 
 
 
 This is the same with AI generated code.  If you are not *directly* and *manually* modifying the emitted source code from Claude or Codex then there is no value in committing the code.  It's not significantly different than commiting and pushing a binary from `gcc`. 
 
 Instead, consider pushing the prompt to GitHub and allowing people to reuse it. 
 
-# What if I don't just don't just have one prompt? 
+# What if I don't just don't just have one big prompt, and it's more conversational? 
 
 Upload the entire conversation, except with any personal information redacted. 
 
