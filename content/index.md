@@ -9,6 +9,7 @@ Ramblings from a software person.
 
 # Technical 
 
+- [[Posts/Technical/2026/04 April/Stop Pushing AI Generated Code to GitHub\|Stop Pushing AI Generated Code to GitHub]]: 2026-04-05
 - [[Posts/Technical/2026/04 April/The Quest for Concurrent DOS Part 2\|The Quest for Concurrent DOS Part 2]]: 2026-04-01
 - [[Posts/Technical/2026/03 March/The Quest for Concurrent DOS Part 1\|The Quest for Concurrent DOS Part 1]]: 2026-03-31
 - [[Posts/Technical/2026/01 January/I Added Proper Comments\|I Added Proper Comments]]: 2026-01-27
