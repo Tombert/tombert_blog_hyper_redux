@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Microbenchmarks: Java Locks vs Atomic","description":"Naive timing of synchronized, ReentrantLock, and AtomicLong (virtual and platform threads); AtomicLong was fastest; later superseded by JMH corrections.","created":"2025-03-04T03:21:44-04:00","modified":"2026-01-29T01:17:25.989-05:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: Java Locks vs Atomic","description":"Naive timing of synchronized, ReentrantLock, and AtomicLong (virtual and platform threads); AtomicLong was fastest; later superseded by JMH corrections.","created":"2025-03-04T03:21:44-04:00","modified":"2026-04-07T19:37:31.742-04:00","tags":["technical","benchmark"],"cssclasses":""}
 ---
 
 

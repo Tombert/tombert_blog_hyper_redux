@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Curse of Guilt and the Inability to Do Anything","description":"A personal reflection on guilt, responsibility, and control, feeling accountable for what I can't change and how a 'do the right thing' mantra blurs duty into helplessness.","created":"2026-01-29T06:22:44-04:00","modified":"2026-01-29T20:40:35.769-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"The Curse of Guilt and the Inability to Do Anything","description":"A personal reflection on guilt, responsibility, and control, feeling accountable for what I can't change and how a 'do the right thing' mantra blurs duty into helplessness.","created":"2026-01-29T06:22:44-04:00","modified":"2026-04-07T19:38:00.135-04:00","tags":["personal","selfreflection"],"cssclasses":""}
 ---
 
 

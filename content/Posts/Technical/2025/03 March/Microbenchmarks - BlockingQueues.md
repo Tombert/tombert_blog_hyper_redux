@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Microbenchmarks: BlockingQueues","description":"A quick, flawed comparison of ArrayBlockingQueue vs LinkedBlockingQueue under virtual vs platform threads, with a pointer to the corrected JMH post.","created":"2025-03-04T09:21:44-04:00","modified":"2026-01-29T01:17:23.020-05:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: BlockingQueues","description":"A quick, flawed comparison of ArrayBlockingQueue vs LinkedBlockingQueue under virtual vs platform threads, with a pointer to the corrected JMH post.","created":"2025-03-04T09:21:44-04:00","modified":"2026-04-07T19:37:18.456-04:00","tags":["technical","benchmark"],"cssclasses":""}
 ---
 
 
