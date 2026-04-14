@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { wombatTheme } from "./quartz/wombat-theme"
 
 
 /**
@@ -51,15 +52,16 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          // Emacs "wombat" theme palette
+          light: "#242424",
+          lightgray: "#353535",
+          gray: "#99968b",
+          darkgray: "#e5e2d6",
+          dark: "#f6f3e8",
+          secondary: "#8ac6f2",
+          tertiary: "#cae682",
+          highlight: "rgba(138, 198, 242, 0.12)",
+          textHighlight: "rgba(229, 120, 109, 0.35)",
         },
       },
     },
@@ -73,7 +75,7 @@ const config: QuartzConfig = {
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
-          dark: "github-dark",
+          dark: wombatTheme,
         },
         keepBackground: false,
       }),
