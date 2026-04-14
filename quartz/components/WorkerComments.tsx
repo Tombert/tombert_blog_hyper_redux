@@ -37,7 +37,6 @@ export default ((opts: WorkerCommentsOptions) => {
 	  <a href={ppHref} class="internal">Privacy Policy</a>.
         </p>
         <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
-        <script src="/static/js/comments-widget.js" defer></script>
       </>
     )
   }
