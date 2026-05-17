@@ -1,6 +1,8 @@
 ---
-{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-04-06T00:14:10.719-04:00","cssclasses":""}
+{"publish":true,"title":"Home Page","created":"2025-09-09T16:34:27.811-04:00","modified":"2026-05-17T14:06:16.506-04:00","cssclasses":""}
 ---
+
+
 
 
 
@@ -8,6 +10,7 @@ Ramblings from a software person.
 
 # Technical 
 
+- [[Posts/Technical/2026/05 May/The Unreasonable Effectiveness of Porting Software with AI\|The Unreasonable Effectiveness of Porting Software with AI]]: 2026-05-17
 - [[Posts/Technical/2026/04 April/Stop Pushing AI Generated Code to Git\|Stop Pushing AI Generated Code to Git]]: 2026-04-05
 - [[Posts/Technical/2026/04 April/The Quest for Concurrent DOS Part 2\|The Quest for Concurrent DOS Part 2]]: 2026-04-01
 - [[Posts/Technical/2026/03 March/The Quest for Concurrent DOS Part 1\|The Quest for Concurrent DOS Part 1]]: 2026-03-31
@@ -38,6 +41,7 @@ Ramblings from a software person.
 
 # Personal 
 
+- [[Posts/Personal/2026/05 May/The Strange Social Dynamics of Startups\|The Strange Social Dynamics of Startups]]: 2026-05-07
 - [[Posts/Personal/2026/04 April/Comradery on Discord and the Strange Attachment to Text\|Comradery on Discord and the Strange Attachment to Text]]: 2026-04-02
 - [[Posts/Personal/2026/03 March/The Bizarre Ritual of Job Hunting\|The Bizarre Ritual of Job Hunting]]: 2026-03-11
 - [[Posts/Personal/2026/03 March/Parasocial Relationships and the Strangeness of Caring What Strangers Think\|Parasocial Relationships and the Strangeness of Caring What Strangers Think]]: 2026-03-08
