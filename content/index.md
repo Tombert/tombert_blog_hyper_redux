@@ -41,7 +41,7 @@ Ramblings from a software person.
 
 # Personal 
 
-- [[Posts/Personal/2026/05 May/The Strange Social Dynamics of Startups\|The Strange Social Dynamics of Startups]]: 2026-05-07
+- [[Posts/Personal/2026/06 June/The Binding Isaac Teaches the Wrong Lesson\|The Binding Isaac Teaches the Wrong Lesson]]: 2026-06-21
 - [[Posts/Personal/2026/04 April/Comradery on Discord and the Strange Attachment to Text\|Comradery on Discord and the Strange Attachment to Text]]: 2026-04-02
 - [[Posts/Personal/2026/03 March/The Bizarre Ritual of Job Hunting\|The Bizarre Ritual of Job Hunting]]: 2026-03-11
 - [[Posts/Personal/2026/03 March/Parasocial Relationships and the Strangeness of Caring What Strangers Think\|Parasocial Relationships and the Strangeness of Caring What Strangers Think]]: 2026-03-08
