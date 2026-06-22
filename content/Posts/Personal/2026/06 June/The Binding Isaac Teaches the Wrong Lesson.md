@@ -1,9 +1,9 @@
 ---
-{"publish":true,"title":"The Story of the Binding Isaac Teaches the Wrong Lesson","created":"2026-06-21T06:22:44-04:00","modified":"2026-06-21T19:05:53.439-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"The Story of the Binding Isaac Teaches the Wrong Lesson","created":"2026-06-21T06:22:44-04:00","modified":"2026-06-21T20:00:53.201-04:00","tags":["personal"],"cssclasses":""}
 ---
 
 
-The [story of the Binding of Isaac](https://en.wikipedia.org/wiki/Binding_of_Isaac) is a very strange story.  I'm not talking about the video game [with the same name](https://en.wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)), but instead the original biblical story.  It's a weird story. 
+The [Binding of Isaac](https://en.wikipedia.org/wiki/Binding_of_Isaac) is a very strange story.  I'm not talking about the video game [with the same name](https://en.wikipedia.org/wiki/The_Binding_of_Isaac_(video_game)), but instead the original biblical story.  It's a weird story. 
 
 A lot of stories in the Bible [are](https://en.wikipedia.org/wiki/Books_of_Kings#Its_opening_(2:1%E2%80%9325)) [very](https://en.wikipedia.org/wiki/Judges_19) [weird](https://en.wikipedia.org/wiki/Balak_(parashah)) (particularly the Old Testament), so this isn't exactly "surprising", but what *is* surprising (at least to myself) is how it's treated as some kind of insight as to God's infinite virtue and nature.
 
@@ -69,7 +69,7 @@ I'm far from the [first person](https://en.wikipedia.org/wiki/Euthyphro_dilemma)
 
 This story is very popular, and is used as an example of "good behavior" about extreme devotion to God.  
 
-An issue I have is that, as far as we know, people who hear the voice of God are [typically schizophrenic](https://en.wikipedia.org/wiki/Religion_and_schizophrenia#Religion_as_a_trigger_for_schizophrenia). Even if some of them *aren't* schizophrenic, how exactly do we differentiate people who "really" hear the voice of God and people who are hallucinating? What if these different voices of God have contradictions...which is the real one? What if one of these people hearing voices thinks that the Lord is telling them to murder their children, assuming that if it were actually wrong God would send an angel to stop them? 
+An issue I have is that, as far as we know, people who hear the voice of God are [typically schizophrenic](https://en.wikipedia.org/wiki/Religion_and_schizophrenia#Religion_as_a_trigger_for_schizophrenia). Even if some of them *aren't* schizophrenic, how exactly do we differentiate people who "really" hear the voice of God and people who are hallucinating? What if these different voices of God have contradictions...which is the real one? What if one of these people hearing voices thinks that the Lord is telling them to murder their children, assuming that if it were actually wrong God would send an angel to stop them? Should we really be teaching people to *not* question the voices in their head? 
 
 
 But more broadly, I think it's just a bad lesson to be teaching children, even disregarding schizophrenia. The lesson of "obey powerful people even when they tell you to do things that you know are wrong" isn't something we should be encouraging people.  The Nazis used the [just following orders](https://en.wikipedia.org/wiki/Superior_orders) defense, and we rightfully determined that that was insufficient.   
