@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Story of the Binding Isaac Teaches the Wrong Lesson","created":"2026-06-21T06:22:44-04:00","modified":"2026-06-21T20:00:53.201-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"The Story of the Binding Isaac Teaches the Wrong Lesson","created":"2026-06-21T06:22:44-04:00","modified":"2026-06-21T20:45:51.945-04:00","tags":["personal"],"cssclasses":""}
 ---
 
 
@@ -47,9 +47,14 @@ As far as I can tell, the lesson effectively boils down to "if something or some
 
 I would argue that this isn't a "lesson" based on the definition I described.  The intuitive thing to do in virtually any situation is to prioritize self-preservation.  Abraham knows that God is bigger, smarter, and stronger than him, and knows that if he doesn't follow God's orders, he's certainly [not afraid to kill people](https://en.wikipedia.org/wiki/Sodom_and_Gomorrah#Destruction_of_the_cities) [he doesn't like](https://en.wikipedia.org/wiki/Noah%27s_Ark).  Abraham prioritizes his own wellbeing over the wellbeing of his own child. 
 
-Now, you might retort "Abraham wasn't prioritizing *himself* over Isaac, he was prioritizing God!", but, umm, why? Like, sure, being grateful for the Earth being created is fine, but if God is telling you to do something that you know is wrong, maybe, you know, you shouldn't *worship* him. 
+There is an argument that Isaac was prophesied to make a great nation and therefore it *would* affect Abraham negatively, but I would argue that by God making the demand to Abraham then he would presume that that prophecy was now void anyway. 
 
-And that's what I'm getting at with it teaching "the wrong lesson".  
+
+Now, you might retort "Abraham wasn't prioritizing *himself* over Isaac, he was prioritizing God!", but, umm, why? Like, sure, being grateful for the Earth being created is fine, but if God is telling you to do something that you know is wrong, maybe, you know, you shouldn't *worship* him. Especially if Isaac *was* prophesied to create a great nation, wouldn't that be a good reason to actively *not* worship someone telling you to do something immoral? 
+
+
+And that's what I'm getting at with it teaching "the wrong lesson", and I think even  later Bible entries seem to agree with me.  In the New Testament in Hebrews, they claim that Abraham thought he could resurrect Isaac later, but of course that begs the question: if Abraham thought he could bring Isaac back, it sort of ceases to be a sacrifice.  The writers of Hebrews felt the need to supply some sort of softening conditions, because otherwise the story was kind of unsettling. 
+
 
 
 In my mind, the better lesson would be something closer to the ending of the [Adventures of Huckleberry Finn](https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn).  
@@ -65,7 +70,7 @@ In this version *Abraham* learns the lesson, instead of just the reader.  Abraha
 # What's the harm? 
 
 
-I'm far from the [first person](https://en.wikipedia.org/wiki/Euthyphro_dilemma) to question the "why?" of following God's edicts, though I haven't seen anyone apply it to the Binding of Isaac. 
+I'm far from the [first person](https://en.wikipedia.org/wiki/Euthyphro_dilemma) to question the "why?" of following God's edicts, and according to a quick check apparently even Immanuel Kant had something to say about the Binding of Isaac, but I personally haven't seen this argued very much. 
 
 This story is very popular, and is used as an example of "good behavior" about extreme devotion to God.  
 
