@@ -10,6 +10,7 @@ Ramblings from a software person.
 
 # Technical 
 
+- [[Posts/Technical/2026/09 September/Microsoft Office on Linux\|Microsoft Office on Linux]]: 2026-09-17
 - [[Posts/Technical/2026/05 May/The Unreasonable Effectiveness of Porting Software with AI\|The Unreasonable Effectiveness of Porting Software with AI]]: 2026-05-17
 - [[Posts/Technical/2026/04 April/Stop Pushing AI Generated Code to Git\|Stop Pushing AI Generated Code to Git]]: 2026-04-05
 - [[Posts/Technical/2026/04 April/The Quest for Concurrent DOS Part 2\|The Quest for Concurrent DOS Part 2]]: 2026-04-01
