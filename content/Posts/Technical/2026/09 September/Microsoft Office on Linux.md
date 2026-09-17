@@ -1,9 +1,9 @@
 ---
-{"publish":true,"title":"Microsoft Office on Linux","created":"2026-09-17T11:22:44-04:00","modified":"2026-09-17T13:55:55.299-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microsoft Office on Linux","created":"2026-09-17T11:22:44-04:00","modified":"2026-09-17T13:59:31.558-04:00","tags":["technical"],"cssclasses":""}
 ---
 
 
-*TL;DR if you don't want to read: MS Office 365 works on Linux now! [Click here!](https://github.com/Tombert/office365_flake)*
+*TL;DR: MS Office 365 works on Linux now! [Click here!](https://github.com/Tombert/office365_flake)*
 
 I've always had incomprehensibly bad handwriting, so I started typing my homework the moment my mom purchased a laser printer when I was twelve.  My parents never got around to buying me a copy of Microsoft Office, so after my free trial ran out I searched around and eventually found OpenOffice. I ended up liking it considerably more than Office.  This had the advantage of making it easier to move to Linux when I was seventeen. 
 
