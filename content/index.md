@@ -42,6 +42,7 @@ Ramblings from a software person.
 
 # Personal 
 
+- [[Posts/Personal/2026/09 September/I May Not be Entitled to a Detailed Rejection, but I am Entitled to a Rejection\|I May Not be Entitled to a Detailed Rejection, but I am Entitled to a Rejection]]: 2026-09-17
 - [[Posts/Personal/2026/06 June/The Binding of Isaac Teaches the Wrong Lesson\|The Binding of Isaac Teaches the Wrong Lesson]]: 2026-06-21
 - [[Posts/Personal/2026/04 April/Comradery on Discord and the Strange Attachment to Text\|Comradery on Discord and the Strange Attachment to Text]]: 2026-04-02
 - [[Posts/Personal/2026/03 March/The Bizarre Ritual of Job Hunting\|The Bizarre Ritual of Job Hunting]]: 2026-03-11
