@@ -6,6 +6,8 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
+    Component.FlashEmbed(),
+    Component.KonamiCode({ target: "Projects/Space-Invaders-Clone" }),
     Component.WorkerComments({
       api: 'https://commenting-system.thomas-901.workers.dev',
       siteKey: '0x4AAAAAACUIEhqNAnfUbaHj',

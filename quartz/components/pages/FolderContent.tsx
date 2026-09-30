@@ -9,6 +9,7 @@ import { QuartzPluginData } from "../../plugins/vfile"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
 import { trieFromAllFiles } from "../../util/ctx"
+import { isUnlisted } from "../../util/unlisted"
 
 interface FolderContentOptions {
   /**
@@ -41,7 +42,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         .map((node) => {
           // regular file, proceed
           if (node.data) {
-            return node.data
+            return isUnlisted(node.data) ? undefined : node.data
           }
 
           if (node.isFolder && options.showSubfolders) {

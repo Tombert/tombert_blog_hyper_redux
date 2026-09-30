@@ -12,6 +12,7 @@ import { write } from "./helpers"
 import { i18n, TRANSLATIONS } from "../../i18n"
 import { BuildCtx } from "../../util/ctx"
 import { StaticResources } from "../../util/resources"
+import { isUnlisted } from "../../util/unlisted"
 
 interface TagPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
@@ -23,7 +24,10 @@ function computeTagInfo(
   locale: keyof typeof TRANSLATIONS,
 ): [Set<string>, Record<string, ProcessedContent>] {
   const tags: Set<string> = new Set(
-    allFiles.flatMap((data) => data.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes),
+    allFiles
+      .filter((data) => !isUnlisted(data))
+      .flatMap((data) => data.frontmatter?.tags ?? [])
+      .flatMap(getAllSegmentPrefixes),
   )
 
   // add base tag

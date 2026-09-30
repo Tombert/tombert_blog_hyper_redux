@@ -24,6 +24,8 @@ import Comments from "./Comments"
 import WorkerComments from "./WorkerComments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
+import KonamiCode from "./KonamiCode"
+import FlashEmbed from "./FlashEmbed"
 
 export {
   ArticleTitle,
@@ -52,4 +54,6 @@ export {
   WorkerComments,
   Flex,
   ConditionalRender,
+  KonamiCode,
+  FlashEmbed,
 }

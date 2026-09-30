@@ -1,0 +1,12 @@
+.flash-embed {
+  width: 100%;
+  // replaced with the SWF's real stage size once Ruffle reads it
+  aspect-ratio: 4 / 3;
+  margin: 1rem 0;
+
+  & > ruffle-player {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -8,6 +8,7 @@ import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
+import { isUnlisted } from "../../util/unlisted"
 
 interface TagContentOptions {
   sort?: SortFn
@@ -22,7 +23,8 @@ export default ((opts?: Partial<TagContentOptions>) => {
   const options: TagContentOptions = { ...defaultOptions, ...opts }
 
   const TagContent: QuartzComponent = (props: QuartzComponentProps) => {
-    const { tree, fileData, allFiles, cfg } = props
+    const { tree, fileData, cfg } = props
+    const allFiles = props.allFiles.filter((file) => !isUnlisted(file))
     const slug = fileData.slug
 
     if (!(slug?.startsWith("tags/") || slug === "tags")) {
