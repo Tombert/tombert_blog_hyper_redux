@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"What is a Disorder?","description":"A personal reflection on how definitions of disorder are shaped by society, using ADHD and evolution to question what counts as abnormal.","created":"2026-01-28T09:21:44-04:00","modified":"2026-04-07T19:38:14.532-04:00","tags":["personal","selfreflection"],"cssclasses":""}
+{"publish":true,"title":"What is a Disorder?","description":"A personal reflection on how definitions of disorder are shaped by society, using ADHD and evolution to question what counts as abnormal.","created":"2026-01-28T09:21:44-04:00","modified":"2026-04-07T19:38:14.532-04:00","published":"2026-01-28T09:21:44-04:00","tags":["personal","selfreflection"],"cssclasses":"","date":"2026-01-28T09:21:44-04:00","draft":false,"math":true,"displayMode":true}
 ---
 
 

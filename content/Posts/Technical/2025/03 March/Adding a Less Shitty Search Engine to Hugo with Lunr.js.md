@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Adding a Less Shitty Search Engine to Hugo with Lunr.js","description":"Upgrading Hugo search to Lunr.js: generate JSON, build a client‑side index, hydrate results, and add a Search page to the site menu.","created":"2025-03-12T09:21:44-04:00","modified":"2026-01-29T01:17:36.948-05:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Adding a Less Shitty Search Engine to Hugo with Lunr.js","description":"Upgrading Hugo search to Lunr.js: generate JSON, build a client‑side index, hydrate results, and add a Search page to the site menu.","created":"2025-03-12T09:21:44-04:00","modified":"2026-01-29T01:17:36.948-05:00","published":"2025-03-12T09:21:44-04:00","tags":["technical"],"cssclasses":"","date":"2025-03-12T09:21:44-04:00","draft":false,"math":true,"displayMode":true}
 ---
 
 

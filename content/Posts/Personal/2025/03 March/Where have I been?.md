@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Where Have I Been?","description":"A candid check-in after a difficult stretch, restarting the blog to track moods and rebuild momentum.","created":"2025-03-02T02:21:44-04:00","modified":"2026-01-29T01:10:44.986-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Where Have I Been?","description":"A candid check-in after a difficult stretch, restarting the blog to track moods and rebuild momentum.","created":"2025-03-02T02:21:44-04:00","modified":"2026-01-29T01:10:44.986-05:00","published":"2025-03-02T02:21:44-04:00","tags":["personal"],"cssclasses":"","date":"2025-03-02T02:21:44-04:00","draft":false}
 ---
 
 

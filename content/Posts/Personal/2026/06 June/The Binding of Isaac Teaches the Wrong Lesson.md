@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Binding of Isaac Teaches the Wrong Lesson","created":"2026-06-21T06:22:44-04:00","modified":"2026-06-22T20:01:46.710-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"The Binding of Isaac Teaches the Wrong Lesson","created":"2026-06-21T06:22:44-04:00","modified":"2026-06-22T20:01:46.710-04:00","published":"2026-06-21T06:22:44-04:00","tags":["personal"],"cssclasses":"","date":"2026-06-21T06:22:44-04:00","draft":false,"math":false,"displayMode":true}
 ---
 
 

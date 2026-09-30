@@ -1,5 +1,5 @@
 ---
-{"publish":true,"description":"Why I'm starting a second master's in mathematics at The Open University after finishing CS, and what I'm studying now.","created":"2025-10-20T00:21:44-04:00","modified":"2026-01-29T01:10:38.640-05:00","cssclasses":""}
+{"publish":true,"description":"Why I'm starting a second master's in mathematics at The Open University after finishing CS, and what I'm studying now.","created":"2025-10-20T00:21:44-04:00","modified":"2026-01-29T01:10:38.640-05:00","published":"2025-10-20T00:21:44-04:00","cssclasses":"","date":"2025-10-20T00:21:44-04:00"}
 ---
 
 I mentioned before that [[Posts/Personal/2025/08 August/I am a Master\| now have a masters degree]] in Computer Science.  

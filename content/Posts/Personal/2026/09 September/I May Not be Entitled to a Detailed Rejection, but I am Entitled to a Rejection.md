@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"I May Not be Entitled to a Detailed Rejection, but I am Entitled to a Rejection","created":"2026-09-17T06:22:44-04:00","modified":"2026-09-17T20:51:54.833-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"I May Not be Entitled to a Detailed Rejection, but I am Entitled to a Rejection","created":"2026-09-17T06:22:44-04:00","modified":"2026-09-17T20:51:54.833-04:00","published":"2026-09-17T06:22:44-04:00","tags":["personal"],"cssclasses":"","date":"2026-09-17T06:22:44-04:00","draft":false,"math":false,"displayMode":true}
 ---
 
 

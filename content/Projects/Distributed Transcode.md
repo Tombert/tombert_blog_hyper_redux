@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-12T19:01:55.955-04:00","modified":"2025-09-12T19:05:23.017-04:00","cssclasses":""}
+{"publish":true,"created":"2025-09-12T19:01:55.955-04:00","modified":"2025-09-12T19:05:23.017-04:00","published":"2025-09-12T19:05:23.017-04:00","cssclasses":""}
 ---
 
 I have over four hundred blu-ray discs that I rip and put on my server. 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Making a Shitty 'Search Engine' in Hugo","description":"Building a simple client‑side search for Hugo by generating index.json and doing linear substring matches in JavaScript (later replaced by Lunr.js).","created":"2025-03-11T03:21:44-04:00","modified":"2026-01-29T01:17:33.775-05:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Making a Shitty 'Search Engine' in Hugo","description":"Building a simple client‑side search for Hugo by generating index.json and doing linear substring matches in JavaScript (later replaced by Lunr.js).","created":"2025-03-11T03:21:44-04:00","modified":"2026-01-29T01:17:33.775-05:00","published":"2025-03-11T03:21:44-04:00","tags":["technical"],"cssclasses":"","date":"2025-03-11T03:21:44-04:00","draft":false,"math":true,"displayMode":true}
 ---
 
 

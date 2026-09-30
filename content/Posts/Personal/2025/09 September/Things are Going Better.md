@@ -1,5 +1,5 @@
 ---
-{"publish":true,"description":"A brief personal update on a better job, steadier mental health, and the reminder that things can get easier.","created":"2025-09-11T00:21:44-04:00","modified":"2026-01-29T01:10:36.269-05:00","cssclasses":""}
+{"publish":true,"description":"A brief personal update on a better job, steadier mental health, and the reminder that things can get easier.","created":"2025-09-11T00:21:44-04:00","modified":"2026-01-29T01:10:36.269-05:00","published":"2025-09-11T00:21:44-04:00","cssclasses":"","date":"2025-09-11T00:21:44-04:00"}
 ---
 
 

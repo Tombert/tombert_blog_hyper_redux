@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Comradery on Discord and the Strange Attachment to Text","created":"2026-04-02T06:22:44-04:00","modified":"2026-04-02T20:39:32.600-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Comradery on Discord and the Strange Attachment to Text","created":"2026-04-02T06:22:44-04:00","modified":"2026-04-02T20:39:32.600-04:00","published":"2026-04-02T06:22:44-04:00","tags":["personal"],"cssclasses":"","date":"2026-04-02T06:22:44-04:00","draft":false,"math":false,"displayMode":true}
 ---
 
 

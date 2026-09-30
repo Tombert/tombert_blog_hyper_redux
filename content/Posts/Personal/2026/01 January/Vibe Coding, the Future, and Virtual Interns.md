@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Vibe Coding, the Future, and Virtual Interns","description":"Reflecting on building a comments system with AI assistance, the speed and tradeoffs, and how coding may shift toward managing virtual interns.","created":"2026-01-28T09:22:44-04:00","modified":"2026-01-29T01:10:40.178-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Vibe Coding, the Future, and Virtual Interns","description":"Reflecting on building a comments system with AI assistance, the speed and tradeoffs, and how coding may shift toward managing virtual interns.","created":"2026-01-28T09:22:44-04:00","modified":"2026-01-29T01:10:40.178-05:00","published":"2026-01-28T09:22:44-04:00","tags":["personal"],"cssclasses":"","date":"2026-01-28T09:22:44-04:00","draft":false,"math":true,"displayMode":true}
 ---
 
 

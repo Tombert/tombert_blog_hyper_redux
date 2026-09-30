@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Bizarre Ritual of Job Hunting","created":"2026-03-11T06:22:44-04:00","modified":"2026-03-14T00:30:43.778-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"The Bizarre Ritual of Job Hunting","created":"2026-03-11T06:22:44-04:00","modified":"2026-03-14T00:30:43.778-04:00","published":"2026-03-11T06:22:44-04:00","tags":["personal"],"cssclasses":"","date":"2026-03-11T06:22:44-04:00","draft":false,"math":false,"displayMode":true}
 ---
 
 

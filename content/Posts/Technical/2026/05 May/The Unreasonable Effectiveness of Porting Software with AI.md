@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Unreasonable Effectiveness of Porting Software with AI","created":"2026-05-17T06:22:44-04:00","modified":"2026-05-17T13:50:24.470-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"The Unreasonable Effectiveness of Porting Software with AI","created":"2026-05-17T06:22:44-04:00","modified":"2026-05-17T13:50:24.470-04:00","published":"2026-05-17T06:22:44-04:00","tags":["technical"],"cssclasses":"","date":"2026-05-17T06:22:44-04:00","draft":false,"math":false,"displayMode":false}
 ---
 
 

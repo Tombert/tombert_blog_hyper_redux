@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Parasocial Relationships and the Strangeness of Caring What Strangers Think","created":"2026-03-08T06:22:44-04:00","modified":"2026-03-15T22:05:59.097-04:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"Parasocial Relationships and the Strangeness of Caring What Strangers Think","created":"2026-03-08T06:22:44-04:00","modified":"2026-03-15T22:05:59.097-04:00","published":"2026-03-08T06:22:44-04:00","tags":["personal"],"cssclasses":"","date":"2026-03-08T06:22:44-04:00","draft":false,"math":false,"displayMode":true}
 ---
 
 

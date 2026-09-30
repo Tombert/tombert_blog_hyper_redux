@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Stop Pushing AI Generated Code to Git","created":"2026-04-05T06:22:44-04:00","modified":"2026-04-06T00:14:01.226-04:00","tags":["technical","rant","PSA"],"cssclasses":""}
+{"publish":true,"title":"Stop Pushing AI Generated Code to Git","created":"2026-04-05T06:22:44-04:00","modified":"2026-04-06T00:14:01.226-04:00","published":"2026-04-05T06:22:44-04:00","tags":["technical","rant","PSA"],"cssclasses":"","date":"2026-04-05T06:22:44-04:00","draft":false,"math":false,"displayMode":false}
 ---
 
 

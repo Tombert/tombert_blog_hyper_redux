@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Transitioning to Obsidian For This Blog","description":"Porting the blog to Quartz to work directly with Obsidian, using Quartz‑Syncer for folder selection, DataView rendering, and mobile edits.","created":"2025-09-09T00:21:44-04:00","modified":"2026-01-29T01:17:06.118-05:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Transitioning to Obsidian For This Blog","description":"Porting the blog to Quartz to work directly with Obsidian, using Quartz‑Syncer for folder selection, DataView rendering, and mobile edits.","created":"2025-09-09T00:21:44-04:00","modified":"2026-01-29T01:17:06.118-05:00","published":"2025-09-09T00:21:44-04:00","tags":["technical"],"cssclasses":"","date":"2025-09-09T00:21:44-04:00","draft":false,"math":true,"displayMode":true}
 ---
 
 

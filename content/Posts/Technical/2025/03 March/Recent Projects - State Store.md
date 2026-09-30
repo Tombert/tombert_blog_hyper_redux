@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Recent Projects: State Store, Part 1","description":"Designing a Kafka Streams state store on PostgreSQL: queue‑based async puts, batching, and a cache to amortize network latency versus RocksDB.","created":"2025-03-02T03:21:44-04:00","modified":"2026-01-29T01:17:27.833-05:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Recent Projects: State Store, Part 1","description":"Designing a Kafka Streams state store on PostgreSQL: queue‑based async puts, batching, and a cache to amortize network latency versus RocksDB.","created":"2025-03-02T03:21:44-04:00","modified":"2026-01-29T01:17:27.833-05:00","published":"2025-03-02T03:21:44-04:00","tags":["technical"],"cssclasses":"","date":"2025-03-02T03:21:44-04:00","draft":false,"math":true,"displayMode":true}
 ---
 
 

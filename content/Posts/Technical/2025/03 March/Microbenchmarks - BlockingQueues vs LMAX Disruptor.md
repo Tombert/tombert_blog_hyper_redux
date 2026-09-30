@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Microbenchmarks: BlockingQueues vs LMAX Disruptor","description":"JMH tests comparing BlockingQueues to LMAX Disruptor; initial parity at small loads, but Disruptor wins 3–4× and with less memory at large batches.","created":"2025-03-11T09:21:44-04:00","modified":"2026-04-07T19:37:22.740-04:00","tags":["technical","benchmark"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: BlockingQueues vs LMAX Disruptor","description":"JMH tests comparing BlockingQueues to LMAX Disruptor; initial parity at small loads, but Disruptor wins 3–4× and with less memory at large batches.","created":"2025-03-11T09:21:44-04:00","modified":"2026-04-07T19:37:22.740-04:00","published":"2025-03-11T09:21:44-04:00","tags":["technical","benchmark"],"cssclasses":"","date":"2025-03-11T09:21:44-04:00","draft":false,"math":true,"displayMode":true}
 ---
 
 

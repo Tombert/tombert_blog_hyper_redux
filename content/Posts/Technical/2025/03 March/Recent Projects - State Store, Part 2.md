@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Recent Projects: State Store, Part 2","description":"Implementing get logic for the PostgreSQL state store using CompletableFutures, batched WHERE IN queries, and a cache to reduce per‑item latency.","created":"2025-03-03T03:21:44-04:00","modified":"2026-01-29T01:17:29.988-05:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Recent Projects: State Store, Part 2","description":"Implementing get logic for the PostgreSQL state store using CompletableFutures, batched WHERE IN queries, and a cache to reduce per‑item latency.","created":"2025-03-03T03:21:44-04:00","modified":"2026-01-29T01:17:29.988-05:00","published":"2025-03-03T03:21:44-04:00","tags":["technical"],"cssclasses":"","date":"2025-03-03T03:21:44-04:00","draft":false,"math":true,"displayMode":true}
 ---
 
 

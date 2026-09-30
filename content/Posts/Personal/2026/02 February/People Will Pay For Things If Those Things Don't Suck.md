@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"People Will Pay For Things If Those Things Don't Suck","created":"2026-02-01T06:22:44-04:00","modified":"2026-02-02T11:28:04.228-05:00","tags":["personal"],"cssclasses":""}
+{"publish":true,"title":"People Will Pay For Things If Those Things Don't Suck","created":"2026-02-01T06:22:44-04:00","modified":"2026-02-02T11:28:04.228-05:00","published":"2026-02-01T06:22:44-04:00","tags":["personal"],"cssclasses":"","date":"2026-02-01T06:22:44-04:00","draft":false,"math":false,"displayMode":true}
 ---
 
 

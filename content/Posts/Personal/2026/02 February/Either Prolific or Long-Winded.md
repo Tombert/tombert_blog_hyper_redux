@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Either Prolific or Long-Winded","created":"2026-02-04T06:22:44-04:00","modified":"2026-04-07T19:57:19.878-04:00","tags":["personal","selfreflection"],"cssclasses":""}
+{"publish":true,"title":"Either Prolific or Long-Winded","created":"2026-02-04T06:22:44-04:00","modified":"2026-04-07T19:57:19.878-04:00","published":"2026-02-04T06:22:44-04:00","tags":["personal","selfreflection"],"cssclasses":"","date":"2026-02-04T06:22:44-04:00","draft":false,"math":false,"displayMode":true}
 ---
 
 

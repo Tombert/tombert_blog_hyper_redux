@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Typst is Pretty Cool","description":"Initial impressions of Typst versus Markdown→LaTeX: syntax, layout control, and much faster compilation backed by a simple benchmark.","created":"2025-06-30T02:21:44-04:00","modified":"2026-01-29T01:16:53.731-05:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Typst is Pretty Cool","description":"Initial impressions of Typst versus Markdown→LaTeX: syntax, layout control, and much faster compilation backed by a simple benchmark.","created":"2025-06-30T02:21:44-04:00","modified":"2026-01-29T01:16:53.731-05:00","published":"2025-06-30T02:21:44-04:00","tags":["technical"],"cssclasses":"","date":"2025-06-30T02:21:44-04:00","draft":false}
 ---
 
 

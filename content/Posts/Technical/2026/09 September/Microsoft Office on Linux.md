@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Microsoft Office on Linux","created":"2026-09-17T11:22:44-04:00","modified":"2026-09-17T13:59:31.558-04:00","tags":["technical"],"cssclasses":""}
+{"publish":true,"title":"Microsoft Office on Linux","created":"2026-09-17T11:22:44-04:00","modified":"2026-09-17T13:59:31.558-04:00","published":"2026-09-17T11:22:44-04:00","tags":["technical"],"cssclasses":"","date":"2026-09-17T11:22:44-04:00","draft":false,"math":false,"displayMode":false}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Microbenchmarks: JMH and Corrections","description":"Correcting earlier Java microbenchmarks using JMH; results across HashMap/ConcurrentHashMap/Guava/Caffeine and locks vs synchronized, plus caveats.","created":"2025-03-06T09:21:44-04:00","modified":"2026-04-07T19:37:35.802-04:00","tags":["technical","benchmark"],"cssclasses":""}
+{"publish":true,"title":"Microbenchmarks: JMH and Corrections","description":"Correcting earlier Java microbenchmarks using JMH; results across HashMap/ConcurrentHashMap/Guava/Caffeine and locks vs synchronized, plus caveats.","created":"2025-03-06T09:21:44-04:00","modified":"2026-04-07T19:37:35.802-04:00","published":"2025-03-06T09:21:44-04:00","tags":["technical","benchmark"],"cssclasses":"","date":"2025-03-06T09:21:44-04:00","draft":false,"math":true,"displayMode":true}
 ---
 
 
