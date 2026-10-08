@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"My Complicated Feelings Around Haskell","created":"2026-10-07T11:22:44-04:00","modified":"2026-10-08T17:40:39.542-04:00","published":"2026-10-07T11:22:44-04:00","tags":["technical"],"cssclasses":"","date":"2026-10-07T11:22:44-04:00","draft":false,"math":false,"displayMode":false,"\n```haskell\ndata Person  = Person  { name ":"String, age :: Int }","data Company = Company { name ":"String, employees :: [Person] }","\ngreet ":"Person -> String","greet p = \"Hi, \" <> p.name\n\nlabel ":"Company -> String","label c = c.name\n```\n\nThis is much better, though despite me knowing this, I am actually still doing it the Lens way, because Lens itself gives you a lot of niceties with regards to composition and the like. \n\n```haskell\n{-# LANGUAGE TemplateHaskell, FunctionalDependencies, FlexibleInstances #-}\n\nimport Control.Lens\n\ndata Contact = Email String | Phone String deriving Show\n\ndata Person  = Person  { _personName ":"String, _personContact :: Contact } deriving Show","data Company = Company { _companyName ":"String, _companyStaff :: [Person] } deriving Show","\nmakePrisms ''Contact   -- _Email, _Phone\nmakeFields ''Person    -- name, contact\nmakeFields ''Company   -- name (shared), staff\n\nacme ":"Company","acme = Company \"Acme\" [Person \"Alice\" (Email \"alice@acme.com\"), Person \"Bob\" (Phone \"555-0100\")]\n\nmain ":"IO ()","\n```haskell\nchunkedG ":"Monad m => Int -> Producer a m r -> Producer [a] m r"}
+{"publish":true,"title":"My Complicated Feelings Around Haskell","created":"2026-10-07T11:22:44-04:00","modified":"2026-10-08T17:48:09.073-04:00","published":"2026-10-07T11:22:44-04:00","tags":["technical"],"cssclasses":"","date":"2026-10-07T11:22:44-04:00","draft":false,"math":false,"displayMode":false,"\n```haskell\ndata Person  = Person  { name ":"String, age :: Int }","data Company = Company { name ":"String, employees :: [Person] }","\ngreet ":"Person -> String","greet p = \"Hi, \" <> p.name\n\nlabel ":"Company -> String","label c = c.name\n```\n\nThis is much better, though despite me knowing this, I am actually still doing it the Lens way, because Lens itself gives you a lot of niceties with regards to composition and the like. \n\n```haskell\n{-# LANGUAGE TemplateHaskell, FunctionalDependencies, FlexibleInstances #-}\n\nimport Control.Lens\n\ndata Contact = Email String | Phone String deriving Show\n\ndata Person  = Person  { _personName ":"String, _personContact :: Contact } deriving Show","data Company = Company { _companyName ":"String, _companyStaff :: [Person] } deriving Show","\nmakePrisms ''Contact   -- _Email, _Phone\nmakeFields ''Person    -- name, contact\nmakeFields ''Company   -- name (shared), staff\n\nacme ":"Company","acme = Company \"Acme\" [Person \"Alice\" (Email \"alice@acme.com\"), Person \"Bob\" (Phone \"555-0100\")]\n\nmain ":"IO ()","\n```haskell\nchunkedG ":"Monad m => Int -> Producer a m r -> Producer [a] m r"}
 ---
 
 
@@ -26,6 +26,90 @@ About a year after I was laid off from that job, FP Complete released the [Stack
 Stack certainly helped a lot, but it was a bit after my time and I hadn't used it much.  Admittedly the fact that it still used Cabal was ultimately a turn-off.  
 
 I am a big fan of [[eGPUs on NixOS|NixOS]], and have been using it as my primary operating system for several years now, so I was delighted to find that it's relatively straightforward to do the [entire build in a Nix Flake](https://git.brucewillis.sexy/~tombert/indexer_hs/tree/master/item/flake.nix), and this is *so much better*.  Seriously, I have no desire to ever go back to a bunch of bullshit YAML or `.cabal` files that I don't really understand.  
+
+```nix
+{
+  description = "new-indexer: Haskell built directly with GHC via Nix (no cabal, no stack)";
+
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+
+  outputs = { self, nixpkgs }:
+    let
+      systems = [ "x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin" ];
+      forAllSystems = f: nixpkgs.lib.genAttrs systems (system: f nixpkgs.legacyPackages.${system});
+
+      # Haskell libraries available to the project. This list is the
+      # project's dependency manifest -- add packages here.
+      haskellDeps = hp: with hp; [
+        http-client
+        async
+        pipes
+        pipes-concurrency
+	pipes-bytestring
+        stm
+	lens
+	msgpack
+	aeson
+	unordered-containers
+	deriving-aeson
+	pipes-group
+      ];
+
+      name = "new-indexer";
+      mainModule = "src/Main.hs";
+      ghcFlags = [ "-O2" "-Wall" "-threaded" "-rtsopts" "-with-rtsopts=-N" ];
+
+      ghcFor = pkgs: pkgs.haskellPackages.ghcWithPackages haskellDeps;
+    in
+    {
+      packages = forAllSystems (pkgs: {
+        default = pkgs.stdenv.mkDerivation {
+          pname = name;
+          version = "0.1.0";
+
+          src = pkgs.lib.fileset.toSource {
+            root = ./.;
+            fileset = ./src;
+          };
+
+          nativeBuildInputs = [ (ghcFor pkgs) pkgs.removeReferencesTo ];
+
+          buildPhase = ''
+            runHook preBuild
+            ghc --make ${pkgs.lib.escapeShellArgs ghcFlags} \
+              -isrc -outputdir build -o ${name} ${mainModule}
+            runHook postBuild
+          '';
+
+          installPhase = ''
+            runHook preInstall
+            install -Dm755 ${name} $out/bin/${name}
+            # Haskell libs are linked statically; drop stray references so
+            # the runtime closure doesn't drag in the whole compiler.
+            remove-references-to -t ${ghcFor pkgs} $out/bin/${name}
+            runHook postInstall
+          '';
+
+          meta.mainProgram = name;
+        };
+      });
+
+      checks = forAllSystems (pkgs: {
+        default = self.packages.${pkgs.stdenv.hostPlatform.system}.default;
+      });
+
+      devShells = forAllSystems (pkgs: {
+        default = pkgs.mkShell {
+          packages = [
+            (ghcFor pkgs)
+            pkgs.haskellPackages.haskell-language-server
+            pkgs.ghcid
+          ];
+        };
+      });
+    };
+}
+```
 
 
 # Language Annoyances
@@ -92,7 +176,7 @@ Isn't this kind of neat? We effectively have abstracted the entire concept of *a
 
 This is what makes me have a bit of hatred but also an annoying amount of begrudging respect for the language.  A lot of the time Haskell will be objectively broken, and the community figures out a way to fix it in a way that was *better* than the way that they would have done it before. 
 
-This is true of a lot of things; I bitched about `OverloadedStrings` earlier, but I have to admit that what it does it *kind of cool*; by using it we can transparently use different types of strings depending on what the project calls for (e.g. either a `ByteString` or the default linked list).  Dunno, maybe I should just learn to appreciate and embrace the compiler extensions. 
+This is true of a lot of things. I bitched about `OverloadedStrings` earlier, but I have to admit that what it does it *kind of cool*, and by using it we can transparently use different types of strings depending on what the project calls for (e.g. either a `ByteString` or the default linked list).  Dunno, maybe I should just learn to appreciate and embrace the compiler extensions. 
 
 # Streaming
 
