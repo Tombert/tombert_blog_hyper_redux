@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"The Quest for Concurrent DOS: Part 3","created":"2026-10-17T11:22:44-04:00","modified":"2026-10-17T17:33:23.958-04:00","published":"2026-10-17T11:22:44-04:00","tags":["technical"],"cssclasses":"","date":"2026-10-17T11:22:44-04:00","draft":false,"math":false,"displayMode":false}
+{"publish":true,"title":"The Quest for Concurrent DOS: Part 3","created":"2026-10-17T11:22:44-04:00","modified":"2026-10-17T17:36:54.307-04:00","published":"2026-10-17T11:22:44-04:00","tags":["technical","concurrentdos"],"cssclasses":"","date":"2026-10-17T11:22:44-04:00","draft":false,"math":false,"displayMode":false}
 ---
 
 
